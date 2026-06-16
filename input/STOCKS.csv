@@ -1,0 +1,2380 @@
+﻿symbol,marketcapname,market_cap,industry,sector
+AFFORDABLE,smallcap,220.36,engineering,industrials
+BOMDYEING,smallcap,2582.93,textiles - manmade,textiles
+FELDVR,smallcap,10.24,trading,consumer discretionary
+LATTEYS,smallcap,131.44,pumps,industrials
+BAJAJHIND,smallcap,4444.02,sugar,fmcg
+OSWALSEEDS,smallcap,101.07,miscellaneous,fmcg
+XPROINDIA,smallcap,2705.9,packaging,industrials
+GAYAHWS,smallcap,54.16,construction,realty
+DENORA,smallcap,376.41,electrodes - graphites,industrials
+EQUIPPP,smallcap,183.82,computers - software - medium / small,i.t
+KCP,smallcap,2103.22,cement - south india,building materials
+OAL,smallcap,1061.1,chemicals,chemicals
+SUNDRMBRAK,smallcap,272.55,auto ancillaries,auto
+MTNL,smallcap,1915.2,telecommunications - service provider,telecom
+SUPREMEENG,smallcap,23.75,steel - medium / small,metals & mining
+DCW,smallcap,1381.33,petrochemicals,energy
+RPPL,smallcap,140.54,packaging,industrials
+SPECTRUM,smallcap,2315.75,electric equipment,industrials
+MADRASFERT,smallcap,1073.9,fertilizers,chemicals
+CHEMBOND,smallcap,215.04,chemicals,chemicals
+GOLDENTOBC,smallcap,43.14,construction,realty
+KRITIKA,smallcap,164.29,steel - medium / small,metals & mining
+AKI,smallcap,49.33,leather / leather products,consumer discretionary
+GTL,smallcap,116.24,telecommunications - service provider,telecom-service
+GHCL,smallcap,4192.2,chemicals,chemicals
+AQYLON,smallcap,1512.23,entertainment / electronic media software,media
+NDLVENTURE,smallcap,449.65,finance & investments,financials
+IGPL,smallcap,1348.04,chemicals,chemicals
+AWFIS,smallcap,2268.91,miscellaneous,co-working
+INDORAMA,smallcap,1118.09,textiles - manmade,textiles
+JISLJALEQS,smallcap,2105.96,plastics products,plastic products
+KRONOX,smallcap,494.04,chemicals,chemicals
+KSL,smallcap,3731.46,steel - medium / small,metals & mining
+ISHANCH,smallcap,168.36,dyes and pigments,chemicals
+LGBBROSLTD,smallcap,4781.31,bearings,auto
+PATELENG,smallcap,2604.37,construction,realty
+AFIL,smallcap,428.46,finance & investments,financials
+MAJESAUT,smallcap,341.61,diversified - medium / small,miscellaneous
+MIRCELECTR,smallcap,1515.99,electronics - consumer,consumer discretionary
+STANLEY,smallcap,840.89,miscellaneous,consumer discretionary
+MOREPENLAB,smallcap,2509.08,pharmaceuticals - indian - bulk drugs & formln,healthcare
+ARMANFIN,smallcap,1670.5,finance & investments,financials
+JAYKAY,smallcap,2316.63,engineering,aerospace & defence
+NUCLEUS,smallcap,1934.12,computers - software - medium / small,i.t
+ORIENTHOT,smallcap,1782.06,hotels,services
+RAYMOND,smallcap,3541.06,transport - airlines,transportation
+AMJLAND,smallcap,151.04,construction,realty
+LINC,smallcap,598.46,printing & stationery,miscellaneous
+RALLIS,smallcap,4626.41,pesticides / agrochemicals - indian,chemicals
+RELINFRA,smallcap,2886.57,engineering - turnkey services,realty
+SPMLINFRA,smallcap,1733.79,engineering - turnkey services,realty
+SWARAJENG,smallcap,4614.28,engines,industrials
+TIRUMALCHM,smallcap,2247.59,chemicals,chemicals
+UNIENTER,smallcap,728.77,trading,services
+HARRMALAYA,smallcap,358.2,miscellaneous,fmcg
+SSDL,smallcap,233.76,trading,textiles
+NILASPACES,smallcap,505.75,construction,realty
+ALMONDZ,smallcap,228.17,finance & investments,financials
+SPENCERS,smallcap,313.66,trading,consumer discretionary
+ORIENTTECH,smallcap,1121.2,computers - software - medium / small,i.t
+TNPL,smallcap,1023.49,paper,building materials
+ANMOL,smallcap,64.94,trading,services
+MOHITIND,smallcap,33.98,textiles - processing,textiles
+ZUARIIND,smallcap,740.51,sugar,fmcg
+RAYMONDLSL,smallcap,4584.2,textiles - products,textiles
+MSTCLTD,smallcap,3177.15,trading,i.t
+MODIRUBBER,smallcap,321.6,miscellaneous,miscellaneous
+NAVKARURB,smallcap,118.94,construction,realty
+RVTH,smallcap,226.72,engineering,industrials
+BALAJEE,smallcap,236.96,packaging,industrials
+IITL,smallcap,318.55,finance & investments,financials
+KROSS,smallcap,1241.68,auto ancillaries,auto
+MOTOGENFIN,smallcap,99.8,miscellaneous,realty
+TECHNVISN,smallcap,3388.5,computers - software - medium / small,i.t
+GREAVESCOT,smallcap,4213.51,engines,industrials
+JINDWORLD,smallcap,2991.76,textiles - products,textiles
+PPL,smallcap,486.43,plastics products,plastic products
+WCIL,smallcap,958.68,miscellaneous,transportation
+SAURASHCEM,smallcap,659.6,cement - north india,building materials
+SHINDL,smallcap,608.37,aquaculture,fmcg
+ABINFRA,smallcap,716.72,construction,realty
+SESHAPAPER,smallcap,1466.21,paper,building materials
+DCM,smallcap,175.78,castings & forgings,industrials
+WEL,smallcap,1255.92,electric equipment,consumer discretionary
+RELCHEMQ,smallcap,91.36,textiles - spinning - synthetic / blended,textiles
+SHIVAUM,smallcap,432.49,trading,services
+VIDHIING,smallcap,1482.37,dyes and pigments,chemicals
+MGEL,smallcap,501.25,trading,services
+ASTAR,smallcap,1003.63,diamond cutting / jewellery,consumer discretionary
+HPIL,smallcap,147.34,dyes and pigments,chemicals
+ORIENTCER,smallcap,486.69,refractories / intermediates,building materials
+AGARIND,smallcap,635.26,petrochemicals,energy
+ATLASCYCLE,smallcap,64.68,cycles and accessories,consumer discretionary
+TALBROAUTO,smallcap,2113.26,auto ancillaries,auto
+ROSSTECH,smallcap,4073.1,engineering,aerospace & defence
+VELJAN,smallcap,479.3,engineering,industrials
+WENDT,smallcap,1367.5,abrasives and grinding wheels,industrials
+SINDHUTRAD,smallcap,4062.98,miscellaneous,transportation
+SWELECTES,smallcap,987.44,electric equipment,industrials
+NDRAUTO,smallcap,1912.7,auto ancillaries,auto
+SINGERIND,smallcap,434.41,engineering,industrials
+TRF,smallcap,257.35,engineering,industrials
+PRAKASH,smallcap,2636.98,steel - medium / small,metals & mining
+SECMARK,smallcap,134.68,computers - software - medium / small,i.t
+VAIBHAVGBL,smallcap,3921.75,diamond cutting / jewellery,consumer discretionary
+ARSHIYA,smallcap,30.04,miscellaneous,transportation
+CYBERTECH,smallcap,446.88,computers - software - medium / small,i.t
+AAATECH,smallcap,118.61,computers - software - medium / small,i.t
+SANATHAN,smallcap,3442.42,textiles - cotton/blended,textiles
+KANANIIND,smallcap,30.67,diamond cutting / jewellery,consumer discretionary
+BLISSGVS,smallcap,4596,pharmaceuticals - indian - formulations,healthcare
+HBSL,smallcap,38.36,finance & investments,financials
+ANUHPHR,smallcap,756.99,pharmaceuticals - indian - bulk drugs,healthcare
+ACCELYA,smallcap,1725.63,computers - software - medium / small,i.t
+KANORICHEM,smallcap,424.7,chemicals,chemicals
+SAKHTISUG,smallcap,212.86,sugar,fmcg
+BCG,smallcap,2123.49,computers - software - medium / small,i.t
+VIRINCHI,smallcap,171.9,computers - software - medium / small,i.t
+UMIYA-MRO,smallcap,163.19,telecommunications - equipment,telecom
+BALAJITELE,smallcap,1103.37,entertainment / electronic media software,media
+IVP,smallcap,180.16,chemicals,chemicals
+AVANTEL,smallcap,4680.23,telecommunications - equipment,aerospace & defence
+JAGSNPHARM,smallcap,1350.9,pharmaceuticals - indian - bulk drugs & formln,healthcare
+BFUTILITIE,smallcap,2256.86,power generation and supply,power & utilities
+MCCHRLS-B,smallcap,892.84,miscellaneous,realty
+MPSLTD,smallcap,3166.29,computers - software - medium / small,i.t
+UNITECH,smallcap,1247.98,construction,realty
+NOIDATOLL,smallcap,98.68,construction,realty
+POKARNA,smallcap,2574.26,miscellaneous,consumer discretionary
+COSMOFIRST,smallcap,1927.65,packaging,industrials
+DATAMATICS,smallcap,4933.91,computers - software - medium / small,i.t
+RUCHINFRA,smallcap,146.34,miscellaneous,miscellaneous
+GULFPETRO,smallcap,205.26,chemicals,chemicals
+SALSTEEL,smallcap,892.78,steel - sponge iron,metals & mining
+VISAKAIND,smallcap,616.67,cement products,building materials
+GUFICBIO,smallcap,3501.36,pharmaceuticals - indian - bulk drugs & formln,healthcare
+INDOCO,smallcap,1911.84,pharmaceuticals - indian - bulk drugs & formln,healthcare
+JINDALPHOT,smallcap,1021.11,finance & investments,financials
+GRAVISSHO,smallcap,211.06,hotels,services
+MANGALAM,smallcap,44.78,pharmaceuticals - indian - bulk drugs & formln,healthcare
+GOACARBON,smallcap,357.17,petrochemicals,energy
+HINDCOMPOS,smallcap,604.13,auto ancillaries,auto
+MOMGF,smallcap,0,indices,indices
+INTLCONV,smallcap,521.09,miscellaneous,fmcg
+MSPL,smallcap,2322.17,steel - medium / small,metals & mining
+HUHTAMAKI,smallcap,1263.56,packaging,industrials
+RML,smallcap,2538.06,auto ancillaries,auto
+FCSSOFT,smallcap,294.04,computers - software - medium / small,i.t
+NATIONSTD,smallcap,2480,construction,realty
+RENUKA,smallcap,4727.38,sugar,fmcg
+DIGITIDE,smallcap,1320.84,computers - software - medium / small,i.t
+EKC,smallcap,1321.81,packaging,industrials
+CELEBRITY,smallcap,14.98,textiles - products,textiles
+ENIL,smallcap,516.27,entertainment / electronic media software,media
+OSWALPUMPS,smallcap,4144.79,pumps,industrials
+BLKASHYAP,smallcap,1226.17,construction,realty
+GLOBECIVIL,smallcap,242.16,construction,realty
+MALUPAPER,smallcap,55.46,paper,building materials
+KKCL,smallcap,2674.53,textiles - products,consumer discretionary
+CAPTRUST,smallcap,46.78,finance & investments,financials
+EMKAY,smallcap,648.52,finance & investments,financials
+PAUSHAKLTD,smallcap,1111.41,chemicals,chemicals
+CRIZAC,smallcap,3780.5,miscellaneous,services
+DEEPINDS,smallcap,3320.32,oil drilling / allied services,energy
+CREST,smallcap,981.52,finance & investments,financials
+INSPIRISYS,smallcap,495.61,computers - software - medium / small,i.t
+SCANSTL,smallcap,219.64,steel - medium / small,metals & mining
+ZEEMEDIA,smallcap,512.23,entertainment / electronic media software,media
+BAIDFIN,smallcap,162.32,finance & investments,financials
+NETWORK18,smallcap,4667.63,entertainment / electronic media software,media
+CINELINE,smallcap,274.58,entertainment / electronic media software,media
+UGROCAP,smallcap,1477.57,finance & investments,financials
+EFCIL,smallcap,2468.36,construction,realty
+SMSPHARMA,smallcap,3408.47,pharmaceuticals - indian - bulk drugs,healthcare
+DECNGOLD,smallcap,3281.21,mining / minerals / metals,metals & mining
+SRHHYPOLTD,smallcap,877.04,chemicals,chemicals
+DELTACORP,smallcap,1708.11,recreation / amusement parks,miscellaneous
+ASAHISONG,smallcap,305.46,dyes and pigments,chemicals
+SECURKLOUD,smallcap,66.92,computers - software - medium / small,i.t
+HGS,smallcap,1874.77,computers - software - medium / small,i.t
+ADSL,smallcap,697.44,computers - software - medium / small,i.t
+OMAXE,smallcap,1405.77,construction,realty
+BHAGYANGR,smallcap,1034.08,power generation and supply,power & utilities
+KRISHIVAL,smallcap,1023.34,food - processing - indian,fmcg
+SHARDUL,smallcap,248.92,finance & investments,financials
+SUPREMEINF,smallcap,801.28,engineering - turnkey services,realty
+RGL,smallcap,1111.25,diamond cutting / jewellery,consumer discretionary
+ARIES,smallcap,431.81,fertilizers,chemicals
+LEMERITE,smallcap,85.99,trading,textiles
+ZENITHEXPO,smallcap,110.35,leather / leather products,consumer discretionary
+JKIL,smallcap,3792.73,construction,realty
+KEYFINSERV,smallcap,144.57,finance & investments,financials
+SEPC,smallcap,1361.86,engineering - turnkey services,realty
+BHANDARI,smallcap,105.55,textiles - products,textiles
+GSS,smallcap,35.1,computers - software - medium / small,i.t
+LAXMIINDIA,smallcap,568.15,finance & investments,financials
+NIRAJ,smallcap,171.5,construction,realty
+PENIND,smallcap,2162.11,steel - medium / small,metals & mining
+ARCHIDPLY,smallcap,153.97,miscellaneous,building materials
+SOMICONVEY,smallcap,117.3,miscellaneous,fmcg
+LPDC,smallcap,92.96,construction,realty
+ALLTIME,smallcap,1436.06,plastics products,plastic products
+BTTL,smallcap,218.08,textiles - products,textiles
+PITTIENG,smallcap,3545.09,engineering,industrials
+DLINKINDIA,smallcap,1687.9,trading,services
+GNRL,smallcap,1240.75,oil drilling / allied services,energy
+DBCORP,smallcap,3658.5,entertainment / electronic media software,media
+MAHASTEEL,smallcap,1567.68,steel - medium / small,metals & mining
+VASCONEQ,smallcap,748.61,construction,realty
+EMMBI,smallcap,162.98,packaging,industrials
+SUNDARAM,smallcap,64.92,printing & stationery,miscellaneous
+TAMBOLIIN,smallcap,178.56,finance & investments,financials
+BSL,smallcap,130.23,textiles - processing,textiles
+BLACKROSE,smallcap,494.19,trading,chemicals
+WAAREEINDO,smallcap,1759.42,electric equipment,industrials
+RAMKY,smallcap,3048.16,construction,realty
+ASHIMASYN,smallcap,319.31,diversified - medium / small,miscellaneous
+CANTABIL,smallcap,1799.81,textiles - products,textiles
+ASHOKA,smallcap,3487.42,engineering - turnkey services,realty
+CPEDU,smallcap,331.11,miscellaneous,services
+SHAH,smallcap,425.79,steel - medium / small,metals & mining
+WINSOME,smallcap,17.61,textiles - cotton/blended,textiles
+ZEELEARN,smallcap,229.27,computers - education,i.t
+MANORG,smallcap,446.34,chemicals,chemicals
+SURANASOL,smallcap,132.22,electric equipment,industrials
+MHLXMIRU,smallcap,192.27,textiles - processing,textiles
+INDTERRAIN,smallcap,167.15,trading,textiles
+REGENCERAM,smallcap,110.37,ceramics - tiles / sanitaryware,building materials
+LOVABLE,smallcap,103.45,textiles - products,textiles
+MADHAV,smallcap,32.5,miscellaneous,consumer discretionary
+ADL,smallcap,40.08,miscellaneous,building materials
+HALDYNGL,smallcap,599.98,glass & glass products,building materials
+SHRINGARMS,smallcap,2017.65,diamond cutting / jewellery,consumer discretionary
+RUSHIL,smallcap,445.7,miscellaneous,building materials
+ARROWGREEN,smallcap,851.87,plastics products,plastic products
+INVENTURE,smallcap,100.8,finance & investments,financials
+TREEHOUSE,smallcap,28.6,miscellaneous,services
+ONELIFECAP,smallcap,102.85,finance & investments,financials
+SOLARWORLD,smallcap,1768.3,engineering - turnkey services,power & utilities
+INDOTHAI,smallcap,2940.98,finance & investments,financials
+BMWVENTLTD,smallcap,513.7,trading,services
+SPECIALITY,smallcap,522.78,hotels,services
+JKIPL,smallcap,358.45,trading,services
+TIPSFILMS,smallcap,162.63,entertainment / electronic media software,media
+JTLIND,smallcap,2625.39,steel - medium / small,metals & mining
+RBA,smallcap,4006.69,hotels,consumer discretionary
+PROZONER,smallcap,774.46,miscellaneous,miscellaneous
+STEELXIND,smallcap,1548.48,steel - medium / small,metals & mining
+NURECA,smallcap,226.38,trading,i.t
+SURANAT&P,smallcap,246.54,trading,industrials
+FUSION,smallcap,2830.44,finance & investments,financials
+TRIGYN,smallcap,180.34,computers - software - medium / small,i.t
+MODINATUR,smallcap,628.39,solvent extraction,fmcg
+AVTNPL,smallcap,1081.37,solvent extraction,fmcg
+SHARDAMOTR,smallcap,4838.32,auto ancillaries,auto
+VADILALIND,smallcap,3870.57,food - processing - indian,fmcg
+JUSTDIAL,smallcap,4503.11,miscellaneous,i.t
+SUVIDHAA,smallcap,56.23,miscellaneous,i.t
+DHARMAJ,smallcap,965.93,pesticides / agrochemicals - indian,chemicals
+ORIENTCEM,smallcap,2826.31,cement - south india,building materials
+UNIPARTS,smallcap,2704.98,engineering,industrials
+ANIKINDS,smallcap,123.5,trading,services
+LANDMARK,smallcap,1547.89,trading,consumer discretionary
+NKIND,smallcap,38.76,solvent extraction,fmcg
+JAMNAAUTO,smallcap,4823.31,auto ancillaries,auto
+JAYBARMARU,smallcap,1365.47,auto ancillaries,auto
+SUYOG,smallcap,902.45,transmisson line towers / equipment,telecom
+ASAL,smallcap,843.51,auto ancillaries,auto
+KIRANVYPAR,smallcap,432.73,finance & investments,financials
+MARALOVER,smallcap,239.5,textiles - cotton/blended,textiles
+EXCELSOFT,smallcap,1019.99,computers - software - medium / small,i.t
+ENIFTY,smallcap,0,indices,indices
+NAGREEKEXP,smallcap,85.53,textiles - cotton/blended,textiles
+KRSNAA,smallcap,1766.93,healthcare,healthcare
+CHEMPLASTS,smallcap,3391.77,chemicals,chemicals
+SILINV,smallcap,451.97,finance & investments,financials
+KITEX,smallcap,3209.76,textiles - products,consumer discretionary
+UNIDT,smallcap,493.91,engineering,industrials
+WINDMACHIN,smallcap,2568.33,engineering,industrials
+HONDAPOWER,smallcap,2320.02,electric equipment,industrials
+KLBRENG-B,smallcap,2777.34,engineering,industrials
+SNOWMAN,smallcap,616.89,miscellaneous,transportation
+KOTYARK,smallcap,432.19,miscellaneous,miscellaneous
+LCCINFOTEC,smallcap,54.31,computers - education,services
+USK,smallcap,129.81,construction,realty
+SKMEGGPROD,smallcap,1225.77,food - processing - indian,fmcg
+ADVANIHOTR,smallcap,490.29,hotels,services
+TCPLPACK,smallcap,2348.62,packaging,industrials
+SAPPL,smallcap,239.95,paper,building materials
+MAWANASUG,smallcap,382.41,sugar,fmcg
+NAHARPOLY,smallcap,631.42,packaging,industrials
+RIIL,smallcap,1123.97,miscellaneous,transportation
+EUROBOND,smallcap,453.01,aluminium and aluminium products,metals & mining
+SIKA,smallcap,1903.41,engineering,aerospace & defence
+KANCHI,smallcap,157.97,chemicals,chemicals
+PLASTIBLEN,smallcap,461.07,chemicals,chemicals
+VINCOFE,smallcap,2143.22,trading,consumer discretionary
+ASHIANA,smallcap,3642.52,construction,realty
+DCMSIL,smallcap,517.52,textiles - manmade,textiles
+DEFENCE,smallcap,0,indices,indices
+MAZDA,smallcap,469.95,engineering,industrials
+AONESILVER,smallcap,0,indices,indices
+IDEAFORGE,smallcap,3587.14,engineering,aerospace & defence
+RAMAPHO,smallcap,424.99,fertilizers,chemicals
+ALBERTDAVD,smallcap,408.32,pharmaceuticals - indian - bulk drugs & formln,healthcare
+BEEKAY,smallcap,772.89,steel - medium / small,metals & mining
+MANAKSTEEL,smallcap,438.1,steel - medium / small,metals & mining
+UTKARSHBNK,smallcap,2324.06,banks - private sector,bank
+WANBURY,smallcap,901.44,pharmaceuticals - indian - bulk drugs & formln,healthcare
+GROWWPSUBK,smallcap,0,indices,indices
+KOTARISUG,smallcap,0,indices,n/a
+MASKINVEST,smallcap,45.92,finance & investments,financials
+GKWLIMITED,smallcap,0,indices,n/a
+ORCHPHARMA,smallcap,4183.31,pharmaceuticals - indian - bulk drugs & formln,healthcare
+NIRAJISPAT,smallcap,13.04,plastics products,plastic products
+SAIPARENT,smallcap,2215.15,pharmaceuticals - indian - formulations,healthcare
+ATL,smallcap,702.8,miscellaneous,transportation
+NDGL,smallcap,250.03,finance & investments,financials
+SBINMID150,smallcap,0,indices,indices
+SYNCOMF,smallcap,1403.42,pharmaceuticals - indian - bulk drugs & formln,healthcare
+OMPOWER,smallcap,582.58,transmisson line towers / equipment,realty
+ARFIN,smallcap,1532.84,aluminium and aluminium products,metals & mining
+SGFIN,smallcap,3742.18,finance & investments,financials
+AVADHSUGAR,smallcap,913.74,sugar,fmcg
+INDOAMIN,smallcap,978.7,chemicals,chemicals
+NACLIND,smallcap,3685.26,pesticides / agrochemicals - indian,chemicals
+FISCHER,smallcap,2253.5,trading,services
+HITECH,smallcap,1753.43,steel - medium / small,metals & mining
+KRISHANA,smallcap,4244.16,fertilizers,chemicals
+SAMHI,smallcap,3765.85,hotels,services
+BOHRAIND,smallcap,37.69,fertilizers,chemicals
+MBAPL,smallcap,4760.33,fertilizers,chemicals
+CUBEXTUB,smallcap,125.81,mining / minerals / metals,metals & mining
+KALAMANDIR,smallcap,1642.86,trading,consumer discretionary
+MITCON,smallcap,152.66,miscellaneous,miscellaneous
+INFOBEAN,smallcap,1729.27,computers - software - medium / small,i.t
+NAVKARCORP,smallcap,1443.03,miscellaneous,transportation
+UNITEDPOLY,smallcap,774.39,textiles - products,textiles
+CROWN,smallcap,127.25,miscellaneous,miscellaneous
+HITECHCORP,smallcap,480.4,packaging,industrials
+PRITIKAUTO,smallcap,225.79,auto ancillaries,auto
+ARTNIRMAN,smallcap,107.19,construction,realty
+MOLDTECH,smallcap,341.05,engineering - turnkey services,realty
+PLAZACABLE,smallcap,209.48,cables - power,industrials
+MCL,smallcap,167.17,mining / minerals / metals,metals & mining
+RMC,smallcap,371.04,electric equipment,industrials
+FMCGADD,smallcap,0,indices,indices
+SBISMLETF,smallcap,0,indices,indices
+BEARDSELL,smallcap,116.97,plastics products,plastic products
+FOCUS,smallcap,578.07,electric equipment,industrials
+MSCI360,smallcap,0,indices,indices
+ESAFSFB,smallcap,1442.82,banks - private sector,bank
+GTECJAINX,smallcap,24.47,computers - education,i.t
+PROTEAN,smallcap,2433.96,computers - software - medium / small,i.t
+TPLPLASTEH,smallcap,555.46,packaging,industrials
+LIBERTSHOE,smallcap,412.3,leather / leather products,consumer discretionary
+TOTAL,smallcap,86.39,miscellaneous,transportation
+RHFL,smallcap,104.77,finance - housing,financials
+THAKDEV,smallcap,111.29,construction,realty
+AARNAV,smallcap,107.88,textiles - products,textiles
+AIROLAM,smallcap,120.84,miscellaneous,building materials
+SANDESH,smallcap,715.46,entertainment / electronic media software,media
+DRAGARWQ,smallcap,2431.59,healthcare,healthcare
+PRECAM,smallcap,1427.83,auto ancillaries,auto
+RMDRIP,smallcap,404.68,plastics products,plastic products
+BESTAGRO,smallcap,584.85,pesticides / agrochemicals - indian,chemicals
+DAICHI,smallcap,175.08,chemicals,chemicals
+GATECHDVR,smallcap,9.1,computers - software - medium / small,i.t
+MAHLOG,smallcap,3458.9,miscellaneous,transportation
+MUTHOOTMF,smallcap,3062.04,finance & investments,financials
+SARLAPOLY,smallcap,818.41,textiles - spinning - synthetic / blended,textiles
+KHADIM,smallcap,183.45,leather / leather products,consumer discretionary
+SUNCLAY,smallcap,2866,castings & forgings,industrials
+BHARATWIRE,smallcap,1489.86,steel - medium / small,metals & mining
+DNAMEDIA,smallcap,34.14,entertainment / electronic media software,media
+INNOVANA,smallcap,685.91,computers - software - medium / small,i.t
+GUJALKALI,smallcap,4882.45,chemicals,chemicals
+HALDER,smallcap,284.57,trading,services
+SIL,smallcap,104.79,trading,textiles
+TATAGOLD,smallcap,0,indices,indices
+TOUCHWOOD,smallcap,77.61,miscellaneous,media
+BAJAJHCARE,smallcap,1009.21,pharmaceuticals - indian - bulk drugs & formln,healthcare
+CSLFINANCE,smallcap,518.85,finance & investments,financials
+MADHAVIPL,smallcap,231.57,construction,realty
+FAZE3Q,smallcap,1337.3,textiles - processing,textiles
+NOVAAGRI,smallcap,245.09,fertilizers,chemicals
+OPTIEMUS,smallcap,3717.39,trading,telecom
+SINTERCOM,smallcap,202.05,auto ancillaries,auto
+MAXIND,smallcap,855.7,finance & investments,financials
+SOUTHWEST,smallcap,790.5,mining / minerals / metals,metals & mining
+KPL,smallcap,2385.28,pharmaceuticals - indian - bulk drugs & formln,healthcare
+SIGNPOST,smallcap,1469.88,miscellaneous,miscellaneous
+HINDCON,smallcap,113.95,chemicals,chemicals
+GOYALALUM,smallcap,95.63,trading,services
+OBCL,smallcap,109.69,miscellaneous,transportation
+GNA,smallcap,1582,auto ancillaries,auto
+NRBBEARING,smallcap,3454.81,bearings,industrials
+EXICOM,smallcap,2221.38,electric equipment,industrials
+PIGL,smallcap,207.94,electric equipment,industrials
+AURIGROW,smallcap,45.76,cables - power,industrials
+GOPAL,smallcap,3675.88,food - processing - indian,fmcg
+ORIENTELEC,smallcap,3906.09,domestic appliances,consumer discretionary
+SCILAL,smallcap,2070.01,miscellaneous,services
+ANSALAPI,smallcap,58.71,construction,realty
+JISLDVREQS,smallcap,43.61,plastics products,plastic products
+ZIMLAB,smallcap,555.92,pharmaceuticals - indian - bulk drugs & formln,healthcare
+AMRUTANJAN,smallcap,1607,pharmaceuticals - indian - formulations,healthcare
+SONAMLTD,smallcap,228.5,miscellaneous,consumer discretionary
+BHARATRAS,smallcap,2426.84,pesticides / agrochemicals - indian,chemicals
+PRITI,smallcap,56.36,miscellaneous,consumer discretionary
+BANARISUG,smallcap,4514.79,sugar,fmcg
+BILVYAPAR,smallcap,14.27,miscellaneous,miscellaneous
+REPL,smallcap,121.71,miscellaneous,miscellaneous
+SAKSOFT,smallcap,1956.85,computers - software - medium / small,i.t
+SRM,smallcap,1168.66,construction,realty
+ANDHRSUGAR,smallcap,1056.77,chlor alkali / soda ash,chemicals
+AVROIND,smallcap,137.26,plastics products,plastic products
+RAJRILTD,smallcap,1126.07,textiles - manmade,textiles
+RADAAN,smallcap,17.01,entertainment / electronic media software,media
+DICIND,smallcap,459.41,chemicals,chemicals
+LAMBODHARA,smallcap,116.5,textiles - cotton/blended,textiles
+TEMBO,smallcap,1098.8,trading,consumer discretionary
+DALMIASUG,smallcap,2738.58,sugar,fmcg
+AARON,smallcap,246.35,engineering,industrials
+DIAMINESQ,smallcap,241.85,chemicals,chemicals
+RAJMET,smallcap,106.44,mining / minerals / metals,metals & mining
+UFLEX,smallcap,3221.35,packaging,industrials
+MARINE,smallcap,633.2,electric equipment,industrials
+GOODYEAR,smallcap,1658.25,tyres,auto
+IRISDOREME,smallcap,677.77,textiles - products,consumer discretionary
+AGI,smallcap,3955.27,packaging,industrials
+SRD,smallcap,259.77,trading,chemicals
+ALANKIT,smallcap,228.32,computers - software - medium / small,i.t
+KIRLOSIND,smallcap,3295.11,finance & investments,financials
+OMINFRAL,smallcap,838.32,engineering - turnkey services,realty
+ALICON,smallcap,1084.44,castings & forgings,industrials
+ABMKNO,smallcap,418.05,computers - software - medium / small,i.t
+LORDSCHLO,smallcap,391.15,chlor alkali / soda ash,chemicals
+HEIDELBERG,smallcap,3509.33,cement - north india,building materials
+OSWALAGRO,smallcap,578.55,trading,services
+COMFINTE,smallcap,193.24,trading,services
+PILITA,smallcap,195.76,plastics products,plastic products
+PIXTRANS,smallcap,2192.16,miscellaneous,fmcg
+RSWM,smallcap,807.61,textiles - cotton/blended,textiles
+VSTTILLERS,smallcap,3987.7,automobiles - tractors,auto
+AVAILFC,smallcap,162.75,finance & investments,financials
+TIMEX,smallcap,4397.38,miscellaneous,consumer discretionary
+PANACEABIO,smallcap,2637.46,pharmaceuticals - indian - bulk drugs & formln,healthcare
+PASUPTAC,smallcap,606.91,textiles - manmade,textiles
+INTERARCH,smallcap,2906.56,steel - medium / small,metals & mining
+GLOSTERLTD,smallcap,720.01,textiles - jute - yarn / products,textiles
+MFML,smallcap,25.79,textiles - products,textiles
+BNAGROCHEM,smallcap,3317.92,trading,services
+EXCELINDUS,smallcap,1144.25,pesticides / agrochemicals - indian,chemicals
+NOVARTIND,smallcap,3618.44,pharmaceuticals - multinational,healthcare
+RITCO,smallcap,757.5,miscellaneous,transportation
+GOLDTECH,smallcap,223.99,computers - software - medium / small,i.t
+GRMOVER,smallcap,3225.64,food - processing - indian,fmcg
+EVEREADY,smallcap,2311.45,dry cells,industrials
+TCIFINANCE,smallcap,16.95,finance & investments,financials
+VIKASLIFE,smallcap,274.93,trading,services
+SOMANYCERA,smallcap,2124.67,ceramics - tiles / sanitaryware,building materials
+CORALFINAC,smallcap,128.16,finance - housing,financials
+SAGCEM,smallcap,2357.31,cement - south india,building materials
+ARKADE,smallcap,2128.08,construction,realty
+BOROLTD,smallcap,2631.29,glass & glass products,building materials
+ANDHRAPAP,smallcap,1229.29,paper,building materials
+COUNCODOS,smallcap,38.8,construction,realty
+KESORAMIND,smallcap,372.18,miscellaneous,miscellaneous
+MARATHON,smallcap,2917.29,construction,realty
+SWSOLAR,smallcap,4474.23,engineering - turnkey services,realty
+GATECH,smallcap,59.55,computers - software - medium / small,i.t
+SIYSIL,smallcap,2650.29,textiles - processing,textiles
+ELPROINTL,smallcap,2841.32,construction,realty
+PRECOT,smallcap,920.04,textiles - cotton/blended,textiles
+APOLLOPIPE,smallcap,2109.25,plastics products,plastic products
+DBEIL,smallcap,378.89,construction,realty
+NIPPOBATRY,smallcap,275.89,dry cells,industrials
+WSI,smallcap,516.32,construction,realty
+DCI,smallcap,456.17,trading,i.t
+VCL,smallcap,25.54,trading,textiles
+LAHOTIOV,smallcap,123.42,trading,services
+AMBIKCO,smallcap,971.88,textiles - cotton/blended,textiles
+DJML,smallcap,358.01,miscellaneous,transportation
+SEMAC,smallcap,104.45,engineering - turnkey services,realty
+DOLATALGO,smallcap,1311.73,finance & investments,financials
+AARTISURF,smallcap,321.88,chemicals,chemicals
+ROSSARI,smallcap,3010.92,chemicals,chemicals
+SVPGLOB,smallcap,50.47,textiles - spinning - synthetic / blended,textiles
+KDDL,smallcap,3482.66,miscellaneous,consumer discretionary
+MOBIKWIK,smallcap,1530.83,miscellaneous,i.t
+GRAUWEIL,smallcap,3247.79,chemicals,chemicals
+SBGLP,smallcap,454.18,construction,realty
+FMGOETZE,smallcap,2341.28,auto ancillaries,auto
+RANEHOLDIN,smallcap,2087.42,finance & investments,financials
+ROUTE,smallcap,3377.6,computers - software - medium / small,i.t
+LAKPRE,smallcap,5.88,fasteners,industrials
+MAMATA,smallcap,919.35,engineering,industrials
+LIKHITHA,smallcap,758.27,construction,realty
+VIVIDHA,smallcap,16.1,trading,services
+ARCHIES,smallcap,48.51,trading,consumer discretionary
+ALEMBICLTD,smallcap,2242.99,construction,realty
+DMCC,smallcap,662.03,chemicals,chemicals
+KOTHARIPET,smallcap,712.87,petrochemicals,energy
+SHREERAMA,smallcap,616.89,packaging,industrials
+STALLION,smallcap,2065.28,chemicals,chemicals
+TRANSPEK,smallcap,558.61,chemicals,chemicals
+CINEVISTA,smallcap,86.73,construction,realty
+SUBEXLTD,smallcap,600.78,computers - software - medium / small,i.t
+PNBGILTS,smallcap,1426.22,finance & investments,financials
+RAMCOSYS,smallcap,1724.88,computers - software - medium / small,i.t
+RANASUG,smallcap,189.66,sugar,fmcg
+BAJAJINDEF,smallcap,792.96,engineering,industrials
+SDBL,smallcap,1607.7,breweries & distilleries,fmcg
+ASALCBR,smallcap,1672.9,breweries & distilleries,fmcg
+CALSOFT,smallcap,136.76,computers - software - medium / small,i.t
+UMESLTD,smallcap,14.69,computers - education,i.t
+DHANUKA,smallcap,4941.49,pesticides / agrochemicals - indian,chemicals
+KANPRPLA,smallcap,448.5,packaging,industrials
+PIONRINV,smallcap,130.81,finance & investments,financials
+COMPINFO,smallcap,11.24,trading,services
+HAWKINCOOK,smallcap,3943.65,domestic appliances,consumer discretionary
+RAJPALAYAM,smallcap,782.66,textiles - cotton/blended,textiles
+HYBRIDFIN,smallcap,49.63,finance & investments,financials
+FINKURVE,smallcap,842.96,finance & investments,financials
+NAVNETEDUL,smallcap,3116.01,printing & stationery,miscellaneous
+AUSOMENT,smallcap,167.77,trading,consumer discretionary
+IMPEXFERRO,smallcap,17.59,mining / minerals / metals,metals & mining
+PTL,smallcap,514.95,miscellaneous,miscellaneous
+ALLDIGI,smallcap,1264.4,computers - software - medium / small,i.t
+CYBERMEDIA,smallcap,36.49,entertainment / electronic media software,media
+GROWWSLVR,smallcap,0,indices,indices
+AONENIFTY,smallcap,0,indices,indices
+BIRLANU,smallcap,980.62,cement products,building materials
+SHALPAINTS,smallcap,421.23,paints / varnishes,building materials
+SASKEN,smallcap,3551.36,computers - software - medium / small,i.t
+AURIONPRO,smallcap,4571.13,computers - software - medium / small,i.t
+BASML,smallcap,199.16,textiles - cotton/blended,textiles
+ALGOQUANT,smallcap,1565.99,finance & investments,financials
+REPRO,smallcap,497.42,printing & stationery,miscellaneous
+NITINSPIN,smallcap,2852.04,textiles - cotton/blended,textiles
+ARIS,smallcap,945.65,trading,services
+GVKPIL,smallcap,469.03,engineering - turnkey services,realty
+IVC,smallcap,254.99,finance & investments,financials
+SAKUMA,smallcap,310.41,trading,services
+INDOTECH,smallcap,2891.61,electric equipment,industrials
+RAYMONDREL,smallcap,3868.6,construction,realty
+ELLEN,smallcap,0,indices,n/a
+VISACHROME,smallcap,793.09,mining / minerals / metals,metals & mining
+SGL,smallcap,32.31,textiles - processing,textiles
+VAKRANGEE,smallcap,702.99,computers - software - medium / small,i.t
+IGCL,smallcap,366.45,pesticides / agrochemicals - indian,chemicals
+LOKESHMACH,smallcap,497.82,engineering,industrials
+DCMFINSERV,smallcap,13.1,finance & investments,financials
+GAYAPROJ,smallcap,610.47,construction,realty
+SAMBHAAV,smallcap,126.52,entertainment / electronic media software,media
+SHIVAMAUTO,smallcap,227.62,auto ancillaries,auto
+PARSVNATH,smallcap,167.98,construction,realty
+RUCHIRA,smallcap,344.59,paper,building materials
+MUTHOOTCAP,smallcap,326.6,finance & investments,financials
+CAMLINFINE,smallcap,2272.25,chemicals,chemicals
+DISHTV,smallcap,585.52,entertainment / electronic media software,media
+TGBHOTELS,smallcap,26.45,hotels,services
+INSECTICID,smallcap,2123.56,pesticides / agrochemicals - indian,chemicals
+ABANSENT,smallcap,179.25,trading,services
+CHEMBONDCH,smallcap,475.48,chemicals,chemicals
+SUNTECK,smallcap,4231.25,construction,realty
+TARMAT,smallcap,130.21,construction,realty
+HDIL,smallcap,91.48,construction,realty
+ALPA,smallcap,146.65,pharmaceuticals - indian - bulk drugs & formln,healthcare
+MMWL,smallcap,1528.07,entertainment / electronic media software,media
+NAGREEKCAP,smallcap,35.29,finance & investments,financials
+UMAEXPORTS,smallcap,85.17,trading,services
+PAISALO,smallcap,4792.27,finance & investments,financials
+MAANALU,smallcap,771.23,aluminium and aluminium products,metals & mining
+HARIOMPIPE,smallcap,1235.13,steel - medium / small,metals & mining
+BVCL,smallcap,92.39,cement - north india,building materials
+KAUSHALYA,smallcap,29.86,hotels,services
+STCINDIA,smallcap,710.28,trading,services
+KNRCON,smallcap,3711.73,construction,realty
+GANDHITUBE,smallcap,1029.58,steel - medium / small,metals & mining
+RPGLIFE,smallcap,3626.51,pharmaceuticals - indian - bulk drugs & formln,healthcare
+TPHQ,smallcap,54.81,trading,services
+LANDSMILL,smallcap,124.14,trading,services
+WEWIN,smallcap,0,indices,n/a
+MODIS,smallcap,657.09,construction,realty
+ASTEC,smallcap,1755.62,pesticides / agrochemicals - indian,chemicals
+MWL,smallcap,1130.11,steel - medium / small,metals & mining
+PRADPME,smallcap,771.02,castings & forgings,industrials
+ROSSELLIND,smallcap,205.9,tea,fmcg
+PATELRMART,smallcap,609.66,trading,consumer discretionary
+KRITINUT,smallcap,448.28,solvent extraction,fmcg
+AHLEAST,smallcap,270.98,hotels,services
+SUMEETINDS,smallcap,1543.19,textiles - manmade,textiles
+CPCAP,smallcap,175.18,finance & investments,financials
+STLNETWORK,smallcap,1394.79,telecommunications - service provider,telecom-service
+DDEVPLSTIK,smallcap,2532.59,chemicals,chemicals
+KICL,smallcap,2164.1,finance & investments,financials
+DHUNINV,smallcap,482.01,finance & investments,financials
+MURUDCERA,smallcap,191.2,ceramics - tiles / sanitaryware,building materials
+KARMAENG,smallcap,50.88,power generation and supply,power & utilities
+KRIDHANINF,smallcap,34.48,trading,services
+PAKKA,smallcap,394.33,paper,building materials
+EUROPRATIK,smallcap,2651.58,trading,building materials
+IVALUE,smallcap,1291.19,computers - hardware,i.t
+RUPA,smallcap,1264.36,textiles - products,textiles
+DREAMFOLKS,smallcap,391.96,miscellaneous,miscellaneous
+GKENERGY,smallcap,2528.32,engineering - turnkey services,realty
+VASWANI,smallcap,182.16,steel - sponge iron,metals & mining
+DBOL,smallcap,748.32,sugar,fmcg
+ATALREAL,smallcap,359.42,construction,realty
+STYL,smallcap,4397.07,computers - software - medium / small,i.t
+UEL,smallcap,1840.09,power generation and supply,power & utilities
+BTML,smallcap,112.83,entertainment / electronic media software,media
+THOMASCOTT,smallcap,408.42,textiles - products,consumer discretionary
+MTEDUCARE,smallcap,11.34,miscellaneous,services
+VSSL,smallcap,2611.96,steel - medium / small,metals & mining
+INA,smallcap,2735.32,electric equipment,industrials
+RTNINDIA,smallcap,4901.53,finance & investments,financials
+NECCLTD,smallcap,152.8,miscellaneous,transportation
+SYMPHONY,smallcap,4756.87,domestic appliances,consumer discretionary
+TARC,smallcap,3870.19,construction,realty
+BUTTERFLY,smallcap,1164.05,domestic appliances,consumer discretionary
+FABTECH,smallcap,679.7,trading,services
+RSSOFTWARE,smallcap,84.6,computers - software - medium / small,i.t
+OMFREIGHT,smallcap,282.4,miscellaneous,transportation
+WEBELSOLAR,smallcap,4622.54,electric equipment,industrials
+CARERATING,smallcap,4921.7,miscellaneous,financials
+VITAL,smallcap,119.83,chemicals,chemicals
+PAVNAIND,smallcap,233.99,auto ancillaries,auto
+DAVANGERE,smallcap,527.67,sugar,fmcg
+REPCOHOME,smallcap,2338.54,finance - housing,financials
+TASTYBITE,smallcap,1942.33,food - processing - indian,fmcg
+LXCHEM,smallcap,4175.79,chemicals,chemicals
+NAHARINDUS,smallcap,528.02,textiles - cotton/blended,textiles
+ADFFOODS,smallcap,3000.92,food - processing - indian,fmcg
+SURYODAY,smallcap,1795.45,banks - private sector,bank
+SANWARIA,smallcap,17.67,food - processing - indian,fmcg
+UFBL,smallcap,1904.29,hotels,consumer discretionary
+ESSENTIA,smallcap,184.71,trading,services
+TIGERLOGS,smallcap,349.1,miscellaneous,transportation
+FLFL,smallcap,28.25,trading,consumer discretionary
+PIRAMALFIN,smallcap,0,indices,n/a
+OMAXAUTO,smallcap,522.51,auto ancillaries,auto
+JTEKTINDIA,smallcap,3482.44,auto ancillaries,auto
+AGRITECH,smallcap,64.66,miscellaneous,fmcg
+ENERGY,smallcap,0,indices,indices
+IPL,smallcap,1818.09,pesticides / agrochemicals - indian,chemicals
+EUROTEXIND,smallcap,13.13,textiles - cotton/blended,textiles
+CAPILLARY,smallcap,4055.73,computers - software - medium / small,i.t
+SOMATEX,smallcap,349.98,trading,textiles
+ROLEXRINGS,smallcap,3828.46,castings & forgings,industrials
+ZODIACLOTH,smallcap,207.47,textiles - products,consumer discretionary
+INCREDIBLE,smallcap,162.64,steel - medium / small,metals & mining
+MONEYBOXX,smallcap,501.51,finance & investments,financials
+BATLIBOI,smallcap,370.56,engineering,industrials
+YUKEN,smallcap,921.95,engineering,industrials
+FRONTSP,smallcap,1808.37,auto ancillaries,auto
+HLEGLAS,smallcap,2511.83,engineering,industrials
+RAMRAT,smallcap,3695.69,mining / minerals / metals,metals & mining
+WEIZMANIND,smallcap,124.62,textiles - processing,textiles
+SIGACHI,smallcap,836.07,pharmaceuticals - indian - bulk drugs & formln,healthcare
+EIHAHOTELS,smallcap,1822,hotels,services
+GKSL,smallcap,1058.47,healthcare,healthcare
+TARSONS,smallcap,1104.24,miscellaneous,healthcare
+GOCOLORS,smallcap,1767.49,textiles - products,textiles
+PEARLPOLY,smallcap,31.3,trading,plastic products
+BLAL,smallcap,774.09,construction,realty
+SUPERHOUSE,smallcap,166.58,leather / leather products,consumer discretionary
+NILKAMAL,smallcap,1932.17,plastics products,plastic products
+SHRIRAMPPS,smallcap,1511.49,construction,realty
+BOSCH-HCIL,smallcap,3793.67,air-conditioners,consumer discretionary
+MONTECARLO,smallcap,1133.84,textiles - products,textiles
+TNTELE,smallcap,43.21,cables - telephone,industrials
+HPAL,smallcap,329.83,chemicals,chemicals
+DREDGECORP,smallcap,3425.24,miscellaneous,miscellaneous
+DTIL,smallcap,139.02,tea,fmcg
+GHCLTEXTIL,smallcap,928.81,textiles - spinning - synthetic / blended,textiles
+APCOTEXIND,smallcap,2561.66,miscellaneous,chemicals
+MKPL,smallcap,0,indices,n/a
+SAYAJIHOTL,smallcap,523.79,hotels,services
+INFRA,smallcap,0,indices,indices
+GENUSPAPER,smallcap,320.64,paper,building materials
+GUJRAFFIA,smallcap,23.07,packaging,industrials
+CYIENTDLM,smallcap,3681.71,electronics - components,consumer discretionary
+PNGSREVA,smallcap,1192.65,trading,consumer discretionary
+SBIMIDMOM,smallcap,0,indices,indices
+AGIIL,smallcap,4769.9,construction,realty
+BANK10ADD,smallcap,0,indices,indices
+VINYLINDIA,smallcap,461.45,trading,chemicals
+MANAKCOAT,smallcap,1106.28,steel - medium / small,metals & mining
+INNOVISION,smallcap,711.3,miscellaneous,miscellaneous
+STEL,smallcap,895.83,finance & investments,financials
+VALUE,smallcap,0,indices,indices
+ABMINTLLTD,smallcap,43.05,trading,services
+JAYAGROGN,smallcap,706.89,chemicals,chemicals
+AARTIDRUGS,smallcap,3475.56,pharmaceuticals - indian - bulk drugs,healthcare
+JMA,smallcap,201,auto ancillaries,auto
+AMIRCHAND,smallcap,1262.71,food - processing - indian,fmcg
+PML,smallcap,160.32,finance & investments,financials
+SANCO,smallcap,3.86,plastics products,plastic products
+VIMTALABS,smallcap,2098.12,miscellaneous,healthcare
+GULPOLY,smallcap,0,indices,n/a
+MOBANK10,smallcap,0,indices,indices
+KREBSBIO,smallcap,139.91,pharmaceuticals - indian - bulk drugs,healthcare
+UFO,smallcap,287.66,entertainment / electronic media software,media
+SUKHJITS,smallcap,548.71,miscellaneous,fmcg
+AKSHARCHEM,smallcap,153.43,dyes and pigments,chemicals
+RADIOCITY,smallcap,210.87,entertainment / electronic media software,media
+SATIA,smallcap,559.9,paper,building materials
+SCHAND,smallcap,544.21,printing & stationery,miscellaneous
+CLEDUCATE,smallcap,251.98,miscellaneous,services
+NATCAPSUQ,smallcap,164.8,pharmaceuticals - indian - bulk drugs & formln,healthcare
+HESTERBIO,smallcap,1714.47,pharmaceuticals - indian - formulations,healthcare
+SPORTKING,smallcap,2422.5,textiles - spinning - synthetic / blended,textiles
+RISHABH,smallcap,1992.06,electric equipment,industrials
+BALKRISHNA,smallcap,58.67,trading,services
+FERMENTA,smallcap,0,indices,n/a
+HIKAL,smallcap,2360.22,pharmaceuticals - indian - bulk drugs,healthcare
+KAYA,smallcap,351.88,miscellaneous,healthcare
+SMLT,smallcap,100.09,steel - medium / small,metals & mining
+PANAMAPET,smallcap,1908.88,petrochemicals,energy
+JITFINFRA,smallcap,821.49,miscellaneous,miscellaneous
+OSWALGREEN,smallcap,618.14,diversified - medium / small,miscellaneous
+MAGADSUGAR,smallcap,634.55,sugar,fmcg
+LASA,smallcap,38.48,pharmaceuticals - indian - bulk drugs & formln,healthcare
+SHREEPUSHK,smallcap,1174.83,dyes and pigments,chemicals
+SADBHIN,smallcap,101.44,construction,realty
+FILATEX,smallcap,2053.33,textiles - manmade,textiles
+PREMEXPLN,smallcap,3504.42,chemicals,aerospace & defence
+JETFREIGHT,smallcap,101.58,transport - airlines,transportation
+EIFFL,smallcap,570.5,food - processing - indian,fmcg
+ORIENTLTD,smallcap,61.48,packaging,industrials
+MALLCOM,smallcap,607.15,textiles - products,textiles
+ALPHAGEO,smallcap,134.79,miscellaneous,miscellaneous
+SATIN,smallcap,2553.2,finance & investments,financials
+KRITI,smallcap,393.22,plastics products,plastic products
+TRU,smallcap,70.6,finance & investments,financials
+AIRAN,smallcap,211.91,computers - software - medium / small,i.t
+DEVIT,smallcap,162.72,computers - software - medium / small,i.t
+SYSTMTXC,smallcap,883.95,finance & investments,financials
+SHRENIK,smallcap,22.64,trading,building materials
+SERVOTECH,smallcap,2279.01,electric equipment,industrials
+ELECTHERM,smallcap,1310.34,steel - medium / small,metals & mining
+GANDHAR,smallcap,1524.87,refineries,energy
+SHANTI,smallcap,7.23,food - processing - indian,fmcg
+LUXIND,smallcap,4308.37,textiles - composite,textiles
+TFCILTD,smallcap,3495.48,finance - term-lending institutions,financials
+BIL,smallcap,980.37,leather / leather products,consumer discretionary
+WORTHPERI,smallcap,203.05,packaging,industrials
+BAJEL,smallcap,2244.64,engineering - turnkey services,realty
+DIAMONDYD,smallcap,2598.55,food - processing - indian,fmcg
+GOLDIAM,smallcap,4792.8,diamond cutting / jewellery,consumer discretionary
+DPWIRES,smallcap,284.9,steel - medium / small,metals & mining
+GREENPLY,smallcap,3204.86,miscellaneous,building materials
+TEAMLEASE,smallcap,2316.96,miscellaneous,miscellaneous
+TIRUPATIFL,smallcap,582,castings & forgings,industrials
+BETA,smallcap,1429.49,pharmaceuticals - indian - bulk drugs,healthcare
+ELCIDIN,smallcap,2359,finance & investments,financials
+SCPL,smallcap,479.01,food - processing - indian,fmcg
+DOLLAR,smallcap,1476.04,textiles - products,consumer discretionary
+MOTISONS,smallcap,1145.01,diamond cutting / jewellery,consumer discretionary
+MUFTI,smallcap,582.06,trading,consumer discretionary
+CCAVENUE,smallcap,4835.55,miscellaneous,i.t
+SILVERTUC,smallcap,2217.02,computers - software - medium / small,i.t
+DIGIDRIVE,smallcap,73.04,trading,i.t
+SHRADHA,smallcap,287.06,construction,realty
+THEINVEST,smallcap,516.78,finance & investments,financials
+AJOONI,smallcap,69.07,food - processing - indian,fmcg
+ONEPOINT,smallcap,1545.54,computers - software - medium / small,i.t
+SILLYMONKS,smallcap,23.53,entertainment / electronic media software,media
+ANTELOPUS,smallcap,3003.57,oil drilling / allied services,energy
+DIGJAMLMTD,smallcap,89.76,textiles - products,textiles
+ADVENZYMES,smallcap,4388.65,pharmaceuticals - indian - bulk drugs & formln,healthcare
+CAPITALSFB,smallcap,1220.4,banks - private sector,bank
+SARVESHWAR,smallcap,456.93,food - processing - indian,fmcg
+SPAL,smallcap,2028.96,textiles - products,textiles
+TARACHAND,smallcap,474.84,diversified - medium / small,miscellaneous
+SANDHAR,smallcap,4196.2,auto ancillaries,auto
+PREMCO,smallcap,122.41,textiles - products,textiles
+MMP,smallcap,681.3,aluminium and aluminium products,metals & mining
+HPL,smallcap,2213.54,electric equipment,industrials
+UGARSUGAR,smallcap,452.03,sugar,fmcg
+NARMADA,smallcap,138.62,miscellaneous,fmcg
+NILAINFRA,smallcap,311.17,construction,realty
+CHEMFAB,smallcap,583.43,chemicals,chemicals
+BSHSL,smallcap,1021.04,miscellaneous,fmcg
+TINNARUBR,smallcap,1494.5,miscellaneous,fmcg
+PVSL,smallcap,703.58,trading,consumer discretionary
+AMBALALSA,smallcap,285.84,trading,healthcare
+SIRCA,smallcap,2387.29,trading,building materials
+TCIEXP,smallcap,1903.08,miscellaneous,transportation
+PARACABLES,smallcap,2011.33,cables - power,industrials
+UYFINCORP,smallcap,282.31,finance & investments,financials
+BAJAJELEC,smallcap,3610.58,domestic appliances,consumer discretionary
+KRYSTAL,smallcap,814.91,miscellaneous,miscellaneous
+EASTSILK,smallcap,27.01,textiles - silk,textiles
+SOLARA,smallcap,2616.08,pharmaceuticals - indian - bulk drugs & formln,healthcare
+SPIC,smallcap,1280.5,fertilizers,chemicals
+BEPL,smallcap,2382.57,petrochemicals,energy
+GANGAFORGE,smallcap,31.68,castings & forgings,industrials
+KAVDEFENCE,smallcap,369.1,telecommunications - equipment,aerospace & defence
+BIRLACABLE,smallcap,641.34,cables - telephone,industrials
+SALONA,smallcap,153.61,textiles - cotton/blended,textiles
+BPL,smallcap,258.84,electronics - components,consumer discretionary
+IMPAL,smallcap,1306.91,auto ancillaries,auto
+MAITHANALL,smallcap,3058.75,mining / minerals / metals,metals & mining
+ACSTECH,smallcap,197.23,computers - software - medium / small,i.t
+DANGEE,smallcap,49.89,food - processing - indian,fmcg
+SUMIT,smallcap,212.78,construction,realty
+SGIL,smallcap,919.99,castings & forgings,industrials
+AHLADA,smallcap,53.23,steel - medium / small,metals & mining
+BHAGERIA,smallcap,676.14,dyes and pigments,chemicals
+ELECTCAST,smallcap,4705.62,castings & forgings,industrials
+GRADIENTE,smallcap,113.02,entertainment / electronic media software,media
+ESTER,smallcap,974.01,packaging,industrials
+FOSECOIND,smallcap,3788.53,chemicals,chemicals
+METROGLOBL,smallcap,161.4,trading,services
+VINNY,smallcap,50.25,textiles - processing,textiles
+BBTCL,smallcap,428.95,packaging,industrials
+REMSONSIND,smallcap,310.6,auto ancillaries,auto
+HCL-INSYS,smallcap,443.78,computers - hardware,i.t
+HLVLTD,smallcap,520.16,hotels,services
+SUNDROP,smallcap,2466.32,food - processing - indian,fmcg
+JINDALPOLY,smallcap,2868.67,textiles - products,textiles
+KAKATCEM,smallcap,97.29,cement - south india,building materials
+LYKALABS,smallcap,206.75,pharmaceuticals - indian - bulk drugs & formln,healthcare
+NIITLTD,smallcap,1221.86,computers - education,i.t
+SHILCTECH,smallcap,4641.52,electric equipment,industrials
+VRAJ,smallcap,414.69,steel - sponge iron,metals & mining
+OILCOUNTUB,smallcap,283.29,steel - medium / small,metals & mining
+BANSALWIRE,smallcap,4844.62,steel - medium / small,metals & mining
+RAJSREESUG,smallcap,114.55,sugar,fmcg
+RUBFILA,smallcap,423.34,miscellaneous,fmcg
+SANSTAR,smallcap,2109.84,miscellaneous,fmcg
+TOKYOPLAST,smallcap,81.85,plastics products,plastic products
+WSTCSTPAPR,smallcap,3439.5,paper,building materials
+UNIECOM,smallcap,984.22,computers - software - medium / small,i.t
+UCAL,smallcap,217.95,auto ancillaries,auto
+BYKE,smallcap,188.94,hotels,services
+TREJHARA,smallcap,348.15,computers - software - medium / small,i.t
+GLOBALE,smallcap,14.4,textiles - products,textiles
+PREMIER,smallcap,8.9,engineering,industrials
+RPSGVENT,smallcap,3037.33,computers - software - medium / small,i.t
+TNPETRO,smallcap,792.29,petrochemicals,energy
+STYLEBAAZA,smallcap,2487.52,trading,consumer discretionary
+MADHUCON,smallcap,39.48,construction,realty
+CENTRUM,smallcap,1074.92,finance & investments,financials
+AEPL,smallcap,407.68,electric equipment,industrials
+DECCANCE,smallcap,866.99,cement - south india,building materials
+NCLIND,smallcap,839.84,cement - south india,building materials
+SBC,smallcap,1752.86,textiles - products,textiles
+DCMNVL,smallcap,289.51,textiles - cotton/blended,textiles
+ROLLT,smallcap,53.53,packaging,industrials
+SURAJLTD,smallcap,422.69,steel - medium / small,metals & mining
+PENINLAND,smallcap,544.7,construction,realty
+MUFIN,smallcap,2427.49,finance & investments,financials
+GENSOL,smallcap,79.93,engineering - turnkey services,realty
+GREENPANEL,smallcap,2325.51,miscellaneous,building materials
+PRAENG,smallcap,149.94,diversified - medium / small,miscellaneous
+GODAVARIB,smallcap,1407.34,sugar,fmcg
+DELTAMAGNT,smallcap,67.77,textiles - products,textiles
+PRINCEPIPE,smallcap,3015.55,plastics products,plastic products
+ZENITHSTL,smallcap,83.95,steel - medium / small,metals & mining
+INDIANHUME,smallcap,1614.17,construction,realty
+AUTOAXLES,smallcap,2647.92,auto ancillaries,auto
+BLUECHIP,smallcap,13.11,finance & investments,financials
+SURAKSHA,smallcap,1511.64,healthcare,healthcare
+TIL,smallcap,1440.13,engineering,industrials
+ODIGMA,smallcap,66.3,computers - software - medium / small,i.t
+GMMPFAUDLR,smallcap,3492.73,engineering,industrials
+TEXINFRA,smallcap,1223.55,construction,realty
+KSOLVES,smallcap,679.47,computers - software - medium / small,i.t
+BIMETAL,smallcap,249.28,bearings,industrials
+MANCREDIT,smallcap,435.64,finance & investments,financials
+ADVAIT,smallcap,2157.17,cables - power,industrials
+ADROITINFO,smallcap,51.71,computers - software - medium / small,i.t
+ATAM,smallcap,80.58,engineering,industrials
+CARRARO,smallcap,0,indices,n/a
+ARIHANTSUP,smallcap,1154.13,construction,realty
+AMNPLST,smallcap,1113.93,chemicals,chemicals
+ENERGYDEV,smallcap,76.29,power generation and supply,power & utilities
+INDNIPPON,smallcap,2026.2,auto ancillaries,auto
+SUDARCOLOR,smallcap,835.56,dyes and pigments,chemicals
+GEOJITFSL,smallcap,2013.87,finance & investments,financials
+LAXMIDENTL,smallcap,1302.16,healthcare,healthcare
+NITTAGELA,smallcap,1490.8,chemicals,chemicals
+INDSWFTLAB,smallcap,1407.62,pharmaceuticals - indian - bulk drugs & formln,healthcare
+UNICHEMLAB,smallcap,2569.11,pharmaceuticals - indian - bulk drugs & formln,healthcare
+INTENTECH,smallcap,225.57,computers - software - medium / small,i.t
+CURAA,smallcap,87.12,computers - software - medium / small,i.t
+COMPUSOFT,smallcap,107.21,computers - education,i.t
+GUJTHEM,smallcap,4304.13,pharmaceuticals - indian - bulk drugs,healthcare
+IFBAGRO,smallcap,916.76,breweries & distilleries,fmcg
+FOODSIN,smallcap,418.25,food - processing - indian,fmcg
+PNC,smallcap,28.91,entertainment / electronic media software,media
+CREATIVEYE,smallcap,13.36,entertainment / electronic media software,media
+TTKHLTCARE,smallcap,1306.35,diversified - medium / small,miscellaneous
+TAINWALCHM,smallcap,183.6,trading,services
+NEXTMEDIA,smallcap,26.76,entertainment / electronic media software,media
+APTECHT,smallcap,604.27,computers - education,i.t
+BLIL,smallcap,1601.98,finance & investments,financials
+EVERESTIND,smallcap,600.77,cement products,building materials
+AYMSYNTEX,smallcap,1312.9,textiles - processing,textiles
+TVTODAY,smallcap,675.15,entertainment / electronic media software,media
+DWARKESH,smallcap,821.07,sugar,fmcg
+GRPLTD,smallcap,963.04,miscellaneous,fmcg
+XCHANGING,smallcap,744.62,computers - software - medium / small,i.t
+TVSSRICHAK,smallcap,3028.52,tyres,auto
+3IINFOLTD,smallcap,360.88,computers - software - medium / small,i.t
+NDL,smallcap,358.93,textiles - products,textiles
+BORANA,smallcap,860.51,textiles - processing,textiles
+INDIANCARD,smallcap,129.19,textiles - products,textiles
+NECLIFE,smallcap,233.31,pharmaceuticals - indian - bulk drugs & formln,healthcare
+VIVIMEDLAB,smallcap,53.48,pharmaceuticals - indian - bulk drugs & formln,healthcare
+THACKER,smallcap,156.11,diversified - medium / small,miscellaneous
+JINDRILL,smallcap,1758.86,oil drilling / allied services,energy
+AEROENTER,smallcap,1088.44,steel - medium / small,metals & mining
+ASMS,smallcap,229.96,computers - software - medium / small,i.t
+ROHLTD,smallcap,908.73,hotels,services
+JAGRAN,smallcap,1675.72,entertainment / electronic media software,media
+SADBHAV,smallcap,161.45,construction,realty
+VLSFINANCE,smallcap,718.51,finance & investments,financials
+NITCO,smallcap,2358.74,trading,building materials
+RSYSTEMS,smallcap,3226.98,computers - software - medium / small,i.t
+KAMDHENU,smallcap,666.37,steel - medium / small,metals & mining
+TEAMGTY,smallcap,224.87,finance & investments,financials
+ATLANTAA,smallcap,338.55,engineering - turnkey services,realty
+AVONMORE,smallcap,291.21,finance & investments,financials
+ICDSLTD,smallcap,56.81,diversified - medium / small,miscellaneous
+ARIHANTCAP,smallcap,723.55,finance & investments,financials
+GEECEE,smallcap,678.48,construction,realty
+GLOBALVECT,smallcap,233.8,transport - airlines,transportation
+SUTLEJTEX,smallcap,584.21,textiles - cotton/blended,textiles
+AUTOIND,smallcap,351.66,auto ancillaries,auto
+CTE,smallcap,64.68,computers - software - medium / small,i.t
+AGSTRA,smallcap,31.59,miscellaneous,miscellaneous
+MASTERTR,smallcap,999.87,finance & investments,financials
+ZSARACOM,smallcap,1043.49,finance & investments,financials
+RAJTV,smallcap,80.21,entertainment / electronic media software,media
+ICRA,smallcap,4973.76,miscellaneous,financials
+SAHYADRI,smallcap,318.76,cement products,building materials
+HILTON,smallcap,102.78,castings & forgings,industrials
+ANKITMETAL,smallcap,21.87,steel - medium / small,metals & mining
+KNAGRI,smallcap,467.48,solvent extraction,fmcg
+REFEX,smallcap,4348.53,trading,services
+ASIANTILES,smallcap,1807.91,ceramics - tiles / sanitaryware,building materials
+INDIQUBE,smallcap,3339.39,miscellaneous,co-working
+MAGNUM,smallcap,137.85,paper,building materials
+CCCL,smallcap,670.59,construction,realty
+STARTECK,smallcap,265.25,finance & investments,financials
+IL&FSENGG,smallcap,364.39,construction,realty
+BGRENERGY,smallcap,2448.44,engineering - turnkey services,realty
+DONEAR,smallcap,485.37,textiles - processing,textiles
+PPAP,smallcap,291.5,auto ancillaries,auto
+ONMOBILE,smallcap,542.98,telecommunications - service provider,telecom-service
+ORBTEXP,smallcap,473.86,textiles - processing,textiles
+BIRLAMONEY,smallcap,784.07,finance & investments,financials
+VENUSPIPES,smallcap,2939.2,steel - medium / small,metals & mining
+BAFNAPH,smallcap,343.99,pharmaceuticals - indian - formulations,healthcare
+SEJALLTD,smallcap,881.28,glass & glass products,building materials
+SSWL,smallcap,3294.34,auto ancillaries,auto
+LOTUSEYE,smallcap,225.37,healthcare,healthcare
+NORBTEAEXP,smallcap,128.78,tea,fmcg
+ALKALI,smallcap,99.65,chemicals,chemicals
+HILINFRA,smallcap,0,indices,n/a
+MOLDTKPAC,smallcap,2349.45,packaging,industrials
+ROML,smallcap,70.19,solvent extraction,fmcg
+KALYANIFRG,smallcap,220.1,castings & forgings,industrials
+EXPLEOSOL,smallcap,1403.84,computers - software - medium / small,i.t
+STEELCAS,smallcap,2767.82,castings & forgings,industrials
+REGAAL,smallcap,871.61,miscellaneous,miscellaneous
+TEXMOPIPES,smallcap,125.28,plastics products,plastic products
+MANINFRA,smallcap,4775.37,construction,realty
+IL&FSTRANS,smallcap,75.99,engineering - turnkey services,realty
+ISFT,smallcap,139.43,miscellaneous,i.t
+GEMAROMA,smallcap,784.92,chemicals,chemicals
+HIMATSEIDE,smallcap,972.87,textiles - products,textiles
+SURYALA,smallcap,197.43,textiles - spinning - synthetic / blended,textiles
+HMVL,smallcap,548.04,entertainment / electronic media software,media
+MEIL,smallcap,890.52,electric equipment,industrials
+VARDMNPOLY,smallcap,334.25,textiles - cotton/blended,textiles
+WELINV,smallcap,679.37,finance & investments,financials
+VGL,smallcap,344.73,textiles - cotton/blended,textiles
+AHCL,smallcap,72.45,chemicals,chemicals
+BEDMUTHA,smallcap,369.78,mining / minerals / metals,metals & mining
+A2ZINFRA,smallcap,253.26,engineering - turnkey services,realty
+AMANTA,smallcap,447.78,pharmaceuticals - indian - bulk drugs & formln,healthcare
+FMNL,smallcap,69.37,miscellaneous,miscellaneous
+BFINVEST,smallcap,1641.37,finance & investments,financials
+TEXRAIL,smallcap,4239.12,engineering,industrials
+DEVX,smallcap,332.52,miscellaneous,co-working
+DELPHIFX,smallcap,197.93,finance & investments,financials
+SHREYANIND,smallcap,199.81,paper,building materials
+NRAIL,smallcap,783.98,paper,building materials
+VMSTMT,smallcap,230.39,steel - medium / small,metals & mining
+VINDHYATEL,smallcap,2509.89,construction,realty
+ARSSBL,smallcap,3363.01,finance & investments,financials
+CHEMCON,smallcap,672.83,chemicals,chemicals
+SALZERELEC,smallcap,1137.09,electric equipment,industrials
+TIJARIA,smallcap,12.48,plastics products,plastic products
+GPTINFRA,smallcap,1468.99,construction,realty
+TERASOFT,smallcap,538.14,computers - software - medium / small,i.t
+DIGISPICE,smallcap,466.13,computers - software - medium / small,i.t
+HEXATRADEX,smallcap,890.16,finance & investments,financials
+GIPCL,smallcap,2697.03,power generation and supply,power & utilities
+MINDTECK,smallcap,687.4,computers - software - medium / small,i.t
+SAMPANN,smallcap,130.81,miscellaneous,fmcg
+PACEDIGITK,smallcap,4160.1,engineering - turnkey services,telecom
+RVHL,smallcap,222.92,construction,realty
+AWHCL,smallcap,1314.52,miscellaneous,miscellaneous
+DUCON,smallcap,110.47,engineering - turnkey services,realty
+GLOTTIS,smallcap,589.35,miscellaneous,transportation
+INDIGOPNTS,smallcap,4657.91,paints / varnishes,building materials
+STOVEKRAFT,smallcap,2062.26,domestic appliances,consumer discretionary
+TRACXN,smallcap,338.57,computers - software - medium / small,i.t
+ZUARI,smallcap,928.35,fertilizers,chemicals
+ROTO,smallcap,1055.67,pumps,industrials
+RAJRATAN,smallcap,2108.52,steel - medium / small,metals & mining
+SMCGLOBAL,smallcap,1261.84,finance & investments,financials
+PVP,smallcap,774.7,construction,realty
+DRCSYSTEMS,smallcap,213.96,computers - software - medium / small,i.t
+APCL,smallcap,358.87,cement - south india,building materials
+EASEMYTRIP,smallcap,2527.61,travel agencies,i.t
+CRAMC,smallcap,4987.83,finance & investments,financials
+SREEL,smallcap,464.56,trading,consumer discretionary
+MIDWESTLTD,smallcap,4551.56,miscellaneous,consumer discretionary
+SULA,smallcap,1336.88,breweries & distilleries,fmcg
+HAVISHA,smallcap,22.88,hotels,services
+ELIN,smallcap,552.02,electronics - components,consumer discretionary
+HERITGFOOD,smallcap,2996.85,food - processing - indian,fmcg
+JPOLYINVST,smallcap,1049.3,finance & investments,financials
+STUDDS,smallcap,1772.67,plastics products,plastic products
+MUNJALSHOW,smallcap,508.98,auto ancillaries,auto
+MUNJALAU,smallcap,868.7,auto ancillaries,auto
+SMALL250,smallcap,0,indices,indices
+AERONEU,smallcap,227.11,packaging,industrials
+TATVA,smallcap,2840.73,chemicals,chemicals
+TRANSWORLD,smallcap,361.53,shipping,transportation
+RACE,smallcap,197.3,trading,services
+GCSL,smallcap,1003.34,finance & investments,financials
+NPST,smallcap,2775.85,computers - software - medium / small,i.t
+WINDLAS,smallcap,1714.46,pharmaceuticals - indian - formulations,healthcare
+EPIGRAL,smallcap,4915.96,chemicals,chemicals
+KAMOPAINTS,smallcap,171.41,trading,metals & mining
+SIKKO,smallcap,177.78,pesticides / agrochemicals - indian,chemicals
+PARASPETRO,smallcap,66.18,textiles - manmade,textiles
+VIDYAWIRES,smallcap,2321.75,electric equipment,industrials
+WAKEFIT,smallcap,4002.5,textiles - jute - yarn / products,textiles
+ASHIKA,smallcap,0,indices,n/a
+NIFTYADD,smallcap,0,indices,n/a
+GUJAPOLLO,smallcap,504.92,engineering,industrials
+MMFL,smallcap,2136.7,castings & forgings,industrials
+RAJOOENG,smallcap,972.89,engineering,industrials
+CONTROLPR,smallcap,976.45,computers - hardware,i.t
+SHEMAROO,smallcap,302.96,entertainment / electronic media software,media
+NIFTYBETA,smallcap,0,indices,n/a
+PDSL,smallcap,4268.72,trading,textiles
+CEINSYS,smallcap,1991.38,computers - software - medium / small,i.t
+VENKEYS,smallcap,2041.4,miscellaneous,fmcg
+ELDEHSG,smallcap,755.13,construction,realty
+DCMSRIND,smallcap,320.48,sugar,fmcg
+AMBICAAGAR,smallcap,40.69,chemicals,chemicals
+MAPMYINDIA,smallcap,4521.07,computers - software - medium / small,i.t
+NRL,smallcap,452.89,trading,services
+FEL,smallcap,19.11,trading,consumer discretionary
+MCLOUD,smallcap,1519.2,computers - software - medium / small,i.t
+MAHEPC,smallcap,327.68,plastics products,plastic products
+MERCANTILE,smallcap,297.93,miscellaneous,miscellaneous
+SIMPLEXINF,smallcap,1882.07,construction,realty
+ABSL10BANK,smallcap,0,indices,indices
+POLYPLEX,smallcap,2937.71,packaging,industrials
+CARYSIL,smallcap,3167.08,domestic appliances,consumer discretionary
+IMAGICAA,smallcap,2531.1,recreation / amusement parks,media
+RSL,smallcap,1051.11,steel - medium / small,metals & mining
+GSPCROP,smallcap,1984.72,pesticides / agrochemicals - indian,chemicals
+ELGIRUBCO,smallcap,236.89,miscellaneous,fmcg
+HSBCGOLD,smallcap,0,indices,indices
+ASPINWALL,smallcap,190.93,diversified - medium / small,miscellaneous
+BCLIND,smallcap,955.15,breweries & distilleries,fmcg
+BODALCHEM,smallcap,911.46,dyes and pigments,chemicals
+PKTEA,smallcap,241.51,tea,fmcg
+BIOFILCHEM,smallcap,55.93,trading,healthcare
+NBIFIN,smallcap,552.14,finance & investments,financials
+AAREYDRUGS,smallcap,214.36,pharmaceuticals - indian - bulk drugs,healthcare
+UNITEDTEA,smallcap,264.27,tea,fmcg
+VRLLOG,smallcap,4226.65,miscellaneous,transportation
+VARDHACRLC,smallcap,353.84,textiles - manmade,textiles
+MEP,smallcap,16.51,construction,realty
+VLEGOV,smallcap,147.93,computers - software - medium / small,i.t
+GANGESSECU,smallcap,120.64,finance & investments,financials
+VPRPL,smallcap,449.09,construction,realty
+PALASHSECU,smallcap,96.1,finance & investments,financials
+APEX,smallcap,1378.75,aquaculture,fmcg
+RATNAVEER,smallcap,1225.11,steel - medium / small,metals & mining
+RUDRA,smallcap,182.73,steel - medium / small,metals & mining
+SHYAMCENT,smallcap,106.3,mining / minerals / metals,metals & mining
+AKASH,smallcap,46.14,construction,realty
+NGLFINE,smallcap,1639.96,pharmaceuticals - indian - bulk drugs,healthcare
+BALPHARMA,smallcap,139.13,pharmaceuticals - indian - bulk drugs & formln,healthcare
+ORTINGLOBE,smallcap,12.8,pharmaceuticals - indian - bulk drugs & formln,healthcare
+GLOBE,smallcap,104.05,textiles - products,textiles
+MVGJL,smallcap,757.23,diamond cutting / jewellery,consumer discretionary
+UDS,smallcap,1203.48,miscellaneous,miscellaneous
+VETO,smallcap,234.62,electric equipment,industrials
+WEALTH,smallcap,997.63,finance & investments,financials
+SAGARDEEP,smallcap,43.74,mining / minerals / metals,metals & mining
+HALEOSLABS,smallcap,436.53,pharmaceuticals - indian - bulk drugs & formln,healthcare
+JAIPURKURT,smallcap,60.27,textiles - products,textiles
+GICL,smallcap,450.39,miscellaneous,transportation
+AGROPHOS,smallcap,63.17,fertilizers,chemicals
+ZOTA,smallcap,3959.54,pharmaceuticals - indian - bulk drugs & formln,healthcare
+IRMENERGY,smallcap,1102.04,miscellaneous,energy
+ENEXT50,smallcap,0,indices,indices
+SALASAR,smallcap,1197.35,steel - medium / small,metals & mining
+MANOMAY,smallcap,318.63,textiles - products,textiles
+SHK,smallcap,1775.8,chemicals,chemicals
+QUINT,smallcap,188.16,computers - software - medium / small,i.t
+UNIVASTU,smallcap,279.55,construction,realty
+LEXUS,smallcap,37.53,ceramics - tiles / sanitaryware,building materials
+VAISHALI,smallcap,91.06,pharmaceuticals - indian - bulk drugs & formln,healthcare
+PASHUPATI,smallcap,147.53,textiles - cotton/blended,textiles
+CAPACITE,smallcap,1890.22,construction,realty
+KAMATHOTEL,smallcap,531.97,hotels,services
+RKEC,smallcap,81.13,construction,realty
+CHEVIOT,smallcap,655.46,textiles - jute - yarn / products,textiles
+IRIS,smallcap,539.71,computers - software - medium / small,i.t
+CONFIPET,smallcap,2319.37,miscellaneous,miscellaneous
+BANARBEADS,smallcap,71.27,glass & glass products,building materials
+KPEL,smallcap,2416.89,engineering - turnkey services,realty
+63MOONS,smallcap,2875.99,computers - software - medium / small,i.t
+5PAISA,smallcap,1522.5,finance & investments,financials
+SIMBHALS,smallcap,31.29,sugar,fmcg
+21STCENMGM,smallcap,35.5,finance & investments,financials
+IFGLEXPOR,smallcap,1401.64,refractories / intermediates,building materials
+RBZJEWEL,smallcap,501.76,diamond cutting / jewellery,consumer discretionary
+PDMJEPAPER,smallcap,801.47,paper,building materials
+SPCENET,smallcap,202.11,trading,services
+VENUSREM,smallcap,1886.48,pharmaceuticals - indian - formulations,healthcare
+ICEMAKE,smallcap,1215.99,engineering,industrials
+SHBAJRG,smallcap,163.06,steel - medium / small,metals & mining
+ZODIAC,smallcap,435.49,engineering - turnkey services,realty
+SHALBY,smallcap,1910.04,healthcare,healthcare
+MEDIASSIST,smallcap,2737.79,miscellaneous,miscellaneous
+MOKSH,smallcap,103.25,diamond cutting / jewellery,consumer discretionary
+RSDFIN,smallcap,99.4,finance & investments,financials
+PARAGMILK,smallcap,3016.14,food - processing - indian,fmcg
+EPACK,smallcap,2104.81,air-conditioners,consumer discretionary
+SEIL,smallcap,2984.62,miscellaneous,services
+SOLEX,smallcap,1310.45,electric equipment,industrials
+LAL,smallcap,132.83,textiles - processing,textiles
+IWP,smallcap,220.32,miscellaneous,fmcg
+PARKHOTELS,smallcap,2483.68,hotels,services
+THEMISMED,smallcap,995.79,pharmaceuticals - indian - bulk drugs & formln,healthcare
+HGINFRA,smallcap,3751.25,construction,realty
+RPTECH,smallcap,3652.16,trading,services
+BIGBLOC,smallcap,709.72,cement products,building materials
+UNIINFO,smallcap,12.77,telecommunications - service provider,telecom-service
+SABEVENTS,smallcap,9.16,entertainment / electronic media software,media
+KOTHARIPRO,smallcap,435.9,trading,services
+YASHO,smallcap,2613.98,chemicals,chemicals
+AVG,smallcap,232.11,miscellaneous,transportation
+ASIANENE,smallcap,1685.83,oil drilling / allied services,energy
+JUNIPER,smallcap,4304.53,hotels,services
+MITTAL,smallcap,43.95,trading,textiles
+ORIENTBELL,smallcap,492.07,ceramics - tiles / sanitaryware,building materials
+HARDWYN,smallcap,1242.58,trading,services
+DHRUV,smallcap,53.83,miscellaneous,miscellaneous
+RKSWAMY,smallcap,508.1,miscellaneous,miscellaneous
+JGCHEM,smallcap,1689.9,chemicals,chemicals
+INDOSTAR,smallcap,3666.9,finance & investments,financials
+HEADSUP,smallcap,15.72,trading,consumer discretionary
+MEGASTAR,smallcap,348.86,food - processing - indian,fmcg
+SVLL,smallcap,753.53,miscellaneous,transportation
+ASIANHOTNR,smallcap,1310.76,hotels,services
+NGIL,smallcap,73.22,food - processing - indian,fmcg
+NIFTY1,smallcap,0,indices,n/a
+VEEDOL,smallcap,2473.69,chemicals,chemicals
+ACCURACY,smallcap,85.67,miscellaneous,transportation
+HISARMETAL,smallcap,77.3,steel - medium / small,metals & mining
+GINNIFILA,smallcap,378.57,textiles - cotton/blended,textiles
+GOODLUCK,smallcap,4387.15,steel - medium / small,metals & mining
+SUPREME,smallcap,182.41,construction,realty
+DISAQ,smallcap,1685.86,engineering,industrials
+CENTEXT,smallcap,154.72,aluminium and aluminium products,metals & mining
+KHAITANLTD,smallcap,62.13,trading,services
+WHEELS,smallcap,3708.69,auto ancillaries,auto
+ORISSAMINE,smallcap,2439.96,mining / minerals / metals,metals & mining
+STERTOOLS,smallcap,842.1,fasteners,industrials
+LAGNAM,smallcap,141.88,textiles - products,textiles
+AKG,smallcap,35.78,trading,services
+DHAMPURSUG,smallcap,892.9,sugar,fmcg
+JNKINDIA,smallcap,2022.17,engineering - turnkey services,realty
+KSHITIJPOL,smallcap,80.05,printing & stationery,miscellaneous
+COCKERILL,smallcap,3749.53,engineering,industrials
+CIFL,smallcap,949.09,finance & investments,financials
+GANESHBE,smallcap,675.26,miscellaneous,miscellaneous
+SILGO,smallcap,264.91,diamond cutting / jewellery,consumer discretionary
+BCPL,smallcap,129.11,engineering - turnkey services,realty
+GFLLIMITED,smallcap,510.25,finance & investments,financials
+HINDOILEXP,smallcap,2271.81,oil drilling / allied services,energy
+VIKASECO,smallcap,226.39,diversified - medium / small,miscellaneous
+BOROSCI,smallcap,1347.28,glass & glass products,building materials
+SHRIKRISH,smallcap,113.54,construction,realty
+CONSOFINVT,smallcap,778.97,finance & investments,financials
+MEDICAMEQ,smallcap,369.86,pharmaceuticals - indian - formulations,healthcare
+RETAIL,smallcap,16.67,trading,consumer discretionary
+DEEDEV,smallcap,4531.21,steel - medium / small,metals & mining
+MAFATIND,smallcap,943.76,diversified - large,miscellaneous
+MANALIPETC,smallcap,1024.26,petrochemicals,energy
+CENTENKA,smallcap,1104,textiles - manmade,textiles
+XTGLOBAL,smallcap,422.22,computers - software - medium / small,i.t
+PRIMESECU,smallcap,944.63,finance & investments,financials
+RAMANEWS,smallcap,435.04,miscellaneous,miscellaneous
+WELSPLSOL,smallcap,2797.55,steel - medium / small,metals & mining
+RRIL,smallcap,243.76,construction,realty
+THOMASCOOK,smallcap,4326.09,travel agencies,miscellaneous
+VHL,smallcap,1075.64,finance & investments,financials
+MUKANDLTD,smallcap,2034.21,steel - medium / small,metals & mining
+ARIHANT,smallcap,809.86,construction,realty
+AXITA,smallcap,298.73,textiles - products,textiles
+XELPMOC,smallcap,139.91,computers - software - medium / small,i.t
+ANUP,smallcap,3746.49,engineering,industrials
+NOCIL,smallcap,2737.04,chemicals,chemicals
+ECOSMOBLTY,smallcap,769.8,miscellaneous,miscellaneous
+AARTECH,smallcap,131.69,electric equipment,industrials
+GALAPREC,smallcap,1153.77,fasteners,industrials
+BLUECOAST,smallcap,61.01,hotels,services
+OSIAHYPER,smallcap,62.11,trading,consumer discretionary
+RAJESHEXPO,smallcap,3153.38,diamond cutting / jewellery,consumer discretionary
+INDPRUD,smallcap,1089.3,finance & investments,financials
+TOLINS,smallcap,399.24,tyres,auto
+PAR,smallcap,110.09,pharmaceuticals - indian - bulk drugs,healthcare
+COASTCORP,smallcap,322.7,aquaculture,fmcg
+DGCONTENT,smallcap,157.34,entertainment / electronic media software,media
+MANGLMCEM,smallcap,2314.31,cement - north india,building materials
+NORTHARC,smallcap,4643.58,finance & investments,financials
+SHREDIGCEM,smallcap,1079.45,cement - north india,building materials
+ORIENTPPR,smallcap,379.6,paper,building materials
+MANBA,smallcap,567.66,finance & investments,financials
+LINCOLN,smallcap,1181.75,pharmaceuticals - indian - formulations,healthcare
+DIFFNKG,smallcap,1205.69,electrodes - welding equipment,industrials
+RUBYMILLS,smallcap,933.14,textiles - composite,textiles
+SPANDANA,smallcap,2262.97,finance & investments,financials
+GARUDA,smallcap,1594.92,engineering - turnkey services,realty
+BANSWRAS,smallcap,425.09,textiles - spinning - synthetic / blended,textiles
+BHAGCHEM,smallcap,3113.35,pesticides / agrochemicals - indian,chemicals
+VISHWARAJ,smallcap,127.86,sugar,fmcg
+MENNPIS,smallcap,275.86,auto ancillaries,auto
+BBL,smallcap,3105.87,electric equipment,industrials
+HIRECT,smallcap,3813.09,electronics - components,consumer discretionary
+OCCLLTD,smallcap,565.29,chemicals,chemicals
+NELCO,smallcap,1596.83,telecommunications - service provider,telecom
+ATULAUTO,smallcap,1321.79,automobiles - scooters and 3 - wheelers,auto
+UNIVCABLES,smallcap,4299.45,cables - power,industrials
+HINDWAREAP,smallcap,1907.64,trading,consumer discretionary
+RELTD,smallcap,2220.48,electric equipment,industrials
+ARTEMISMED,smallcap,4288.52,healthcare,healthcare
+INVPRECQ,smallcap,608.8,castings & forgings,industrials
+KHANDSE,smallcap,28.62,finance & investments,financials
+EIEL,smallcap,3291.89,engineering - turnkey services,realty
+ZFSTEERING,smallcap,588.81,auto ancillaries,auto
+LGHL,smallcap,1173.92,diamond cutting / jewellery,consumer discretionary
+MANUGRAPH,smallcap,43.74,engineering,industrials
+ANTGRAPHIC,smallcap,12.56,diversified - medium / small,miscellaneous
+FILATFASH,smallcap,191.68,textiles - products,textiles
+BONLON,smallcap,71.76,trading,services
+3BBLACKBIO,smallcap,955.68,healthcare,healthcare
+BHARATGEAR,smallcap,172.51,auto ancillaries,auto
+ACL,smallcap,500.86,cement - south india,building materials
+WPIL,smallcap,4268.21,engineering - turnkey services,realty
+INDRAMEDCO,smallcap,3444.61,healthcare,healthcare
+DAMCAPITAL,smallcap,1040,finance & investments,financials
+GENESYS,smallcap,1118.52,computers - software - medium / small,i.t
+CEWATER,smallcap,532.72,engineering,industrials
+DHANBANK,smallcap,1330.92,banks - private sector,bank
+ITDC,smallcap,4649.56,hotels,services
+SENORES,smallcap,4759.64,pharmaceuticals - indian - formulations,healthcare
+INDOFARM,smallcap,609.44,diversified - medium / small,miscellaneous
+STYRENIX,smallcap,3979.8,petrochemicals,energy
+MODISONLTD,smallcap,1017.96,electric equipment,industrials
+NSIL,smallcap,2881.9,finance & investments,financials
+SETL,smallcap,2787.1,engineering,industrials
+ORCHASP,smallcap,62.31,computers - software - medium / small,i.t
+QUADFUTURE,smallcap,1280,cables - power,industrials
+GOCLCORP,smallcap,1986.87,diversified - medium / small,miscellaneous
+URAVIDEF,smallcap,0,indices,n/a
+BLBLIMITED,smallcap,91.51,finance & investments,financials
+PUNJABCHEM,smallcap,1171.77,pesticides / agrochemicals - indian,chemicals
+MODTHREAD,smallcap,168.17,textiles - spinning - synthetic / blended,textiles
+ULTRAMAR,smallcap,1159.24,dyes and pigments,chemicals
+DENTA,smallcap,654.95,construction,realty
+PRIMO,smallcap,551.33,chlor alkali / soda ash,chemicals
+HBESD,smallcap,166.18,hotels,services
+IZMO,smallcap,1238.6,computers - software - medium / small,i.t
+MUKTAARTS,smallcap,144.68,entertainment / electronic media software,media
+DSSL,smallcap,1914.26,computers - software - medium / small,i.t
+JUBLCPL,smallcap,2691.99,chemicals,chemicals
+WALCHANNAG,smallcap,1619.73,engineering,industrials
+RAMCOIND,smallcap,2530.13,cement products,building materials
+GMBREW,smallcap,2088.67,breweries & distilleries,fmcg
+HEXT,smallcap,0,indices,n/a
+TAJGVK,smallcap,2134.99,hotels,services
+TECILCHEM,smallcap,22.51,chemicals,chemicals
+MOSCHIP,smallcap,4231.72,computers - hardware,i.t
+CEREBRAINT,smallcap,39.51,computers - hardware,i.t
+KHAICHEM,smallcap,519.28,fertilizers,chemicals
+SMARTLINK,smallcap,153.24,computers - hardware,i.t
+VIPIND,smallcap,4519.38,moulded luggage,plastic products
+FIBERWEB,smallcap,80.7,textiles - products,textiles
+PRABHA,smallcap,2313.36,oil drilling / allied services,energy
+BAJAJST,smallcap,803.5,engineering,industrials
+PONNIERODE,smallcap,264.1,sugar,fmcg
+BAGFILMS,smallcap,103.86,entertainment / electronic media software,media
+TVSELECT,smallcap,905.66,computers - hardware,i.t
+PALREDTEC,smallcap,58.35,trading,services
+PRUDMOULI,smallcap,51.38,trading,fmcg
+NDTV,smallcap,927.87,entertainment / electronic media software,media
+LANCORHOL,smallcap,177.99,construction,realty
+INFOMEDIA,smallcap,26.95,printing & stationery,miscellaneous
+VIPCLOTHNG,smallcap,229.83,textiles - products,textiles
+MORARJEE,smallcap,25.51,textiles - products,textiles
+POCL,smallcap,4080.58,mining / minerals / metals,metals & mining
+SHOPERSTOP,smallcap,4041.86,textiles - products,consumer discretionary
+JAYSREETEA,smallcap,237.4,tea,fmcg
+SPLIL,smallcap,88.02,trading,textiles
+HTMEDIA,smallcap,515.59,entertainment / electronic media software,media
+PROSTARM,smallcap,811.76,electric equipment,industrials
+SCODATUBES,smallcap,736.16,steel - medium / small,metals & mining
+VSTIND,smallcap,4331.46,cigarettes,fmcg
+KMSUGAR,smallcap,246.01,sugar,fmcg
+BLUSPRING,smallcap,1231.83,diversified - large,miscellaneous
+KERNEX,smallcap,3032.33,electronics - components,consumer discretionary
+SHIVATEX,smallcap,190.71,textiles - cotton/blended,textiles
+DYNPRO,smallcap,319.97,dyes and pigments,chemicals
+RCOM,smallcap,248.9,telecommunications - service provider,telecom-service
+GILLANDERS,smallcap,195.45,tea,fmcg
+SAMBHV,smallcap,3081.38,steel - medium / small,metals & mining
+UTTAMSUGAR,smallcap,883.51,sugar,fmcg
+INDBANK,smallcap,144.94,finance & investments,financials
+TICL,smallcap,351.7,construction,realty
+KOTIC,smallcap,1707.07,trading,services
+ALLCARGO,smallcap,1331.53,miscellaneous,transportation
+MONARCH,smallcap,2698.29,finance & investments,financials
+HGM,smallcap,77.65,computers - software - medium / small,i.t
+FEDDERSHOL,smallcap,717.85,finance & investments,financials
+JHS,smallcap,75.78,personal care - indian,fmcg
+GTLINFRA,smallcap,1831.7,transmisson line towers / equipment,telecom
+GICHSGFIN,smallcap,809.49,finance - housing,financials
+NIMBSPROJ,smallcap,406.2,construction,realty
+SITINET,smallcap,30.52,entertainment / electronic media software,media
+HUBTOWN,smallcap,2940.35,construction,realty
+VIPULLTD,smallcap,125.45,construction,realty
+ABCOTS,smallcap,481.07,textiles - cotton/blended,textiles
+SAHLIBHFI,smallcap,255.48,finance & investments,financials
+TFL,smallcap,67.79,finance & investments,financials
+ORIENTALTL,smallcap,46.46,trading,services
+AMDIND,smallcap,93.8,packaging,industrials
+TCC,smallcap,1780.16,construction,realty
+GROWWNIFTY,smallcap,0,indices,indices
+MICEL,smallcap,1050.09,electronics - components,consumer discretionary
+SIGIND,smallcap,144.54,trading,services
+NELCAST,smallcap,1216.89,castings & forgings,industrials
+GATEWAY,smallcap,2779.52,miscellaneous,transportation
+JAICORPLTD,smallcap,2018.13,plastics products,plastic products
+SELMC,smallcap,96.79,textiles - cotton/blended,textiles
+TAKE,smallcap,452.97,miscellaneous,healthcare
+INDOWIND,smallcap,156.17,power generation and supply,power & utilities
+KRISHNADEF,smallcap,1715.55,steel - medium / small,aerospace & defence
+KSCL,smallcap,4407.3,miscellaneous,fmcg
+VERANDA,smallcap,2253.16,miscellaneous,services
+BRIGHOTEL,smallcap,2327.68,hotels,services
+SHANTIGOLD,smallcap,1662.68,diamond cutting / jewellery,consumer discretionary
+KOLTEPATIL,smallcap,3253.67,construction,realty
+MANAKSIA,smallcap,382.72,trading,services
+KOHINOOR,smallcap,92.94,food - processing - indian,fmcg
+KUANTUM,smallcap,650.81,paper,building materials
+CORDSCABLE,smallcap,288.34,cables - power,industrials
+BANG,smallcap,52.87,trading,textiles
+NAHARCAP,smallcap,434.14,finance & investments,financials
+KIRIINDUS,smallcap,2557.19,dyes and pigments,chemicals
+MBEL,smallcap,1687.3,construction,realty
+SBCL,smallcap,4231.32,mining / minerals / metals,metals & mining
+GOKUL,smallcap,408.35,trading,fmcg
+ORICONENT,smallcap,967.41,packaging,industrials
+EMUDHRA,smallcap,3864.82,computers - software - medium / small,i.t
+JYOTISTRUC,smallcap,1480.14,transmisson line towers / equipment,industrials
+MANINDS,smallcap,3759.1,steel - medium / small,metals & mining
+AJMERA,smallcap,2271.81,construction,realty
+SICAGEN,smallcap,225.72,trading,services
+20MICRONS,smallcap,648,mining / minerals / metals,metals & mining
+MHRIL,smallcap,4334.84,hotels,services
+SHAHALLOYS,smallcap,136.29,steel - medium / small,metals & mining
+GLOBUSSPR,smallcap,2497.08,breweries & distilleries,fmcg
+DEN,smallcap,1266.07,entertainment / electronic media software,media
+MBLINFRA,smallcap,442.59,construction,realty
+HATHWAY,smallcap,1890.47,telecommunications - service provider,telecom-service
+AROGRANITE,smallcap,38.25,miscellaneous,consumer discretionary
+KCPSUGIND,smallcap,271.22,sugar,fmcg
+TARAPUR,smallcap,36.7,electric equipment,industrials
+EMAMIPAP,smallcap,531.61,paper,building materials
+TTL,smallcap,188.83,textiles - products,textiles
+AHLWEST,smallcap,675.6,hotels,services
+GANECOS,smallcap,2478.63,textiles - manmade,textiles
+PRAKASHSTL,smallcap,76.13,steel - medium / small,metals & mining
+HEALTHX,smallcap,958.93,finance & investments,financials
+SANGAMIND,smallcap,2649,textiles - spinning - synthetic / blended,textiles
+GREENPOWER,smallcap,1348.99,power generation and supply,power & utilities
+PIONEEREMB,smallcap,75.84,textiles - products,textiles
+VIKRAN,smallcap,1839.68,transmisson line towers / equipment,industrials
+PREMIERPOL,smallcap,584.99,plastics products,plastic products
+RPPINFRA,smallcap,303.76,construction,realty
+RKDL,smallcap,48.36,breweries & distilleries,fmcg
+SHEKHAWATI,smallcap,49.88,textiles - processing,textiles
+SUMMITSEC,smallcap,1678.87,finance & investments,financials
+FCL,smallcap,4932.83,chemicals,chemicals
+PFS,smallcap,1974.38,finance & investments,financials
+KEEPLEARN,smallcap,32.86,miscellaneous,services
+STARPAPER,smallcap,216.47,paper,building materials
+VISHNU,smallcap,4218.65,chemicals,chemicals
+3PLAND,smallcap,57.33,finance & investments,financials
+BROOKS,smallcap,197.51,pharmaceuticals - indian - bulk drugs & formln,healthcare
+RHETAN,smallcap,2417.72,steel - medium / small,metals & mining
+ADOR,smallcap,1929.62,electrodes - welding equipment,industrials
+GANESHCP,smallcap,876.03,food - processing - indian,fmcg
+SETUINFRA,smallcap,6.54,construction,realty
+FLEXITUFF,smallcap,22.02,packaging,industrials
+JARO,smallcap,1277.36,miscellaneous,services
+ESSARSHPNG,smallcap,485.36,shipping,transportation
+SIGMA,smallcap,419.22,computers - software - medium / small,i.t
+EPACKPEB,smallcap,1887.95,steel - medium / small,metals & mining
+HEMIPROP,smallcap,3999.69,construction,realty
+SUBROS,smallcap,4705.78,auto ancillaries,auto
+HARSHA,smallcap,3594.42,engineering,industrials
+TBZ,smallcap,1193.41,diamond cutting / jewellery,consumer discretionary
+LYPSAGEMS,smallcap,14.77,diamond cutting / jewellery,consumer discretionary
+TRUALT,smallcap,4343.8,miscellaneous,miscellaneous
+IGARASHI,smallcap,1192.12,electric equipment,industrials
+FAIRCHEMOR,smallcap,756.51,chemicals,chemicals
+SRGHFL,smallcap,453.16,finance - housing,financials
+EMIL,smallcap,4368.44,trading,consumer discretionary
+MARSONS,smallcap,2437.11,electric equipment,industrials
+ADVANCE,smallcap,659.76,pesticides / agrochemicals - indian,chemicals
+DCXINDIA,smallcap,2200.88,electronics - components,aerospace & defence
+ONWARDTEC,smallcap,612.65,computers - software - medium / small,i.t
+HERANBA,smallcap,713.88,pesticides / agrochemicals - indian,chemicals
+NIBE,smallcap,2302.45,engineering,aerospace & defence
+KMEW,smallcap,4352.27,miscellaneous,transportation
+NIBL,smallcap,73.13,bearings,industrials
+RUSTOMJEE,smallcap,4983.84,construction,realty
+WILLAMAGOR,smallcap,29.01,finance & investments,financials
+AFSL,smallcap,1019.36,finance & investments,financials
+VINEETLAB,smallcap,66.84,pharmaceuticals - indian - bulk drugs & formln,healthcare
+KELLTONTEC,smallcap,887.77,computers - software - medium / small,i.t
+RADIANTCMS,smallcap,409.76,miscellaneous,miscellaneous
+RICOAUTO,smallcap,1548.47,auto ancillaries,auto
+ADVENTHTL,smallcap,757.79,hotels,services
+NATHBIOGEN,smallcap,332.51,miscellaneous,fmcg
+RACLGEAR,smallcap,1479.52,auto ancillaries,auto
+SICALLOG,smallcap,515.73,miscellaneous,transportation
+VIJIFIN,smallcap,54.58,finance & investments,financials
+KSR,smallcap,62.32,trading,services
+CLCIND,smallcap,34.53,textiles - cotton/blended,textiles
+PRAVEG,smallcap,631.56,hotels,services
+RNBDENIMS,smallcap,294.75,textiles - cotton/blended,textiles
+EXXARO,smallcap,293.95,ceramics - tiles / sanitaryware,building materials
+WONDERLA,smallcap,3008.46,recreation / amusement parks,media
+MOL,smallcap,1203.16,pesticides / agrochemicals - indian,chemicals
+SUPERSPIN,smallcap,28.11,miscellaneous,miscellaneous
+SURYALAXMI,smallcap,108.04,textiles - cotton/blended,textiles
+DAMODARIND,smallcap,71.74,textiles - spinning - synthetic / blended,textiles
+CNL,smallcap,0,indices,n/a
+MARKOLINES,smallcap,363.23,construction,realty
+SHANTIGEAR,smallcap,3377.42,engineering,industrials
+HITECHGEAR,smallcap,1083.66,auto ancillaries,auto
+BIRLAPREC,smallcap,266.3,engineering,industrials
+GULFOILLUB,smallcap,4568.52,chemicals,chemicals
+MAYURUNIQ,smallcap,3238.31,leather / leather products,consumer discretionary
+DOLPHIN,smallcap,1609.18,oil drilling / allied services,energy
+DIVGIITTS,smallcap,2414.37,auto ancillaries,auto
+FINOPB,smallcap,1088.33,banks - private sector,bank
+SINCLAIR,smallcap,384.55,hotels,services
+GSLSU,smallcap,230.94,miscellaneous,consumer discretionary
+KOKUYOCMLN,smallcap,838.34,printing & stationery,miscellaneous
+BHARATSE,smallcap,1158.85,auto ancillaries,auto
+BUILDPRO,smallcap,2779.7,trading,services
+BALMLAWRIE,smallcap,3097.73,diversified - large,miscellaneous
+RHL,smallcap,316.71,hotels,services
+MAHAPEXLTD,smallcap,136.02,finance & investments,financials
+NFL,smallcap,3693.56,fertilizers,chemicals
+AYE,smallcap,4046.77,finance & investments,financials
+EIMCOELECO,smallcap,878.76,engineering,industrials
+DSFCL,smallcap,212.87,chemicals,chemicals
+IKIO,smallcap,1192.9,electric equipment,consumer discretionary
+DVL,smallcap,833.34,trading,services
+VHLTD,smallcap,946.04,hotels,services
+MENONBE,smallcap,797.34,auto ancillaries,auto
+HMAAGRO,smallcap,1193.33,food - processing - indian,fmcg
+GRANDOAK,smallcap,1308.62,finance & investments,financials
+SRTL,smallcap,167.66,textiles - cotton/blended,textiles
+GROWWHOSPI,smallcap,0,indices,indices
+ORTEL,smallcap,5.28,entertainment / electronic media software,media
+KABRAEXTRU,smallcap,806.05,engineering,industrials
+IOLCP,smallcap,3857.54,pharmaceuticals - indian - bulk drugs & formln,healthcare
+MANAKALUCO,smallcap,232.12,aluminium and aluminium products,metals & mining
+JOCIL,smallcap,132.33,chemicals,chemicals
+KOPRAN,smallcap,946.01,pharmaceuticals - indian - bulk drugs & formln,healthcare
+GROBTEA,smallcap,105.05,tea,fmcg
+SEYAIND,smallcap,39.83,chemicals,chemicals
+INDOBORAX,smallcap,1109.99,chemicals,chemicals
+LFIC,smallcap,42.77,finance & investments,financials
+DPSCLTD,smallcap,802.4,power generation and supply,power & utilities
+APOLSINHOT,smallcap,331.19,hotels,services
+NIITMTS,smallcap,3014.59,computers - education,i.t
+TREL,smallcap,643.72,miscellaneous,transportation
+KILITCH,smallcap,624.41,pharmaceuticals - indian - formulations,healthcare
+SHIVALIK,smallcap,397.7,pesticides / agrochemicals - indian,chemicals
+PODDARMENT,smallcap,264.51,dyes and pigments,chemicals
+PYRAMID,smallcap,605.66,packaging,industrials
+GTPL,smallcap,724.04,entertainment / electronic media software,media
+PSPPROJECT,smallcap,3340.42,construction,realty
+SOTL,smallcap,3001.23,petrochemicals,energy
+BRNL,smallcap,164.29,construction,realty
+WIPL,smallcap,129.06,miscellaneous,building materials
+STEELCITY,smallcap,119.09,finance & investments,financials
+EMSLIMITED,smallcap,1646.77,engineering - turnkey services,realty
+LAXMICOT,smallcap,23.49,textiles - cotton/blended,textiles
+ZAGGLE,smallcap,2692.26,computers - software - medium / small,i.t
+AURUM,smallcap,1380.7,computers - software - medium / small,i.t
+THEJO,smallcap,1686.35,engineering,industrials
+ARVSMART,smallcap,2726.79,construction,realty
+MATRIMONY,smallcap,857.74,miscellaneous,miscellaneous
+HECPROJECT,smallcap,136.67,engineering - turnkey services,realty
+RAMASTEEL,smallcap,872.01,steel - medium / small,metals & mining
+YATRA,smallcap,1525.38,travel agencies,i.t
+SAKAR,smallcap,1856.98,pharmaceuticals - indian - bulk drugs & formln,healthcare
+GVPTECH,smallcap,119.62,trading,i.t
+DCAL,smallcap,3121.55,pharmaceuticals - indian - bulk drugs & formln,healthcare
+VALIANTLAB,smallcap,416.9,pharmaceuticals - indian - bulk drugs & formln,healthcare
+PANSARI,smallcap,479.44,construction,realty
+NITIRAJ,smallcap,199.4,electronics - components,consumer discretionary
+KISSHT,smallcap,4642.55,finance & investments,i.t
+LIBAS,smallcap,33.77,food - processing - indian,fmcg
+BELLACASA,smallcap,326.61,textiles - products,consumer discretionary
+MAHESHWARI,smallcap,176.61,trading,services
+PATINTLOG,smallcap,94.78,miscellaneous,transportation
+GENCON,smallcap,227.38,construction,realty
+GLOBAL,smallcap,523.78,miscellaneous,services
+SBIVALETF,smallcap,0,indices,indices
+COFFEEDAY,smallcap,861.06,hotels,consumer discretionary
+PVTBKGROWW,smallcap,0,indices,indices
+PANACHE,smallcap,580.83,computers - hardware,i.t
+ESSEN-RE3,smallcap,0,indices,n/a
+GEEKAYWIRE,smallcap,242.9,steel - medium / small,metals & mining
+CCHHL,smallcap,211.52,hotels,services
+ACEINTEG,smallcap,21.06,diversified - medium / small,miscellaneous
+WIMPLAST,smallcap,388.55,plastics products,plastic products
+ELITECON,smallcap,4942.56,miscellaneous,fmcg
+FLAIR,smallcap,3032.75,printing & stationery,miscellaneous
+MIRZAINT,smallcap,423.45,leather / leather products,consumer discretionary
+ARENTERP,smallcap,11.86,trading,metals & mining
+BALAXI,smallcap,140.39,pharmaceuticals - indian - bulk drugs & formln,healthcare
+AARVI,smallcap,194.97,miscellaneous,miscellaneous
+SHAREINDIA,smallcap,3027.45,finance & investments,financials
+JASH,smallcap,2695.53,engineering,industrials
+SEAMECLTD,smallcap,4178.09,miscellaneous,miscellaneous
+QUICKHEAL,smallcap,1041.02,computers - software - medium / small,i.t
+RELIABLE,smallcap,142.15,computers - software - medium / small,i.t
+BI,smallcap,155.73,packaging,industrials
+DPABHUSHAN,smallcap,2118.2,diamond cutting / jewellery,consumer discretionary
+SURAJEST,smallcap,938.7,construction,realty
+INNOVACAP,smallcap,4935.08,pharmaceuticals - indian - bulk drugs & formln,healthcare
+LAOPALA,smallcap,1929.85,glass & glass products,building materials
+VERTOZ,smallcap,385.5,computers - software - medium / small,i.t
+DYCL,smallcap,1539.53,cables - power,industrials
+RPEL,smallcap,4633.44,refractories / intermediates,building materials
+URJA,smallcap,595.65,automobiles - motorcycles / mopeds,auto
+NINSYS,smallcap,1339.98,computers - software - medium / small,i.t
+ASTRON,smallcap,18.37,paper,building materials
+BCONCEPTS,smallcap,249.51,trading,consumer discretionary
+PILANIINVS,smallcap,4829.6,finance & investments,financials
+SANGHVIMOV,smallcap,3094.66,miscellaneous,miscellaneous
+ASHOKAMET,smallcap,39.02,trading,metals & mining
+MEDICO,smallcap,393.93,pharmaceuticals - indian - bulk drugs & formln,healthcare
+NILE,smallcap,530.56,mining / minerals / metals,metals & mining
+PRAXIS,smallcap,122.45,trading,consumer discretionary
+TAALTECH,smallcap,1124.35,transport - airlines,transportation
+BLSE,smallcap,2037.09,computers - software - medium / small,i.t
+QUESS,smallcap,3178.97,diversified - large,miscellaneous
+COMSYN,smallcap,617.23,packaging,industrials
+SHIVAMILLS,smallcap,57.04,textiles - spinning - synthetic / blended,textiles
+DHARAN,smallcap,78.43,construction,realty
+TVVISION,smallcap,20.53,entertainment / electronic media software,media
+CLSEL,smallcap,1415.69,food - processing - indian,fmcg
+VSTL,smallcap,218.2,steel - medium / small,metals & mining
+KAPSTON,smallcap,1024.5,miscellaneous,miscellaneous
+RADHIKAJWE,smallcap,671.54,diamond cutting / jewellery,consumer discretionary
+GPTHEALTH,smallcap,1242.39,healthcare,healthcare
+VALIANTORG,smallcap,801.92,chemicals,chemicals
+DBSTOCKBRO,smallcap,119.32,finance & investments,financials
+PLATIND,smallcap,1210.6,chemicals,chemicals
+AAKASH,smallcap,94.97,oil drilling / allied services,energy
+MUKKA,smallcap,671.4,food - processing - indian,fmcg
+AKSHAR,smallcap,36.22,textiles - cotton/blended,textiles
+INDOUS,smallcap,196.31,miscellaneous,fmcg
+AKCAPIT,smallcap,1148.93,finance & investments,financials
+AVL,midcap,6562.8,trading,consumer discretionary
+BANCOINDIA,midcap,9366.08,auto ancillaries,auto
+BATAINDIA,midcap,8615.2,leather / leather products,consumer discretionary
+VARROC,midcap,8774.52,auto ancillaries,auto
+IRCON,midcap,12788.19,construction,realty
+AAVAS,midcap,10346.4,finance - housing,financials
+FINCABLES,midcap,15326.05,cables - power,industrials
+KANSAINER,midcap,17386.96,paints / varnishes,building materials
+HCC,midcap,6134.79,construction,realty
+SURYAROSNI,midcap,5439.59,steel - large,industrials
+JINDALSAW,midcap,15419.82,steel - large,industrials
+CHALET,midcap,17127.53,hotels,services
+JSWDULUX,midcap,14236.81,paints / varnishes,building materials
+ARVINDFASN,midcap,6362.65,trading,consumer discretionary
+CASTROLIND,midcap,18171.17,chemicals,chemicals
+METROPOLIS,midcap,11226.8,healthcare,healthcare
+NEOGEN,midcap,5139.27,chemicals,chemicals
+PNGJL,midcap,7440.89,diamond cutting / jewellery,consumer discretionary
+FDC,midcap,6394.37,pharmaceuticals - indian - bulk drugs & formln,healthcare
+KRN,midcap,6865.82,engineering,industrials
+VTL,midcap,17757.56,textiles - cotton/blended,textiles
+SWANCORP,midcap,9883.3,textiles - products,textiles
+POLYMED,midcap,13393.64,healthcare,healthcare
+UJJIVANSFB,midcap,10331.36,banks - private sector,bank
+SAGILITY,midcap,19474.33,computers - software - medium / small,i.t
+BLACKBUCK,midcap,9367.98,miscellaneous,transportation
+BORORENEW,midcap,7028.37,glass & glass products,building materials
+KIRLPNU,midcap,10253.65,compressors / drilling equipment,industrials
+NESCO,midcap,8287.5,construction,realty
+ELECON,midcap,11419.71,engineering,industrials
+IGIL,midcap,15661.47,miscellaneous,miscellaneous
+VENTIVE,midcap,14810.04,hotels,services
+J&KBANK,midcap,15627.98,banks - private sector,bank
+UNIMECH,midcap,5050.85,engineering,aerospace & defence
+SONATSOFTW,midcap,7805.62,computers - software - medium / small,i.t
+MAHLIFE,midcap,7193.92,construction,realty
+SUDARSCHEM,midcap,7053.46,dyes and pigments,chemicals
+TI,midcap,10562.85,breweries & distilleries,fmcg
+TRIVENI,midcap,8025.89,sugar,fmcg
+QPOWER,midcap,8058.06,electric equipment,industrials
+AXISCADES,midcap,7152.28,computers - software - medium / small,aerospace & defence
+PTC,midcap,5578.57,trading,power & utilities
+JSWHL,midcap,13897.84,finance & investments,financials
+BELRISE,midcap,19389.58,auto ancillaries,auto
+ABLBL,midcap,12092.93,textiles - products,consumer discretionary
+CANFINHOME,midcap,11042.47,finance - housing,financials
+PFOCUS,midcap,17732.16,miscellaneous,realty
+LTFOODS,midcap,13598.43,food - processing - indian,fmcg
+AHLUCONT,midcap,5315.13,construction,realty
+SMARTWORKS,midcap,5054.38,miscellaneous,co-working
+MANYAVAR,midcap,9790.6,textiles - products,consumer discretionary
+V2RETAIL,midcap,8762.97,textiles - products,consumer discretionary
+ECLERX,midcap,14269.37,computers - software - medium / small,i.t
+NAVA,midcap,17025.36,diversified - large,miscellaneous
+TITAGARH,midcap,11237.18,engineering,industrials
+LOTUSDEV,midcap,6810.85,construction,realty
+ETHOSLTD,midcap,6313.75,trading,consumer discretionary
+ISGEC,midcap,6613.61,engineering - turnkey services,realty
+BENGALASM,midcap,8053.43,finance & investments,financials
+RTNPOWER,midcap,5171.41,power generation and supply,power & utilities
+SHREEJISPG,midcap,7586.29,shipping,transportation
+BAJAJCON,midcap,7466.8,personal care - indian,fmcg
+GRAVITA,midcap,11986.49,mining / minerals / metals,metals & mining
+ANANTRAJ,midcap,19872.4,construction,realty
+ATLANTAELE,midcap,15014.07,electric equipment,industrials
+TMB,midcap,11714.05,banks - private sector,bank
+TTKPRESTIG,midcap,7384.4,domestic appliances,consumer discretionary
+VMART,midcap,5484.61,trading,consumer discretionary
+JUBLINGREA,midcap,10149.39,chemicals,chemicals
+ANURAS,midcap,15083.76,chemicals,chemicals
+ORKLAINDIA,midcap,8487.85,food - processing - indian,fmcg
+CCL,midcap,14294.16,tea,fmcg
+GRINFRA,midcap,8619.91,construction,realty
+TRIDENT,midcap,12393.36,textiles - cotton/blended,textiles
+CARTRADE,midcap,8594.11,miscellaneous,consumer discretionary
+SKIPPER,midcap,6462.63,engineering,industrials
+KSHINTL,midcap,5520.4,mining / minerals / metals,metals & mining
+SAPPHIRE,midcap,5595.92,hotels,consumer discretionary
+BHARATCOAL,midcap,18050.53,mining / minerals / metals,metals & mining
+MEDPLUS,midcap,10806.72,trading,consumer discretionary
+FRACTAL,midcap,17851.7,computers - software - medium / small,i.t
+MASTEK,midcap,5356.03,computers - software - medium / small,i.t
+SENCO,midcap,5657.06,diamond cutting / jewellery,consumer discretionary
+INOXWIND,midcap,14565.59,electric equipment,industrials
+SHRIPISTON,midcap,15206.44,auto ancillaries,auto
+CMPDI,midcap,16818.27,miscellaneous,miscellaneous
+REDTAPE,midcap,7628.19,trading,consumer discretionary
+ERIS,midcap,18870.93,pharmaceuticals - indian - formulations,healthcare
+SIS,midcap,5827.48,miscellaneous,miscellaneous
+NATCOPHARM,midcap,16823.79,pharmaceuticals - indian - bulk drugs & formln,healthcare
+BLUEJET,midcap,7849.31,pharmaceuticals - indian - bulk drugs & formln,healthcare
+HONASA,midcap,13244.18,trading,services
+INDIASHLTR,midcap,8402.68,finance - housing,financials
+DOMS,midcap,13244.62,printing & stationery,miscellaneous
+MASFIN,midcap,5614.17,finance & investments,financials
+IEX,midcap,11168.45,miscellaneous,financials
+CROMPTON,midcap,17607.85,electric equipment,consumer discretionary
+APOLLO,midcap,15613.68,electronics - components,aerospace & defence
+PICCADIL,midcap,5784.18,breweries & distilleries,fmcg
+SFL,midcap,6576.46,miscellaneous,consumer discretionary
+ARE&M,midcap,15852.74,auto ancillaries,auto
+SHILPAMED,midcap,10118.43,pharmaceuticals - indian - formulations,healthcare
+FINEORG,midcap,14062.2,chemicals,chemicals
+CHENNPETRO,midcap,16999.73,refineries,energy
+PGHL,midcap,10010.26,pharmaceuticals - multinational,healthcare
+EPL,midcap,6738.66,packaging,industrials
+MANORAMA,midcap,8845.22,food - processing - indian,fmcg
+CUPID,midcap,17258.72,personal care - indian,fmcg
+INGERRAND,midcap,11770.76,compressors / drilling equipment,industrials
+IONEXCHANG,midcap,5282.93,engineering - turnkey services,realty
+KAJARIACER,midcap,17781.16,ceramics - tiles / sanitaryware,building materials
+WHIRLPOOL,midcap,10524.02,domestic appliances,consumer discretionary
+BALUFORGE,midcap,5349.42,castings & forgings,industrials
+LMW,midcap,16925.08,textile machinery,industrials
+MAHSEAMLES,midcap,8171.27,steel - large,industrials
+PRSMJOHNSN,midcap,6104.71,cement - north india,building materials
+SUNFLAG,midcap,6773.55,steel - medium / small,metals & mining
+AKUMS,midcap,8361.56,pharmaceuticals - indian - bulk drugs & formln,healthcare
+FIRSTCRY,midcap,11631.8,trading,consumer discretionary
+BBOX,midcap,18313.96,computers - software - medium / small,i.t
+SHAKTIPUMP,midcap,6351.91,pumps,industrials
+GSFC,midcap,6525.87,fertilizers,chemicals
+TATACHEM,midcap,18803.56,chemicals,chemicals
+EIHOTEL,midcap,18123.05,hotels,services
+BBTC,midcap,10552.3,auto ancillaries,auto
+CGCL,midcap,19124.73,finance & investments,financials
+IIFLCAPS,midcap,10531.16,finance & investments,financials
+AFCONS,midcap,12032.07,construction,realty
+SMLMAH,midcap,5374.05,automobiles - lcvs / hcvs,auto
+ZEEL,midcap,9059.62,entertainment / electronic media software,media
+KENNAMET,midcap,6328.63,castings & forgings,industrials
+JKPAPER,midcap,6561.02,paper,building materials
+CYIENT,midcap,10285.84,computers - software - medium / small,i.t
+SOUTHBANK,midcap,11014.73,banks - private sector,bank
+PCBL,midcap,11459.6,chemicals,chemicals
+ALKYLAMINE,midcap,9096.99,chemicals,chemicals
+AJAXENGG,midcap,6754.58,engineering,industrials
+SIGMAADV,midcap,7333.33,electronics - components,aerospace & defence
+CERA,midcap,7229.07,ceramics - tiles / sanitaryware,building materials
+ASTRAMICRO,midcap,12568.82,telecommunications - equipment,aerospace & defence
+STAR,midcap,9908.57,pharmaceuticals - indian - bulk drugs & formln,healthcare
+WELENT,midcap,7162.91,construction,realty
+JPPOWER,midcap,13014.72,power generation and supply,power & utilities
+CEMPRO,midcap,17895.11,construction,realty
+GARFIBRES,midcap,6558,textiles - products,textiles
+KTKBANK,midcap,9982.91,banks - private sector,bank
+THELEELA,midcap,13673.91,hotels,services
+GALLANTT,midcap,16081.38,steel - medium / small,metals & mining
+GPIL,midcap,19224.53,steel - medium / small,metals & mining
+VOLTAMP,midcap,9233.9,electric equipment,industrials
+ACE,midcap,10441.21,engineering,industrials
+DCBBANK,midcap,5575.34,banks - private sector,bank
+TANLA,midcap,7201.79,computers - software - medium / small,i.t
+LUMAXTECH,midcap,11905.79,auto ancillaries,auto
+REDINGTON,midcap,18664.86,trading,services
+FSL,midcap,18871.03,computers - software - medium / small,i.t
+GMRP&UI,midcap,8723.97,engineering - turnkey services,realty
+PURVA,midcap,5101.33,construction,realty
+SGMART,midcap,7285.32,trading,services
+EBGNG,midcap,5032.47,trading,services
+JSLL,midcap,7341.2,trading,healthcare
+LLOYDSENT,midcap,10472.15,trading,services
+BRIGADE,midcap,15910.8,construction,realty
+CAMPUS,midcap,7661.22,leather / leather products,consumer discretionary
+VGUARD,midcap,13267.92,electric equipment,industrials
+MMTC,midcap,9721.5,trading,services
+THANGAMAYL,midcap,14268.82,diamond cutting / jewellery,consumer discretionary
+GPPL,midcap,7641.25,miscellaneous,transportation
+WABAG,midcap,9669.2,engineering - turnkey services,realty
+PSB,midcap,16802.35,banks - public sector,bank
+URBANCO,midcap,18685.06,miscellaneous,i.t
+IBULLSLTD,midcap,5387.92,diversified - medium / small,miscellaneous
+USHAMART,midcap,14993.31,steel - medium / small,metals & mining
+JAINREC,midcap,12618.06,mining / minerals / metals,metals & mining
+LUMAXIND,midcap,5092.64,auto ancillaries,auto
+BECTORFOOD,midcap,5283,food - processing - indian,fmcg
+HOMEFIRST,midcap,11158.92,finance - housing,financials
+CENTUM,midcap,5306.75,electronics - components,consumer discretionary
+INOXGREEN,midcap,6949.43,miscellaneous,miscellaneous
+DODLA,midcap,6625.2,food - processing - indian,fmcg
+RATNAMANI,midcap,17830,steel - medium / small,industrials
+ALOKINDS,midcap,6107.25,textiles - processing,textiles
+DEVYANI,midcap,13787.97,hotels,consumer discretionary
+SUDEEPPHRM,midcap,8774.98,pharmaceuticals - indian - bulk drugs & formln,healthcare
+NUVOCO,midcap,12004.02,cement - north india,building materials
+SKFINDUS,midcap,10739.41,bearings,industrials
+AARTIPHARM,midcap,5758.58,pharmaceuticals - indian - bulk drugs & formln,healthcare
+AEQUS,midcap,12179.29,engineering,aerospace & defence
+SANSERA,midcap,18408.52,auto ancillaries,auto
+CORONA,midcap,10400.27,pharmaceuticals - indian - bulk drugs & formln,healthcare
+ELGIEQUIP,midcap,18677.03,compressors / drilling equipment,industrials
+SAFARI,midcap,7981.11,moulded luggage,plastic products
+KOVAI,midcap,5845.36,healthcare,healthcare
+TEGA,midcap,13726.58,engineering,industrials
+DCMSHRIRAM,midcap,16105.72,diversified - mega,miscellaneous
+SHADOWFAX,midcap,11123.13,couriers,transportation
+CMSINFO,midcap,5037.09,miscellaneous,miscellaneous
+KWIL,midcap,6954.79,food - processing - mnc,fmcg
+KINGFA,midcap,7236.44,plastics products,plastic products
+OMNI,midcap,6234.62,engineering,industrials
+AARTIIND,midcap,17032.87,chemicals,chemicals
+GAEL,midcap,7137.83,miscellaneous,fmcg
+STARCEMENT,midcap,8544.78,cement - north india,building materials
+SYNGENE,midcap,17763.58,miscellaneous,healthcare
+POWERMECH,midcap,7867.71,engineering - turnkey services,realty
+GANESHHOU,midcap,5832.09,construction,realty
+MAXESTATES,midcap,7279.86,construction,realty
+GODREJAGRO,midcap,11213.74,food - processing - indian,fmcg
+AZAD,midcap,13343.23,engineering,aerospace & defence
+STYLAMIND,midcap,5013.07,miscellaneous,building materials
+ASHAPURMIN,midcap,6939.97,mining / minerals / metals,metals & mining
+JKTYRE,midcap,11197.16,tyres,auto
+NEWGEN,midcap,7373.48,computers - software - medium / small,i.t
+MGL,midcap,10788.51,miscellaneous,energy
+LEMONTREE,midcap,8806.61,hotels,services
+RELAXO,midcap,8171.41,leather / leather products,consumer discretionary
+ATUL,midcap,19552.27,chemicals,chemicals
+BALRAMCHIN,midcap,10852.82,sugar,fmcg
+BASF,midcap,14494.2,chemicals,chemicals
+RITES,midcap,9736.07,miscellaneous,miscellaneous
+CHAMBLFERT,midcap,18812.63,fertilizers,chemicals
+ARVIND,midcap,13122.77,textiles - cotton/blended,textiles
+IFCI,midcap,19302.07,finance - term-lending institutions,financials
+ELANTAS,midcap,7514.65,chemicals,chemicals
+KRBL,midcap,7944.77,food - processing - indian,fmcg
+SKYGOLD,midcap,8668.29,diamond cutting / jewellery,consumer discretionary
+INDGN,midcap,12459.24,miscellaneous,healthcare
+TECHNOE,midcap,12395.21,engineering - turnkey services,realty
+BALAMINES,midcap,6532.37,chemicals,chemicals
+KIRLFER,midcap,7113.9,steel - large,metals & mining
+KSB,midcap,13420.16,pumps,industrials
+MAHSCOOTER,midcap,14577.14,finance & investments,financials
+EMAMILTD,midcap,17097.71,personal care - indian,fmcg
+NCC,midcap,9457.88,construction,realty
+BIRLACORPN,midcap,7449.5,cement - north india,building materials
+RAIN,midcap,6656.28,miscellaneous,miscellaneous
+SPLPETRO,midcap,13206.14,petrochemicals,energy
+SKFINDIA,midcap,7969.4,bearings,industrials
+GRWRHITECH,midcap,13694.33,packaging,industrials
+SANOFI,midcap,7298.86,pharmaceuticals - multinational,healthcare
+CEATLTD,midcap,13037.47,tyres,auto
+SANOFICONR,midcap,10757.37,pharmaceuticals - multinational,healthcare
+ZENSARTECH,midcap,11828.57,computers - software - medium / small,i.t
+SARDAEN,midcap,18334.4,steel - medium / small,metals & mining
+NIVABUPA,midcap,15524.18,finance & investments,financials
+SANDUMA,midcap,11141.52,mining / minerals / metals,metals & mining
+RESPONIND,midcap,5049.3,plastics products,plastic products
+IFBIND,midcap,5339.57,domestic appliances,consumer discretionary
+HAPPSTMNDS,midcap,5763.6,computers - software - medium / small,i.t
+CAMS,midcap,19160.52,miscellaneous,financials
+SAREGAMA,midcap,8822.96,entertainment / electronic media software,media
+ENGINERSIN,midcap,12771.29,engineering - turnkey services,realty
+TRANSRAILL,midcap,6554.38,engineering - turnkey services,realty
+AGARWALEYE,midcap,15097.46,healthcare,healthcare
+TCI,midcap,7053.52,miscellaneous,transportation
+TTML,midcap,8435.51,telecommunications - service provider,telecom-service
+TIPSMUSIC,midcap,8594.12,entertainment / electronic media software,media
+BSOFT,midcap,9637.38,computers - software - medium / small,i.t
+OLECTRA,midcap,10549.02,automobiles - lcvs / hcvs,auto
+SUPRAJIT,midcap,6299.58,auto ancillaries,auto
+RKFORGE,midcap,10337.06,castings & forgings,industrials
+HEG,midcap,10616.66,electrodes - graphites,industrials
+PVRINOX,midcap,9690.86,entertainment / electronic media software,media
+KEC,midcap,13274.06,transmisson line towers / equipment,realty
+FIEMIND,midcap,5983.51,auto ancillaries,auto
+TIMETECHNO,midcap,8502.38,plastics products,plastic products
+EUREKAFORB,midcap,8705.2,domestic appliances,consumer discretionary
+EDELWEISS,midcap,10565.19,finance & investments,financials
+JYOTHYLAB,midcap,7343.92,personal care - indian,fmcg
+RAINBOW,midcap,13623.15,healthcare,healthcare
+AVANTIFEED,midcap,15785.42,food - processing - indian,fmcg
+RPOWER,midcap,11154.17,power generation and supply,power & utilities
+AETHER,midcap,14577.53,chemicals,chemicals
+JSWCEMENT,midcap,17755.1,cement - north india,building materials
+SWANDEF,midcap,10738.2,miscellaneous,transportation
+BLUESTONE,midcap,7533.17,diamond cutting / jewellery,consumer discretionary
+DBREALTY,midcap,6212.18,construction,realty
+WELSPUNLIV,midcap,13778.23,textiles - products,textiles
+MOIL,midcap,6029.27,mining / minerals / metals,metals & mining
+ZENTEC,midcap,15100.16,miscellaneous,aerospace & defence
+TDPOWERSYS,midcap,19292.53,electric equipment,industrials
+PGEL,midcap,13706.71,electronics - components,consumer discretionary
+RHIM,midcap,7117.07,refractories / intermediates,building materials
+EQUITASBNK,midcap,7959.92,banks - private sector,bank
+WAAREERTL,midcap,10201.89,engineering - turnkey services,power & utilities
+PCJEWELLER,midcap,8991.96,diamond cutting / jewellery,consumer discretionary
+WEWORK,midcap,8358.24,miscellaneous,co-working
+BIKAJI,midcap,16681.49,food - processing - indian,fmcg
+NAZARA,midcap,10182.23,telecommunications - service provider,i.t
+PINELABS,midcap,16399.68,computers - software - medium / small,i.t
+VESUVIUS,midcap,9499.58,refractories / intermediates,building materials
+ALIVUS,midcap,12857.86,pharmaceuticals - indian - bulk drugs & formln,healthcare
+ICIL,midcap,6857.63,textiles - cotton/blended,textiles
+UTLSOLAR,midcap,9799.02,electric equipment,industrials
+PARAS,midcap,6879.74,engineering,aerospace & defence
+DIACABS,midcap,10257.49,cables - power,industrials
+NEPHROPLUS,midcap,6627,healthcare,healthcare
+PRAJIND,midcap,6406.81,engineering,industrials
+JAYNECOIND,midcap,9663.37,steel - large,metals & mining
+AVALON,midcap,10094.38,electronics - components,consumer discretionary
+RATEGAIN,midcap,9155.46,computers - software - medium / small,i.t
+JMFINANCIL,midcap,12352.48,finance & investments,financials
+AMAGI,midcap,9206.3,computers - software - medium / small,i.t
+PRECWIRE,midcap,7832.41,mining / minerals / metals,metals & mining
+SCI,midcap,14099.74,shipping,transportation
+MINDACORP,midcap,15058.42,auto ancillaries,auto
+CLEANMAX,midcap,13157.36,power generation and supply,power & utilities
+SEDEMAC,midcap,10271.96,electronics - components,consumer discretionary
+VINATIORGA,midcap,13624.77,chemicals,chemicals
+RCF,midcap,7005.89,fertilizers,chemicals
+CONCORDBIO,midcap,12200.34,pharmaceuticals - indian - bulk drugs & formln,healthcare
+PNCINFRA,midcap,5393.48,construction,realty
+TVSSCS,midcap,5031.66,miscellaneous,transportation
+TEJASNET,midcap,9550.07,telecommunications - equipment,telecom
+CAPLIPOINT,midcap,15111.89,pharmaceuticals - indian - formulations,healthcare
+JLHL,midcap,8619.31,healthcare,healthcare
+BLUEDART,midcap,11224.26,couriers,transportation
+INOXINDIA,midcap,13180.68,packaging,industrials
+THYROCARE,midcap,8302.86,healthcare,healthcare
+GALAXYSURF,midcap,6231.17,chemicals,chemicals
+LLOYDSENGG,midcap,10675.83,engineering,industrials
+SUVEN,midcap,7257.59,miscellaneous,healthcare
+MACPOWER,midcap,7789.57,engineering,industrials
+BLS,midcap,11082.01,computers - software - medium / small,i.t
+ENTERO,midcap,5014.2,trading,healthcare
+TSFINV,midcap,9035.19,finance & investments,financials
+MIDHANI,midcap,7694.99,steel - medium / small,aerospace & defence
+ABREL,midcap,13739.69,construction,realty
+BEML,midcap,14403.17,engineering,aerospace & defence
+EIDPARRY,midcap,13434.73,sugar,fmcg
+ESABINDIA,midcap,9414.37,electrodes - welding equipment,industrials
+TBOTEK,midcap,13351.95,travel agencies,i.t
+HMT,midcap,6723.65,miscellaneous,consumer discretionary
+INDIAGLYCO,midcap,6579.01,breweries & distilleries,fmcg
+KIRLOSBROS,midcap,12860.28,pumps,industrials
+IXIGO,midcap,6993.41,travel agencies,i.t
+ABDL,midcap,15288.96,breweries & distilleries,fmcg
+NIRLON,midcap,5461.6,construction,realty
+JKLAKSHMI,midcap,7487.15,cement - north india,building materials
+SUNDRMFAST,midcap,17550.97,auto ancillaries,auto
+CEIGALL,midcap,6058.85,construction,realty
+ZYDUSWELL,midcap,15838.04,food - processing - indian,fmcg
+OLAELEC,midcap,17568.34,automobiles - motorcycles / mopeds,auto
+CHOICEIN,midcap,14768.97,finance & investments,financials
+KPIGREEN,midcap,8300.17,power generation and supply,power & utilities
+DEEPAKFERT,midcap,17745.25,chemicals,chemicals
+GNFC,midcap,7446.95,chemicals,chemicals
+FINPIPE,midcap,10925.36,plastics products,plastic products
+SHAILY,midcap,13961.16,plastics products,plastic products
+INDIAMART,midcap,11845.58,miscellaneous,i.t
+CSBBANK,midcap,6396.42,banks - private sector,bank
+COHANCE,midcap,16408.3,pharmaceuticals - indian - bulk drugs & formln,healthcare
+DYNAMATECH,midcap,7009.45,engineering,industrials
+WESTLIFE,midcap,6546.98,hotels,consumer discretionary
+GABRIEL,midcap,15471.89,auto ancillaries,auto
+UTIAMC,midcap,11946.58,finance & investments,financials
+CUB,midcap,18546.46,banks - private sector,bank
+GVPIL,midcap,5774.5,engineering - turnkey services,realty
+KAMAHOLD,midcap,8505.93,finance & investments,financials
+GRANULES,midcap,19267.45,pharmaceuticals - indian - bulk drugs & formln,healthcare
+CENTURYPLY,midcap,16817.38,miscellaneous,building materials
+JBMA,midcap,15309.46,auto ancillaries,auto
+GOKEX,midcap,5132.8,textiles - products,consumer discretionary
+GRAPHITE,midcap,14093.42,electrodes - graphites,industrials
+KALPATARU,midcap,6591.31,construction,realty
+CIEINDIA,midcap,16889.21,castings & forgings,industrials
+TRAVELFOOD,midcap,16254.52,hotels,consumer discretionary
+SOBHA,midcap,14834.5,construction,realty
+TIIL,midcap,5580,steel - medium / small,metals & mining
+PGIL,midcap,7591.48,textiles - products,consumer discretionary
+EMBDL,midcap,7893.24,construction,realty
+SPARC,midcap,6628.03,miscellaneous,healthcare
+RELIGARE,midcap,7847.23,finance & investments,financials
+TARIL,midcap,9375.68,electric equipment,industrials
+VIYASH,midcap,10919.09,pharmaceuticals - indian - bulk drugs & formln,healthcare
+PRUDENT,midcap,11213.76,finance & investments,financials
+JAIBALAJI,midcap,6389.41,steel - large,metals & mining
+PARADEEP,midcap,12903.42,fertilizers,chemicals
+CARBORUNIV,midcap,19489.29,abrasives and grinding wheels,industrials
+IMFA,midcap,7885.39,mining / minerals / metals,metals & mining
+VIKRAMSOLR,midcap,7163.99,electric equipment,industrials
+JWL,midcap,12141.59,engineering,industrials
+PRICOLLTD,midcap,6896.66,auto ancillaries,auto
+APLLTD,midcap,14260.65,pharmaceuticals - indian - bulk drugs & formln,healthcare
+SAATVIKGL,midcap,5686.68,electric equipment,industrials
+RAILTEL,midcap,10141.65,telecommunications - service provider,transportation
+ACI,midcap,6619.84,chemicals,chemicals
+FIVESTAR,midcap,12964.1,finance & investments,financials
+HNDFDS,midcap,6455,diversified - large,fmcg
+CANHLIFE,midcap,13043.5,finance & investments,financials
+ABFRL,midcap,7555.13,textiles - products,consumer discretionary
+KFINTECH,midcap,14815.5,miscellaneous,financials
+CLEAN,midcap,8323.11,chemicals,chemicals
+APTUS,midcap,13049.36,finance - housing,financials
+VIJAYA,midcap,13551.5,healthcare,healthcare
+NSLNISP,midcap,15400.33,steel - large,metals & mining
+PARKHOSPS,midcap,12208.53,healthcare,healthcare
+SHARDACROP,midcap,8192.02,pesticides / agrochemicals - indian,chemicals
+SJS,midcap,6457.59,plastics products,auto
+LATENTVIEW,midcap,6731.27,computers - software - medium / small,i.t
+INTELLECT,midcap,10451.34,computers - software - medium / small,i.t
+SUPRIYA,midcap,7382.28,pharmaceuticals - indian - bulk drugs & formln,healthcare
+GREENLAM,midcap,5850.54,miscellaneous,building materials
+POWERICA,midcap,6881.26,electric equipment,industrials
+YATHARTH,midcap,7833.13,healthcare,healthcare
+MARKSANS,midcap,10929.86,pharmaceuticals - indian - formulations,healthcare
+SBFC,midcap,10203.35,finance & investments,financials
+AEROFLEX,midcap,5550.61,steel - medium / small,metals & mining
+SIGNATURE,midcap,11620.23,construction,realty
+CELLO,midcap,8512.91,trading,services
+ASKAUTOLTD,midcap,8684.13,auto ancillaries,auto
+FEDFINA,midcap,5932.29,finance & investments,financials
+GOKULAGRO,midcap,6900.9,solvent extraction,fmcg
+HAPPYFORGE,midcap,13293.98,castings & forgings,industrials
+HCG,midcap,9430.67,healthcare,healthcare
+INDIACEM,midcap,11900.05,cement - south india,building materials
+JYOTICNC,midcap,13645.39,engineering,industrials
+JUBLPHARMA,midcap,15530.71,pharmaceuticals - indian - bulk drugs,healthcare
+PRIVISCL,midcap,12829.76,chemicals,chemicals
+JSFB,midcap,5168.8,banks - private sector,bank
+DBL,midcap,6833.24,construction,realty
+GENUSPOWER,midcap,9410.98,electronics - components,consumer discretionary
+E2E,midcap,8889.45,computers - software - medium / small,i.t
+ABB,largecap,151429.72,electric equipment,industrials
+KARURVYSYA,largecap,28327.57,banks - private sector,bank
+FACT,largecap,56382.62,fertilizers,chemicals
+BLUESTARCO,largecap,32478.91,air-conditioners,consumer discretionary
+EXIDEIND,largecap,34531.25,auto ancillaries,auto
+CGPOWER,largecap,142955.6,electric equipment,industrials
+BHARTIHEXA,largecap,74480,telecommunications - service provider,telecom-service
+SBIN,largecap,883047.03,banks - public sector,bank
+DRREDDY,largecap,106335.3,pharmaceuticals - indian - bulk drugs & formln,healthcare
+AADHARHFC,largecap,20266.76,finance - housing,financials
+ATGL,largecap,81182.48,miscellaneous,energy
+HDFCBANK,largecap,1151808.79,banks - private sector,bank
+JSWSTEEL,largecap,320550.11,steel - large,metals & mining
+RAMCOCEM,largecap,20590.52,cement - south india,building materials
+VEDL,largecap,130430.99,mining / minerals / metals,metals & mining
+MANAPPURAM,largecap,29452.88,finance & investments,financials
+PATANJALI,largecap,49133.34,solvent extraction,fmcg
+TORNTPHARM,largecap,146137.36,pharmaceuticals - indian - formulations,healthcare
+CONCOR,largecap,34992.54,miscellaneous,transportation
+PGHH,largecap,30462.78,personal care - multinational,fmcg
+ASHOKLEY,largecap,87549.8,automobiles - lcvs / hcvs,auto
+BAJAJHLDNG,largecap,113964.55,finance & investments,financials
+LT,largecap,550376.68,engineering - turnkey services,realty
+BPCL,largecap,127725.6,refineries,energy
+GESHIP,largecap,21660.63,shipping,transportation
+GLAXO,largecap,37079.59,pharmaceuticals - multinational,healthcare
+BRITANNIA,largecap,123252.31,food - processing - mnc,fmcg
+MARICO,largecap,105273.39,solvent extraction,fmcg
+IRCTC,largecap,41352,travel agencies,transportation
+HYUNDAI,largecap,152091.44,automobiles - passenger cars,auto
+WAAREEENER,largecap,89166.16,electric equipment,industrials
+CHOLAHLDNG,largecap,27800.45,finance & investments,financials
+EICHERMOT,largecap,195901.49,automobiles - motorcycles / mopeds,auto
+POWERINDIA,largecap,156471.28,electric equipment,industrials
+VMM,largecap,55740.95,trading,consumer discretionary
+IKS,largecap,28656.15,computers - software - medium / small,i.t
+SCHAEFFLER,largecap,63640.6,bearings,industrials
+BANKINDIA,largecap,62503.58,banks - public sector,bank
+INDUSINDBK,largecap,71093.43,banks - private sector,bank
+COROMANDEL,largecap,51872.42,fertilizers,chemicals
+HCLTECH,largecap,337444.25,computers - software - large,i.t
+JINDALSTEL,largecap,122757.4,steel - large,metals & mining
+WOCKPHARMA,largecap,31949.21,pharmaceuticals - indian - bulk drugs & formln,healthcare
+ITCHOTELS,largecap,31792.47,hotels,services
+ZYDUSLIFE,largecap,108502.21,pharmaceuticals - indian - bulk drugs & formln,healthcare
+ASTRAZEN,largecap,21775,pharmaceuticals - multinational,healthcare
+JBCHEPHARM,largecap,34192.58,pharmaceuticals - indian - bulk drugs & formln,healthcare
+IOB,largecap,63200.13,banks - public sector,bank
+WIPRO,largecap,220088.85,computers - software - large,i.t
+GILLETTE,largecap,25237.25,personal care - multinational,fmcg
+BHARTIARTL,largecap,1105644.77,telecommunications - service provider,telecom-service
+UNIONBANK,largecap,124183.5,banks - public sector,bank
+UCOBANK,largecap,31135.72,banks - public sector,bank
+ULTRACEMCO,largecap,329009.29,cement - north india,building materials
+ENRIN,largecap,129033.14,power generation and supply,power & utilities
+CHOLAFIN,largecap,126340.07,finance & investments,financials
+TECHM,largecap,153972.25,computers - software - large,i.t
+IDEA,largecap,153413.74,telecommunications - service provider,telecom-service
+AWL,largecap,24778.37,solvent extraction,fmcg
+PAGEIND,largecap,41676.45,textiles - products,consumer discretionary
+CENTRALBK,largecap,26810.25,banks - public sector,bank
+KPRMILL,largecap,34150.64,textiles - products,consumer discretionary
+POWERGRID,largecap,262416.54,power generation and supply,power & utilities
+KIRLOSENG,largecap,26991.75,engines,industrials
+MUTHOOTFIN,largecap,130963.03,finance & investments,financials
+HONAUT,largecap,30852.49,electronics - components,consumer discretionary
+MCX,largecap,73404.5,miscellaneous,financials
+HBLENGINE,largecap,22250.44,auto ancillaries,auto
+HAVELLS,largecap,73677.59,electric equipment,consumer discretionary
+INDUSTOWER,largecap,113216.75,transmisson line towers / equipment,telecom
+MEDANTA,largecap,32222.59,healthcare,healthcare
+KALYANKJIL,largecap,36466.06,diamond cutting / jewellery,consumer discretionary
+RUBICON,largecap,21504.9,pharmaceuticals - indian - formulations,healthcare
+LENSKART,largecap,91022.93,personal care - indian,fmcg
+PWL,largecap,27678.96,miscellaneous,services
+TENNIND,largecap,23338.42,auto ancillaries,auto
+ACUTAAS,largecap,24869.17,pharmaceuticals - indian - bulk drugs,healthcare
+MEESHO,largecap,80961.78,miscellaneous,i.t
+KPIL,largecap,22043.32,transmisson line towers / equipment,realty
+POLICYBZR,largecap,76075.99,computers - software - medium / small,i.t
+POONAWALLA,largecap,35016.29,finance & investments,financials
+NETWEB,largecap,27233.59,computers - hardware,i.t
+IPCALAB,largecap,38250.98,pharmaceuticals - indian - bulk drugs & formln,healthcare
+DMART,largecap,264499.82,trading,consumer discretionary
+CDSL,largecap,25640.12,miscellaneous,financials
+COCHINSHIP,largecap,38612.37,miscellaneous,aerospace & defence
+GUJGASLTD,largecap,37243.07,miscellaneous,energy
+TATATECH,largecap,29959.24,computers - software - medium / small,i.t
+LALPATHLAB,largecap,26155.34,healthcare,healthcare
+SBILIFE,largecap,180727.11,finance & investments,financials
+BDL,largecap,44211.1,engineering,aerospace & defence
+HAL,largecap,286135.38,engineering,aerospace & defence
+ENDURANCE,largecap,37801.73,auto ancillaries,auto
+PNBHOUSING,largecap,25959.68,finance - housing,financials
+BAJFINANCE,largecap,548822.9,finance & investments,financials
+BEL,largecap,298129.33,electronics - components,aerospace & defence
+CESC,largecap,23714.46,power generation and supply,power & utilities
+HINDPETRO,largecap,81655.19,refineries,energy
+TITAN,largecap,362048.07,diamond cutting / jewellery,consumer discretionary
+GRSE,largecap,29954.2,miscellaneous,aerospace & defence
+GODFRYPHLP,largecap,35478.05,cigarettes,fmcg
+HFCL,largecap,29072.26,cables - telephone,telecom
+GODIGIT,largecap,28751.92,finance & investments,financials
+IOC,largecap,196045.15,refineries,energy
+LUPIN,largecap,102856.16,pharmaceuticals - indian - bulk drugs & formln,healthcare
+MFSL,largecap,55059.61,miscellaneous,miscellaneous
+ONGC,largecap,333440.3,oil drilling / allied services,energy
+EMCURE,largecap,32313.64,pharmaceuticals - indian - bulk drugs & formln,healthcare
+SHREECEM,largecap,90183.83,cement - north india,building materials
+ACC,largecap,25724.98,cement - north india,building materials
+AMBUJACEM,largecap,109170.44,cement - north india,building materials
+HINDALCO,largecap,257599.58,aluminium and aluminium products,metals & mining
+TATASTEEL,largecap,262903.17,steel - large,metals & mining
+TATACOMM,largecap,54326.7,telecommunications - service provider,telecom-service
+ESCORTS,largecap,30769.74,automobiles - tractors,auto
+BOSCHLTD,largecap,109775.33,auto ancillaries,auto
+TMPV,largecap,143686.37,automobiles - passenger cars,auto
+TATACONSUM,largecap,114264.7,tea,fmcg
+APOLLOTYRE,largecap,24880.08,tyres,auto
+RVNL,largecap,50196.86,construction,realty
+KPITTECH,largecap,22185.09,computers - software - medium / small,i.t
+BAJAJHFL,largecap,69391.68,finance - housing,financials
+TATAINVEST,largecap,33926.68,finance & investments,financials
+FLUOROCHEM,largecap,40142.49,chemicals,chemicals
+SUMICHEM,largecap,24345.83,pesticides / agrochemicals - indian,chemicals
+SWIGGY,largecap,70153.37,miscellaneous,i.t
+SBICARD,largecap,57619.4,finance & investments,financials
+BANKBARODA,largecap,137454.81,banks - public sector,bank
+WELCORP,largecap,36582.49,steel - large,industrials
+MAZDOCK,largecap,98622.38,miscellaneous,aerospace & defence
+GMDCLTD,largecap,21255.12,mining / minerals / metals,metals & mining
+NATIONALUM,largecap,79783.28,aluminium and aluminium products,metals & mining
+APARINDS,largecap,53303.35,electric equipment,industrials
+AJANTPHARM,largecap,36383.75,pharmaceuticals - indian - formulations,healthcare
+STLTECH,largecap,28851.07,cables - telephone,industrials
+GODREJCP,largecap,102232.37,personal care - indian,fmcg
+PNB,largecap,119630.05,banks - public sector,bank
+CANBK,largecap,117083.97,banks - public sector,bank
+JSL,largecap,56579.92,steel - large,metals & mining
+IGL,largecap,22519.03,miscellaneous,energy
+PETRONET,largecap,40350,miscellaneous,energy
+TCS,largecap,885309.83,computers - software - large,i.t
+ATHERENERG,largecap,36759.58,automobiles - scooters and 3 - wheelers,auto
+JKCEMENT,largecap,39163.41,cement - north india,building materials
+YESBANK,largecap,71636.99,banks - private sector,bank
+SUPREMEIND,largecap,45133.92,plastics products,plastic products
+ADANIPORTS,largecap,418053.38,miscellaneous,transportation
+IRB,largecap,26040.17,construction,realty
+DELHIVERY,largecap,32785.29,miscellaneous,transportation
+BAJAJ-AUTO,largecap,287351.73,automobiles - scooters and 3 - wheelers,auto
+ZFCVINDIA,largecap,27102.78,auto ancillaries,auto
+NHPC,largecap,72615.56,power generation and supply,power & utilities
+OIL,largecap,78744.08,oil drilling / allied services,energy
+OBEROIRLTY,largecap,60892.47,construction,realty
+COALINDIA,largecap,290973.22,mining / minerals / metals,metals & mining
+DALBHARAT,largecap,32818.41,cement - south india,building materials
+APLAPOLLO,largecap,49123.33,steel - large,industrials
+SCHNEIDER,largecap,28245.36,electric equipment,industrials
+GLAND,largecap,37515.04,pharmaceuticals - indian - formulations,healthcare
+MOTHERSON,largecap,152923.32,auto ancillaries,auto
+IRFC,largecap,126333.25,finance - term-lending institutions,financials
+KEI,largecap,50300.25,cables - power,industrials
+LGEINDIA,largecap,104727.79,electronics - consumer,consumer discretionary
+KAYNES,largecap,21243.95,electronics - components,consumer discretionary
+SAMMAANCAP,largecap,20783.69,finance - housing,financials
+LODHA,largecap,90281.95,construction,realty
+SHYAMMETL,largecap,27484.72,steel - large,metals & mining
+TMCV,largecap,136448.79,automobiles - lcvs / hcvs,auto
+STARHEALTH,largecap,31403.09,finance & investments,financials
+DATAPATTNS,largecap,22534.67,electronics - components,aerospace & defence
+LINDEINDIA,largecap,59187.25,chemicals,chemicals
+PTCIL,largecap,29055.56,castings & forgings,industrials
+HUDCO,largecap,40590.52,finance - term-lending institutions,financials
+DIXON,largecap,70554.52,electronics - consumer,consumer discretionary
+SUNPHARMA,largecap,429456.97,pharmaceuticals - indian - bulk drugs & formln,healthcare
+AUROPHARMA,largecap,83008.17,pharmaceuticals - indian - bulk drugs & formln,healthcare
+JSWINFRA,largecap,57897.04,miscellaneous,transportation
+IDFCFIRSTB,largecap,61579.56,banks - private sector,bank
+ICICIGI,largecap,87062.15,finance & investments,financials
+HDFCLIFE,largecap,125131.95,finance & investments,financials
+BANDHANBNK,largecap,33239.19,banks - private sector,bank
+ADANIGREEN,largecap,238741.71,power generation and supply,power & utilities
+SUNDARMFIN,largecap,47221.36,finance & investments,financials
+CREDITACC,largecap,21072.19,finance & investments,financials
+CRISIL,largecap,28152.86,miscellaneous,financials
+IDBI,largecap,78696.83,banks - private sector,bank
+GODREJIND,largecap,35677.74,chemicals,chemicals
+HSCL,largecap,30630.72,chemicals,chemicals
+HINDZINC,largecap,264124.69,mining / minerals / metals,metals & mining
+LICHSGFIN,largecap,29428.37,finance - housing,financials
+GRASIM,largecap,210816.64,textiles - manmade,textiles
+TATAPOWER,largecap,132574.64,power generation and supply,power & utilities
+THERMAX,largecap,59217.11,electric equipment,industrials
+ABBOTINDIA,largecap,55875.04,pharmaceuticals - multinational,healthcare
+VOLTAS,largecap,41042.94,air-conditioners,consumer discretionary
+HINDUNILVR,largecap,491933.92,personal care - multinational,fmcg
+ASIANPAINT,largecap,255213.76,paints / varnishes,building materials
+INDHOTEL,largecap,94181.39,hotels,services
+HATSUN,largecap,20556.32,food - processing - indian,fmcg
+BALKRISIND,largecap,41569,tyres,auto
+ACMESOLAR,largecap,20284.91,engineering - turnkey services,realty
+NTPCGREEN,largecap,85392.42,power generation and supply,power & utilities
+SAILIFE,largecap,23895.05,pharmaceuticals - indian - bulk drugs & formln,healthcare
+MAXHEALTH,largecap,92321.32,healthcare,healthcare
+GAIL,largecap,108377.37,miscellaneous,energy
+AXISBANK,largecap,388863.48,banks - private sector,bank
+BAYERCROP,largecap,20070.24,pesticides / agrochemicals - multinational,chemicals
+GLENMARK,largecap,61649.59,pharmaceuticals - indian - bulk drugs & formln,healthcare
+TVSMOTOR,largecap,159957.08,automobiles - motorcycles / mopeds,auto
+OFSS,largecap,90033.49,computers - software - large,i.t
+RADICO,largecap,46696.9,breweries & distilleries,fmcg
+APOLLOHOSP,largecap,116314.6,healthcare,healthcare
+NAVINFLUOR,largecap,36140.49,chemicals,chemicals
+BIOCON,largecap,67559.44,pharmaceuticals - indian - bulk drugs & formln,healthcare
+COFORGE,largecap,65284.88,computers - software - large,i.t
+NTPC,largecap,356255.51,power generation and supply,power & utilities
+BERGEPAINT,largecap,59262.09,paints / varnishes,building materials
+IIFL,largecap,20390.51,finance & investments,financials
+AIAENG,largecap,42482.23,castings & forgings,industrials
+SHRIRAMFIN,largecap,214494.42,finance & investments,financials
+HDBFS,largecap,53863.33,finance & investments,financials
+GMRAIRPORT,largecap,103615.23,miscellaneous,miscellaneous
+NAUKRI,largecap,65860.08,miscellaneous,i.t
+PFC,largecap,136310.7,finance - term-lending institutions,financials
+INDIANB,largecap,111198.61,banks - public sector,bank
+ASTRAL,largecap,41014.82,plastics products,plastic products
+MOTILALOFS,largecap,52118.07,finance & investments,financials
+CPPLUS,largecap,37856.77,trading,consumer discretionary
+RECLTD,largecap,85592.95,finance - term-lending institutions,financials
+LICI,largecap,253442.66,finance & investments,financials
+BAJAJFINSV,largecap,278719.77,finance & investments,financials
+GODREJPROP,largecap,51822.55,construction,realty
+JUBLFOOD,largecap,28419.53,hotels,consumer discretionary
+HINDCOPPER,largecap,52818.85,mining / minerals / metals,metals & mining
+NLCINDIA,largecap,48407.48,power generation and supply,power & utilities
+SJVN,largecap,28310.24,power generation and supply,power & utilities
+PRESTIGE,largecap,60086.87,construction,realty
+TRITURBINE,largecap,21910.91,electric equipment,industrials
+TATACAP,largecap,127664.44,finance & investments,financials
+CRAFTSMAN,largecap,21419.93,auto ancillaries,auto
+GROWW,largecap,119706.5,finance & investments,financials
+EMMVEE,largecap,21514.62,electric equipment,industrials
+TIMKEN,largecap,26546.2,bearings,industrials
+NYKAA,largecap,77178.29,trading,i.t
+PAYTM,largecap,68542.49,miscellaneous,i.t
+ANANDRATHI,largecap,29383.49,finance & investments,financials
+METROBRAND,largecap,28006.9,leather / leather products,consumer discretionary
+PIIND,largecap,41567.73,pesticides / agrochemicals - indian,chemicals
+JIOFIN,largecap,156917.06,finance & investments,financials
+NEULANDLAB,largecap,21694.06,pharmaceuticals - indian - bulk drugs,healthcare
+AIIL,largecap,38525.11,finance & investments,financials
+BSE,largecap,160375.94,miscellaneous,financials
+AUBANK,largecap,73064.54,banks - private sector,bank
+RRKABEL,largecap,22890.29,cables - power,industrials
+NUVAMA,largecap,28642.41,finance & investments,financials
+ABCAPITAL,largecap,92026.76,finance & investments,financials
+MPHASIS,largecap,45561.99,computers - software - large,i.t
+NMDC,largecap,83794.81,mining / minerals / metals,metals & mining
+IREDA,largecap,35095.73,finance - term-lending institutions,financials
+ALKEM,largecap,62640.1,pharmaceuticals - indian - bulk drugs & formln,healthcare
+NH,largecap,39527.47,healthcare,healthcare
+GICRE,largecap,66254.92,finance & investments,financials
+TIINDIA,largecap,60208.49,steel - large,industrials
+AMBER,largecap,26715.75,air-conditioners,consumer discretionary
+ASTERDM,largecap,37664.81,healthcare,healthcare
+RBLBANK,largecap,21272.3,banks - private sector,bank
+LTTS,largecap,37187.33,computers - software - large,i.t
+ICICIPRULI,largecap,69920.43,finance & investments,financials
+VBL,largecap,181618.47,food - processing - indian,fmcg
+AEGISLOG,largecap,26926.97,trading,services
+LAURUSLABS,largecap,74640.57,pharmaceuticals - indian - bulk drugs & formln,healthcare
+FORCEMOT,largecap,23497.23,automobiles - lcvs / hcvs,auto
+CIPLA,largecap,111417.46,pharmaceuticals - indian - bulk drugs & formln,healthcare
+HDFCAMC,largecap,110677.19,finance & investments,financials
+DABUR,largecap,75470.52,personal care - indian,fmcg
+BHEL,largecap,143025.75,electric equipment,industrials
+MRPL,largecap,25766.71,refineries,energy
+SAIL,largecap,85026.86,steel - large,metals & mining
+HEROMOTOCO,largecap,97543.77,automobiles - motorcycles / mopeds,auto
+INFY,largecap,515384.6,computers - software - large,i.t
+KOTAKBANK,largecap,75396.78,banks - private sector,bank
+TRENT,largecap,149674.44,trading,consumer discretionary
+MRF,largecap,52884.93,tyres,auto
+RELIANCE,largecap,1778978.85,refineries,energy
+PIDILITIND,largecap,148044.28,chemicals,chemicals
+TATAELXSI,largecap,28221.61,computers - software - medium / small,i.t
+FEDERALBNK,largecap,72215.79,banks - private sector,bank
+CUMMINSIND,largecap,158225.76,engines,industrials
+BHARATFORG,largecap,90975.49,castings & forgings,industrials
+M&M,largecap,372847.25,automobiles - passenger cars,auto
+SIEMENS,largecap,132822.26,electric equipment,industrials
+PFIZER,largecap,20652.81,pharmaceuticals - multinational,healthcare
+PREMIERENE,largecap,48669.71,trading,services
+NESTLEIND,largecap,269713.32,food - processing - mnc,fmcg
+COLPAL,largecap,54364.49,personal care - multinational,fmcg
+ITC,largecap,354897.19,cigarettes,fmcg
+POLYCAB,largecap,143497.22,cables - power,industrials
+AFFLE,largecap,21098.12,computers - software - medium / small,i.t
+PHOENIXLTD,largecap,61041.08,construction,realty
+360ONE,largecap,44236.6,finance & investments,financials
+SRF,largecap,81377.51,chemicals,chemicals
+ANGELONE,largecap,31210.59,finance & investments,financials
+GRINDWELL,largecap,20582.85,abrasives and grinding wheels,industrials
+ICICIBANK,largecap,878259.41,banks - private sector,bank
+DEEPAKNTR,largecap,23002.69,chemicals,chemicals
+ONESOURCE,largecap,20959.63,pharmaceuticals - indian - bulk drugs & formln,healthcare
+UNITDSPR,largecap,92737.23,breweries & distilleries,fmcg
+UBL,largecap,34869.75,breweries & distilleries,fmcg
+DIVISLAB,largecap,173430.62,pharmaceuticals - indian - bulk drugs,healthcare
+MARUTI,largecap,409415.03,automobiles - passenger cars,auto
+MAHABANK,largecap,60694.06,banks - public sector,bank
+UNOMINDA,largecap,62927.43,auto ancillaries,auto
+AEGISVOPAK,largecap,21651.26,miscellaneous,transportation
+SUZLON,largecap,74772.45,electric equipment,industrials
+M&MFIN,largecap,40906.85,finance & investments,financials
+SOLARINDS,largecap,166375.02,chemicals,aerospace & defence
+SUNTV,largecap,20409.64,entertainment / electronic media software,media
+TORNTPOWER,largecap,71750.83,power generation and supply,power & utilities
+ANTHEM,largecap,42443.1,pharmaceuticals - indian - bulk drugs & formln,healthcare
+UPL,largecap,54166.12,pesticides / agrochemicals - indian,chemicals
+FORTIS,largecap,70165.81,healthcare,healthcare
+DLF,largecap,146501.32,construction,realty
+MSUMI,largecap,25332.95,auto ancillaries,auto
+LLOYDSME,largecap,102522.56,mining / minerals / metals,metals & mining
+ADANIENT,largecap,383681.07,trading,services
+ADANIPOWER,largecap,454983.8,power generation and supply,power & utilities
+JSWENERGY,largecap,103425.44,power generation and supply,power & utilities
+PERSISTENT,largecap,86297.14,computers - software - large,i.t
+ASAHIINDIA,largecap,22921.78,glass & glass products,building materials
+LTF,largecap,67793.73,finance & investments,financials
+SYRMA,largecap,22499.46,electronics - components,consumer discretionary
+NBCC,largecap,28109.7,miscellaneous,miscellaneous
+PPLPHARMA,largecap,22187.81,pharmaceuticals - indian - bulk drugs & formln,healthcare
+MTARTECH,largecap,22196.12,engineering,aerospace & defence
+SONACOMS,largecap,38016.61,auto ancillaries,auto
+KIMS,largecap,29866.37,healthcare,healthcare
+TVSHLTD,largecap,27412.48,finance & investments,financials
+ETERNAL,largecap,241982.54,miscellaneous,i.t
+ABSLAMC,largecap,29666.17,finance & investments,financials
+ICICIAMC,largecap,164197.62,finance & investments,financials
+GVT&D,largecap,122415.85,electric equipment,industrials
+3MINDIA,largecap,36735.39,diversified - large,miscellaneous
+MANKIND,largecap,94909.23,pharmaceuticals - indian - bulk drugs & formln,healthcare
+ITI,largecap,28558.19,telecommunications - equipment,aerospace & defence
+KIOCL,largecap,23586.82,mining / minerals / metals,metals & mining
+ADANIENSOL,largecap,183868.32,power generation and supply,power & utilities
+INDIGO,largecap,172665.23,transport - airlines,transportation
+NAM-INDIA,largecap,69548.26,finance & investments,financials
+NIACL,largecap,24607.94,finance & investments,financials
+LTM,largecap,128728.51,computers - software - large,i.t

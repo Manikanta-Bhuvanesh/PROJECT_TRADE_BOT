@@ -1,0 +1,10 @@
+python-telegram-bot>=21.6
+python-dotenv>=1.0.0
+pandas>=2.0
+numpy>=1.24
+yfinance>=0.2.0
+matplotlib>=3.8
+tqdm>=4.65
+beautifulsoup4>=4.12
+# Optional: NSE helpers used elsewhere in the original monorepo (not required for brute_* engines)
+# nse[local]>=3.1.0

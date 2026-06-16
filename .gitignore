@@ -1,0 +1,12 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.zip
+*.log
+_telegram_work/allowed_user_ids.json
+_telegram_work/live_signals_busy.json
+_telegram_work/backtest_all_busy.json
