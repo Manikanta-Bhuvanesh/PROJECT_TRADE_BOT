@@ -80,7 +80,7 @@ def format_stock_metadata_row(row: pd.Series | None) -> str:
     return "\n".join(lines) if lines else "(no extra metadata columns in STOCKS.csv)"
 
 
-def trades_to_vertical_preview(trades: pd.DataFrame, *, max_trades: int = 15) -> str:
+def trades_to_vertical_preview(trades: pd.DataFrame, *, max_trades: int = 3) -> str:
     """
     One trade per block (readable on narrow Telegram screens).
 
@@ -307,7 +307,7 @@ def _build_analysis_from_params(
         optimization_score=float(merged_metrics.get("optimization_score") or 0.0),
         metrics_block=format_all_scalar_metrics(merged_metrics),
         equity_png=png,
-        last_trades_table=trades_to_vertical_preview(td, max_trades=15),
+        last_trades_table=trades_to_vertical_preview(td, max_trades=3),
         latest_signal=latest_signal,
         signal_bar_date=signal_bar_date,
         signal_last_close=signal_last_close,
