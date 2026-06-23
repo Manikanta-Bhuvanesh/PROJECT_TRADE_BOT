@@ -21,7 +21,11 @@ from telegram.ext import (
 from trade_bot.config import Config, load_config
 from trade_bot.services.allowlist_store import read_extra_user_ids, write_extra_user_ids
 from trade_bot.services.backtest_all import backtest_all_csv_path, run_backtest_all_module_async
-from trade_bot.services.backtest_single import SingleStockAnalysis, analyze_single_stock
+from trade_bot.services.backtest_single import (
+    SingleStockAnalysis,
+    analyze_single_stock,
+    analyze_single_stock_from_saved_params,
+)
 from trade_bot.services.enrich import merge_bot_stock_metadata, optional_company_names
 from trade_bot.services.global_jobs import GlobalJobCoordinator, clear_stale_job_busy_files
 from trade_bot.services.inputs import bot_stocks_path, ensure_input_stocks, load_symbol_universe
@@ -403,7 +407,7 @@ async def on_strategy_callback(update: Update, context: ContextTypes.DEFAULT_TYP
             "/live_signals [filters…] — latest-bar screen (optional `signal=buy`/`sell`; "
             "`fib=true`/`fib=false`; admins get Fib columns by default)\n",
             "/bt1 SYMBOL — one-symbol optimization + metrics + equity chart\n",
-            "/deep SYMBOL — same + trades preview + full trades CSV\n",
+            "/deep SYMBOL — backtest using /backtest_all params + trades preview + CSV\n",
             "/fib SYMBOL — latest swing Fib levels (1d + 15m + 5m Yahoo bars)\n",
             "/screener SYMBOL — full automated read in chat (may split across messages; no files)\n",
             "/help — full command list\n",
@@ -446,7 +450,7 @@ async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             "admins: Fib swing columns on by default unless `fib=false`; others: off unless `fib=true`). "
             "Fib adds per-timeframe direction + swing high/low price and time (1d, 15m, 5m).",
             "/bt1 SYMBOL — optimize one symbol + metrics + equity + trades CSV",
-            "/deep SYMBOL — same as /bt1 + trades preview in chat",
+            "/deep SYMBOL — same outputs using saved /backtest_all params (no re-optimize)",
             "/fib SYMBOL — Fibonacci retracements from latest qualifying swing on 1d, 15m, and 5m",
             "/screener SYMBOL — long automated analysis in chat only (no attachments)",
         ]
@@ -825,6 +829,11 @@ def _analyze_blocking(cfg: Config, strategy: str, symbol: str) -> SingleStockAna
     return analyze_single_stock(cfg.project_root, strategy, symbol)
 
 
+def _deep_analyze_blocking(cfg: Config, strategy: str, symbol: str) -> SingleStockAnalysis:
+    ensure_input_stocks(cfg.project_root)
+    return analyze_single_stock_from_saved_params(cfg.project_root, strategy, symbol)
+
+
 async def cmd_bt1(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     if not await _ensure_allowed(update, context):
         return
@@ -886,12 +895,12 @@ async def cmd_deep(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         await msg.reply_text(f"`{sym}` is not in your input/STOCKS.csv universe.", parse_mode="Markdown")
         return
 
-    await msg.reply_text(f"Deep dive `{sym}`…", parse_mode="Markdown")
+    await msg.reply_text(f"Deep dive `{sym}` (saved params)…", parse_mode="Markdown")
     loop = asyncio.get_running_loop()
     try:
         res = await loop.run_in_executor(
             None,
-            functools.partial(_analyze_blocking, cfg, strat, sym),
+            functools.partial(_deep_analyze_blocking, cfg, strat, sym),
         )
     except Exception as exc:
         log.exception("deep failed")

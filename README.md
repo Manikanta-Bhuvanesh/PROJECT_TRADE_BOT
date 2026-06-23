@@ -46,8 +46,8 @@ After `/start`, choose **SMA** or **EMA**.
 | `/get_stocks` | Sends `input/STOCKS.csv` as a document |
 | `/get_sectors` | Lists distinct `sector` values from `STOCKS.csv` (document if long) |
 | `/get_industries` | Sends distinct `industry` values as `industries.txt` |
-| `/bt1 SYMBOL` | One-symbol optimize + metrics + equity PNG |
-| `/deep SYMBOL` | Same + latest signal + last 10 trades |
+| `/bt1 SYMBOL` | One-symbol optimize + metrics + equity PNG + trades CSV |
+| `/deep SYMBOL` | Same outputs using saved `/backtest_all` params (no re-optimize; needs prior `/backtest_all`) |
 | `/strategy` | Change SMA/EMA |
 
 **Filters for `/backtest_all` and `/live_signals`** (optional; omit to run on the full universe):

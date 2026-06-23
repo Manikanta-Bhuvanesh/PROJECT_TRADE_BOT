@@ -5,7 +5,7 @@ import math
 from dataclasses import dataclass
 from numbers import Real
 from pathlib import Path
-from typing import Any
+from typing import Any, Callable
 
 import matplotlib
 
@@ -135,62 +135,129 @@ class SingleStockAnalysis:
     completed_trade_count: int = 0
 
 
-def analyze_single_stock(
-    project_root: Path,
-    strategy: str,
-    symbol: str,
+def _failed_analysis(
+    *,
+    sym: str,
+    label: str,
+    error: str,
+    meta_txt: str,
 ) -> SingleStockAnalysis:
-    from trade_bot.project_path import inject
+    return SingleStockAnalysis(
+        symbol=sym,
+        ok=False,
+        error=error,
+        strategy_label=label,
+        best_short_ma=None,
+        best_long_ma=None,
+        optimization_score=None,
+        metrics_block="",
+        equity_png=None,
+        last_trades_table="",
+        latest_signal=None,
+        signal_bar_date=None,
+        signal_last_close=None,
+        stock_metadata_block=meta_txt,
+        trades_csv=None,
+        completed_trade_count=0,
+    )
 
-    inject(project_root)
-    sym = str(symbol).strip().upper()
 
+def _strategy_bundle(strategy: str) -> tuple[Any, Callable, Callable, Callable, Callable, str]:
     if strategy == "sma":
         from Algorithms.brute_sma_cross import settings
         from Algorithms.brute_sma_cross.runner import fetch_symbol_ohlcv, optimize_from_price
-        from Algorithms.brute_sma_cross.signals import sma_cross_signals
+        from Algorithms.brute_sma_cross.signals import load_best_parameters_table, sma_cross_signals
 
-        sig_fn = sma_cross_signals
-    elif strategy == "ema":
+        return settings, fetch_symbol_ohlcv, optimize_from_price, load_best_parameters_table, sma_cross_signals, "SMA daily"
+    if strategy == "ema":
         from Algorithms.brute_ema_cross import settings
         from Algorithms.brute_ema_cross.runner import fetch_symbol_ohlcv, optimize_from_price
-        from Algorithms.brute_ema_cross.signals import ema_cross_signals
+        from Algorithms.brute_ema_cross.signals import ema_cross_signals, load_best_parameters_table
 
-        sig_fn = ema_cross_signals
-    else:
-        raise ValueError(strategy)
+        return settings, fetch_symbol_ohlcv, optimize_from_price, load_best_parameters_table, ema_cross_signals, "EMA 15m"
+    raise ValueError(strategy)
 
-    from data_fetcher import prepare_price_df
+
+def _best_params_json_path(settings: Any) -> Path:
+    return settings.OUTPUT_DIR / settings.BEST_PARAMS_ALL_JSON
+
+
+def _load_saved_params_row(
+    sym: str,
+    load_best_parameters_table: Callable[[], pd.DataFrame],
+    settings: Any,
+) -> tuple[dict[str, Any] | None, str | None]:
+    best = load_best_parameters_table()
+    json_path = _best_params_json_path(settings)
+    if best.empty:
+        return None, (
+            f"No saved parameters found (expected {json_path}). "
+            "Run /backtest_all first."
+        )
+
+    if "symbol" not in best.columns:
+        return None, f"Saved parameters file is missing a symbol column ({json_path})."
+
+    best = best.copy()
+    best["symbol"] = best["symbol"].astype(str).str.strip().str.upper()
+    row_df = best[best["symbol"] == sym]
+    if row_df.empty:
+        return None, (
+            f"`{sym}` is not in the saved backtest_all results ({json_path}). "
+            "Run /backtest_all for this symbol (check sector/industry/cap filters)."
+        )
+
+    row = row_df.iloc[0]
+    if row.get("ok") is False:
+        err = row.get("error")
+        return None, f"backtest_all failed for {sym}" + (f": {err}" if err else "")
+    if "optimization_ok" in row.index and row["optimization_ok"] is False:
+        return None, f"backtest_all could not optimize {sym} (insufficient data or grid)."
+
+    try:
+        sw = int(row["best_short_ma"])
+        lw = int(row["best_long_ma"])
+    except (TypeError, ValueError):
+        return None, f"Saved results for {sym} are missing valid best_short_ma / best_long_ma."
+
+    flat: dict[str, Any] = {
+        "symbol": sym,
+        "ok": True,
+        "error": None,
+        "best_short_ma": sw,
+        "best_long_ma": lw,
+        "optimization_score": float(row.get("optimization_score") or 0.0),
+    }
+    skip = frozenset(
+        {"symbol", "ok", "error", "best_short_ma", "best_long_ma", "optimization_score", "optimization_ok"}
+    )
+    for k, v in row.items():
+        if k in skip:
+            continue
+        try:
+            if pd.isna(v):
+                continue
+        except TypeError:
+            pass
+        if _is_scalar_metric(v):
+            flat[k] = v
+    return flat, None
+
+
+def _build_analysis_from_params(
+    *,
+    sym: str,
+    price: pd.DataFrame,
+    flat: dict[str, Any],
+    settings: Any,
+    sig_fn: Callable,
+    meta_txt: str,
+    label: str,
+) -> SingleStockAnalysis:
     from stock_analyzer import analyze_trades
-    from trade_bot.services.inputs import stock_row_for_symbol
-
-    stock_row = stock_row_for_symbol(project_root, sym)
-    meta_txt = format_stock_metadata_row(stock_row)
-
-    raw = fetch_symbol_ohlcv(sym)
-    price = prepare_price_df(raw)
-    flat = optimize_from_price(sym, price)
-    label = "SMA daily" if strategy == "sma" else "EMA 15m"
 
     if not flat.get("ok"):
-        return SingleStockAnalysis(
-            symbol=sym,
-            ok=False,
-            error=str(flat.get("error")),
-            strategy_label=label,
-            best_short_ma=None,
-            best_long_ma=None,
-            optimization_score=None,
-            metrics_block="",
-            equity_png=None,
-            last_trades_table="",
-            latest_signal=None,
-            signal_bar_date=None,
-            signal_last_close=None,
-            stock_metadata_block=meta_txt,
-            trades_csv=None,
-            completed_trade_count=0,
-        )
+        return _failed_analysis(sym=sym, label=label, error=str(flat.get("error")), meta_txt=meta_txt)
 
     sw = int(flat["best_short_ma"])
     lw = int(flat["best_long_ma"])
@@ -223,6 +290,10 @@ def analyze_single_stock(
         if isinstance(v, (int, float, str, bool)) or v is None:
             merged_metrics[k] = v
 
+    ret = float(merged_metrics.get("total_return_pct", 0.0) or 0.0)
+    sharpe = float(merged_metrics.get("sharpe_ratio", 0.0) or 0.0)
+    merged_metrics["optimization_score"] = settings.composite_score(ret, sharpe)
+
     csv_bytes = trades_detail_to_csv_bytes(td)
     n_done = int(len(td))
 
@@ -233,7 +304,7 @@ def analyze_single_stock(
         strategy_label=label,
         best_short_ma=sw,
         best_long_ma=lw,
-        optimization_score=float(flat.get("optimization_score") or 0.0),
+        optimization_score=float(merged_metrics.get("optimization_score") or 0.0),
         metrics_block=format_all_scalar_metrics(merged_metrics),
         equity_png=png,
         last_trades_table=trades_to_vertical_preview(td, max_trades=15),
@@ -243,4 +314,82 @@ def analyze_single_stock(
         stock_metadata_block=meta_txt,
         trades_csv=csv_bytes,
         completed_trade_count=n_done,
+    )
+
+
+def analyze_single_stock(
+    project_root: Path,
+    strategy: str,
+    symbol: str,
+) -> SingleStockAnalysis:
+    from data_fetcher import prepare_price_df
+    from trade_bot.project_path import inject
+    from trade_bot.services.inputs import stock_row_for_symbol
+
+    inject(project_root)
+    sym = str(symbol).strip().upper()
+    settings, fetch_symbol_ohlcv, optimize_from_price, _, sig_fn, label = _strategy_bundle(strategy)
+
+    stock_row = stock_row_for_symbol(project_root, sym)
+    meta_txt = format_stock_metadata_row(stock_row)
+
+    raw = fetch_symbol_ohlcv(sym)
+    price = prepare_price_df(raw)
+    flat = optimize_from_price(sym, price)
+
+    if not flat.get("ok"):
+        return _failed_analysis(sym=sym, label=label, error=str(flat.get("error")), meta_txt=meta_txt)
+
+    return _build_analysis_from_params(
+        sym=sym,
+        price=price,
+        flat=flat,
+        settings=settings,
+        sig_fn=sig_fn,
+        meta_txt=meta_txt,
+        label=label,
+    )
+
+
+def analyze_single_stock_from_saved_params(
+    project_root: Path,
+    strategy: str,
+    symbol: str,
+) -> SingleStockAnalysis:
+    """Backtest one symbol using MA lengths from ``best_params_all.json`` (no grid search)."""
+    from data_fetcher import prepare_price_df
+    from trade_bot.project_path import inject
+    from trade_bot.services.inputs import stock_row_for_symbol
+
+    inject(project_root)
+    sym = str(symbol).strip().upper()
+    settings, fetch_symbol_ohlcv, _, load_best_parameters_table, sig_fn, label = _strategy_bundle(strategy)
+    label = f"{label} (backtest_all params)"
+
+    stock_row = stock_row_for_symbol(project_root, sym)
+    meta_txt = format_stock_metadata_row(stock_row)
+
+    flat, err = _load_saved_params_row(sym, load_best_parameters_table, settings)
+    if flat is None:
+        return _failed_analysis(sym=sym, label=label, error=err or "missing saved parameters", meta_txt=meta_txt)
+
+    raw = fetch_symbol_ohlcv(sym)
+    price = prepare_price_df(raw)
+    if price is None or price.empty or len(price) < settings.MIN_PRICE_ROWS:
+        n = 0 if price is None or price.empty else len(price)
+        return _failed_analysis(
+            sym=sym,
+            label=label,
+            error=f"insufficient price rows for backtest: {n} (need {settings.MIN_PRICE_ROWS})",
+            meta_txt=meta_txt,
+        )
+
+    return _build_analysis_from_params(
+        sym=sym,
+        price=price,
+        flat=flat,
+        settings=settings,
+        sig_fn=sig_fn,
+        meta_txt=meta_txt,
+        label=label,
     )
