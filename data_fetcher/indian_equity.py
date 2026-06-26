@@ -9,8 +9,16 @@ import pandas as pd
 import yfinance as yf
 from tqdm.auto import tqdm
 
+from .moneycontrol_provider import (
+    DEFAULT_MC_INTRADAY_PERIOD,
+    fetch_moneycontrol_equities,
+    is_mc_intraday_interval,
+    mc_resolution_for_interval,
+)
+
 NSE_SUFFIX = ".NS"
 BSE_SUFFIX = ".BO"
+DEFAULT_MONEYCONTROL_WORKERS = 16
 
 
 def _silence_yfinance_logs() -> None:
@@ -191,6 +199,69 @@ def _fetch_one_symbol_batch(
     return frames, resolved_yahoo, len(batch_bases)
 
 
+def _fetch_bases_via_yfinance(
+    bases: list[str],
+    *,
+    period: str | None,
+    interval: str,
+    start: str | pd.Timestamp | None,
+    end: str | pd.Timestamp | None,
+    batch_size: int,
+    threads: bool,
+    timeout: float | None,
+    batch_parallel_workers: int,
+    show_progress: bool,
+    bar: tqdm | None = None,
+) -> tuple[dict[str, pd.DataFrame], dict[str, str]]:
+    """Download symbols via batched yfinance (existing behavior)."""
+    if not bases:
+        return {}, {}
+
+    frames: dict[str, pd.DataFrame] = {}
+    resolved_yahoo: dict[str, str] = {}
+
+    batches = _chunked(bases, batch_size)
+    packs = [
+        (tuple(batch), period, interval, start, end, threads, timeout) for batch in batches
+    ]
+
+    workers = max(1, int(batch_parallel_workers))
+    if workers <= 1 or len(packs) <= 1:
+        for pack in packs:
+            if bar is not None:
+                bar.set_postfix_str("yfinance")
+            f_part, r_part, n = _fetch_one_symbol_batch(pack)
+            frames.update(f_part)
+            resolved_yahoo.update(r_part)
+            if bar is not None:
+                bar.update(n)
+    else:
+        pool_workers = min(workers, len(packs))
+        if bar is not None:
+            bar.set_postfix_str(f"yfinance ({pool_workers} batches)")
+        with ProcessPoolExecutor(max_workers=pool_workers) as ex:
+            for f_part, r_part, n in ex.map(_fetch_one_symbol_batch, packs, chunksize=1):
+                frames.update(f_part)
+                resolved_yahoo.update(r_part)
+                if bar is not None:
+                    bar.update(n)
+
+    return frames, resolved_yahoo
+
+
+def _resolve_moneycontrol_period(
+    interval: str,
+    period: str | None,
+    moneycontrol_period: str | None,
+) -> str | None:
+    """Moneycontrol intraday history is ~1y; yfinance fallback uses ``period``."""
+    if moneycontrol_period is not None:
+        return moneycontrol_period
+    if is_mc_intraday_interval(interval):
+        return DEFAULT_MC_INTRADAY_PERIOD
+    return period
+
+
 def fetch_indian_equity(
     symbol: str,
     *,
@@ -200,8 +271,11 @@ def fetch_indian_equity(
     end: str | pd.Timestamp | None = None,
     threads: bool = True,
     timeout: float | None = 30.0,
+    use_moneycontrol: bool = True,
+    moneycontrol_workers: int = DEFAULT_MONEYCONTROL_WORKERS,
+    moneycontrol_period: str | None = None,
 ) -> tuple[pd.DataFrame, SymbolFetchStatus]:
-    """Fetch one plain symbol: try ``<BASE>.NS`` then ``<BASE>.BO``."""
+    """Fetch one plain symbol: Moneycontrol first (when supported), then Yahoo NSE/BSE."""
     res = fetch_indian_equities(
         [symbol],
         period=period,
@@ -212,6 +286,9 @@ def fetch_indian_equity(
         show_progress=False,
         threads=threads,
         timeout=timeout,
+        use_moneycontrol=use_moneycontrol,
+        moneycontrol_workers=moneycontrol_workers,
+        moneycontrol_period=moneycontrol_period,
     )
     base = _base_symbol(symbol)
     df = res.data.get(base, pd.DataFrame())
@@ -231,86 +308,108 @@ def fetch_indian_equities(
     threads: bool = True,
     timeout: float | None = 30.0,
     batch_parallel_workers: int = 1,
+    use_moneycontrol: bool = True,
+    moneycontrol_workers: int = DEFAULT_MONEYCONTROL_WORKERS,
+    moneycontrol_period: str | None = None,
 ) -> BatchFetchResult:
     """
-    Download OHLCV for plain Indian symbols using yfinance.
+    Download OHLCV for plain Indian symbols.
 
-    For each symbol, Yahoo tickers ``<BASE>.NS`` then ``<BASE>.BO`` are tried.
-    Symbols are processed in batches of ``batch_size``; each batch uses one or two
-    :func:`yfinance.download` calls (NSE batch, then BSE for misses).
+    When ``use_moneycontrol`` is True and the interval is supported (e.g. ``1d``,
+    ``15m``), symbols are fetched in parallel from Moneycontrol
+    (``moneycontrol_workers``, default 16). Any misses are retried via batched
+    yfinance (NSE then BSE), preserving the original batch download behavior.
 
-    When ``batch_parallel_workers`` > 1, multiple batches run concurrently in
-    child processes (``ProcessPoolExecutor``), up to
-    ``min(batch_parallel_workers, number_of_batches)`` at a time — e.g. 1000 symbols,
-    ``batch_size=100`` → 10 batches; with ``batch_parallel_workers=8``, up to eight
-    batches download in parallel.
+    For intraday intervals (``1m``, ``5m``, ``15m``, …), Moneycontrol uses
+    ``moneycontrol_period`` (default ``1y`` — MC's ~1-year intraday cap) while
+    yfinance fallback always uses ``period`` (e.g. ``59d``).
 
     Parameters
     ----------
     symbols
         Plain symbols (e.g. ``RELIANCE``); optional ``.NS`` / ``.BO`` are stripped to base.
     period
-        yfinance period when ``start``/``end`` are not used (e.g. ``1mo``, ``1y``).
+        yfinance fallback window when ``start``/``end`` are not used (e.g. ``59d``).
     interval
-        Bar size (e.g. ``1d``, ``1h``).
+        Bar size (e.g. ``1d``, ``15m``).
     start, end
-        Optional inclusive/exclusive bounds; if set, ``period`` is ignored.
+        Optional bounds; if set, ``period`` is ignored for trimming.
     batch_size
-        Number of distinct base symbols per ``yf.download`` batch.
+        yfinance fallback: symbols per ``yf.download`` batch.
     show_progress
         Show a tqdm progress bar over symbol completion.
     threads
-        Passed to yfinance (intra-batch parallel fetches when True). With many
-        ``batch_parallel_workers``, consider ``threads=False`` to reduce load.
+        Passed to yfinance fallback (intra-batch parallel fetches when True).
     timeout
-        Per-request timeout for yfinance (seconds); ``None`` for library default.
+        Per-request timeout for yfinance fallback (seconds).
     batch_parallel_workers
-        Maximum concurrent batch downloads. ``1`` keeps the original sequential
-        behavior (lowest load on Yahoo).
+        yfinance fallback: concurrent batch downloads.
+    use_moneycontrol
+        Try Moneycontrol before yfinance when the interval is supported.
+    moneycontrol_workers
+        Parallel Moneycontrol fetch processes (default 16).
+    moneycontrol_period
+        Moneycontrol lookback (default ``1y`` for intraday intervals).
     """
     bases = _dedupe_preserve_bases(list(symbols))
     result = BatchFetchResult()
     if not bases:
         return result
 
-    resolved_yahoo: dict[str, str] = {}
     frames: dict[str, pd.DataFrame] = {}
+    resolved_yahoo: dict[str, str] = {}
+    fetch_errors: dict[str, str] = {}
+    mc_resolution = mc_resolution_for_interval(interval) if use_moneycontrol else None
+    mc_period = _resolve_moneycontrol_period(interval, period, moneycontrol_period)
 
-    batches = _chunked(bases, batch_size)
-    packs = [
-        (tuple(batch), period, interval, start, end, threads, timeout) for batch in batches
-    ]
     bar = tqdm(
         total=len(bases),
         desc="Symbols",
         unit="sym",
         disable=not show_progress,
-        ascii=True,
         leave=True,
     )
 
-    workers = max(1, int(batch_parallel_workers))
-    if workers <= 1 or len(packs) <= 1:
-        for pack in packs:
-            if show_progress:
-                bar.set_postfix_str("yf batch")
-            f_part, r_part, n = _fetch_one_symbol_batch(pack)
-            frames.update(f_part)
-            resolved_yahoo.update(r_part)
-            bar.update(n)
-    else:
-        pool_workers = min(workers, len(packs))
+    failed_bases = list(bases)
+    if mc_resolution is not None:
         if show_progress:
-            bar.set_postfix_str(f"parallel batches ({pool_workers})")
-        with ProcessPoolExecutor(max_workers=pool_workers) as ex:
-            for f_part, r_part, n in ex.map(_fetch_one_symbol_batch, packs, chunksize=1):
-                frames.update(f_part)
-                resolved_yahoo.update(r_part)
-                bar.update(n)
+            bar.set_postfix_str(f"moneycontrol ({moneycontrol_workers} workers)")
+        mc_frames, mc_errors = fetch_moneycontrol_equities(
+            bases,
+            resolution=mc_resolution,
+            period=mc_period,
+            start=start,
+            end=end,
+            workers=moneycontrol_workers,
+            on_symbol_done=bar.update if show_progress else None,
+        )
+        frames.update(mc_frames)
+        fetch_errors.update(mc_errors)
+        for base in mc_frames:
+            resolved_yahoo[base] = f"{base}{NSE_SUFFIX}"
+        failed_bases = [
+            b for b in bases if b not in frames or not _history_usable(frames.get(b))
+        ]
 
-    # Status for every requested base (including failures)
+    if failed_bases:
+        yf_frames, yf_resolved = _fetch_bases_via_yfinance(
+            failed_bases,
+            period=period,
+            interval=interval,
+            start=start,
+            end=end,
+            batch_size=batch_size,
+            threads=threads,
+            timeout=timeout,
+            batch_parallel_workers=batch_parallel_workers,
+            show_progress=show_progress,
+            bar=bar if mc_resolution is None else None,
+        )
+        frames.update(yf_frames)
+        resolved_yahoo.update(yf_resolved)
+
     for base in bases:
-        if base in frames:
+        if base in frames and _history_usable(frames[base]):
             df = frames[base]
             result.status.append(
                 SymbolFetchStatus(
@@ -322,13 +421,19 @@ def fetch_indian_equities(
                 )
             )
         else:
+            mc_err = fetch_errors.get(base)
+            yf_hint = "No data on NSE (.NS) or BSE (.BO) for this period/interval."
+            if mc_err:
+                error = f"{mc_err}; yfinance fallback: {yf_hint}"
+            else:
+                error = yf_hint
             result.status.append(
                 SymbolFetchStatus(
                     plain_symbol=base,
                     ok=False,
                     yahoo_ticker=None,
                     rows=0,
-                    error="No data on NSE (.NS) or BSE (.BO) for this period/interval.",
+                    error=error,
                 )
             )
 

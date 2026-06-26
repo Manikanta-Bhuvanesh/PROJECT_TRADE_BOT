@@ -3,8 +3,7 @@ Configuration for ``brute_ema_cross`` (EMA crossover grid search on 15m bars).
 
 Paths are resolved from the **project root** (parent of the ``Algorithms`` folder).
 
-Data: Yahoo Finance 15-minute candles. Intraday history is capped by Yahoo; ``60d``
-matches the typical maximum lookback for 15m data.
+Data: 15-minute candles via Moneycontrol (~1y) with yfinance fallback (59d cap).
 """
 from __future__ import annotations
 
@@ -28,8 +27,9 @@ BEST_PARAMS_ALL_JSON: str = "best_params_all.json"
 BACKTEST_ALL_CSV: str = "backtest_all_stocks.csv"
 LIVE_SIGNALS_CSV: str = "live_signals.csv"
 
-# ── Data fetch (yfinance via ``data_fetcher``) ─────────────────────────────────
-# 15m intraday: use a bounded period (Yahoo caps intraday history; 60d is safe).
+# ── Data fetch (Moneycontrol + yfinance fallback via ``data_fetcher``) ─────────
+# Moneycontrol serves ~1 year of intraday bars; yfinance fallback is capped at 59d.
+FETCH_MC_PERIOD: str = "1y"
 FETCH_PERIOD: str = "59d"
 FETCH_INTERVAL: str = "15m"
 # Smaller batches than daily — more rows per symbol per request.
@@ -52,7 +52,7 @@ LONG_MA_STEP: int = 10
 
 MIN_SHORT_LONG_GAP: int = 1
 
-# Minimum 15m bars required (60 trading days × ~25 bars/day ≈ 1500 max; allow gaps)
+# Minimum 15m bars required (~1y MC history has thousands of bars; allow gaps)
 MIN_PRICE_ROWS: int = 400
 
 # ── Backtest / analyzer ───────────────────────────────────────────────────────

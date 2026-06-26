@@ -1,12 +1,13 @@
 """
 Bulk-download all symbols once, brute-force best EMA spans per symbol in parallel
-on **15m** bars (default **60d** lookback), and write ``best_params_all.json``.
+on **15m** bars (Moneycontrol **1y** lookback; yfinance fallback **59d**), and write
+``best_params_all.json``.
 
 Flow
 ----
 1. Read ``input/STOCKS.csv`` symbol list.
-2. ``fetch_indian_equities`` with ``period=60d``, ``interval=15m`` (batched downloads;
-   optional parallel batches per ``FETCH_BATCH_PARALLEL_WORKERS``).
+2. ``fetch_indian_equities`` with ``moneycontrol_period=1y``, ``period=59d``,
+   ``interval=15m`` (MC parallel fetch; yfinance batched fallback for misses).
 3. ``ProcessPoolExecutor`` runs the EMA grid per symbol on in-memory prices.
 4. Saves ``output/brute_ema_cross/best_params_all.json`` (used by ``signals.py``).
 5. Saves ``output/brute_ema_cross/backtest_all_stocks.csv``.
@@ -55,8 +56,8 @@ def main() -> None:
 
     symbols = stocks["symbol"].astype(str).str.strip().str.upper().tolist()
     print(
-        f"[fetch] {len(symbols)} symbols, period={settings.FETCH_PERIOD!r}, "
-        f"interval={settings.FETCH_INTERVAL!r} (tqdm in downloader)"
+        f"[fetch] {len(symbols)} symbols, mc_period={settings.FETCH_MC_PERIOD!r}, "
+        f"yf_period={settings.FETCH_PERIOD!r}, interval={settings.FETCH_INTERVAL!r} (tqdm in downloader)"
     )
     raw_map = bulk_fetch_prices(symbols)
 

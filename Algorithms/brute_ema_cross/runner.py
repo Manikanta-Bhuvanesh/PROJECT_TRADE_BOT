@@ -160,6 +160,7 @@ def bulk_fetch_prices(symbols: list[str]) -> dict[str, pd.DataFrame]:
         symbols,
         period=settings.FETCH_PERIOD,
         interval=settings.FETCH_INTERVAL,
+        moneycontrol_period=settings.FETCH_MC_PERIOD,
         batch_size=settings.FETCH_BATCH_SIZE,
         show_progress=True,
         threads=settings.FETCH_YF_THREADS,
@@ -218,6 +219,7 @@ def build_best_params_document(
             "algorithm": "brute_ema_cross",
             "created_at": datetime.now(timezone.utc).isoformat(),
             "fetch_period": settings.FETCH_PERIOD,
+            "fetch_mc_period": settings.FETCH_MC_PERIOD,
             "fetch_interval": settings.FETCH_INTERVAL,
             "input_csv": str(settings.INPUT_STOCKS_CSV),
             "symbols_in_results": len(results),
@@ -240,6 +242,7 @@ def fetch_symbol_ohlcv(symbol: str) -> pd.DataFrame:
         symbol,
         period=settings.FETCH_PERIOD,
         interval=settings.FETCH_INTERVAL,
+        moneycontrol_period=settings.FETCH_MC_PERIOD,
         timeout=120.0,
     )
     if not st.ok or raw is None or raw.empty:

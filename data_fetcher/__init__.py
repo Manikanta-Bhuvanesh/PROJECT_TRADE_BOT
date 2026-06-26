@@ -1,6 +1,6 @@
-"""Indian equity OHLCV helpers built on yfinance (NSE/BSE suffix resolution).
+"""Indian equity OHLCV helpers (Moneycontrol + yfinance NSE/BSE fallback).
 
-Also exposes :func:`prepare_price_df` for normalizing downloaded frames (daily or intraday).
+Also exposes :func:`prepare_price_df` / :func:`prepare_ohlcv_df` for normalizing downloaded frames.
 """
 
 from .indian_equity import (

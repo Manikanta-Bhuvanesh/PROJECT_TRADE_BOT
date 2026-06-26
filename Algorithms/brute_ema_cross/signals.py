@@ -274,13 +274,14 @@ def run_live_screen() -> Path:
         return out_path
 
     print(
-        f"[fetch] {len(symbols)} symbols, period={settings.FETCH_PERIOD!r}, "
-        f"interval={settings.FETCH_INTERVAL!r} (batched download)"
+        f"[fetch] {len(symbols)} symbols, mc_period={settings.FETCH_MC_PERIOD!r}, "
+        f"yf_period={settings.FETCH_PERIOD!r}, interval={settings.FETCH_INTERVAL!r} (batched download)"
     )
     batch = fetch_indian_equities(
         symbols,
         period=settings.FETCH_PERIOD,
         interval=settings.FETCH_INTERVAL,
+        moneycontrol_period=settings.FETCH_MC_PERIOD,
         batch_size=settings.FETCH_BATCH_SIZE,
         show_progress=True,
         threads=settings.FETCH_YF_THREADS,
