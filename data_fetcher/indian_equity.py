@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 from concurrent.futures import ProcessPoolExecutor
 from dataclasses import dataclass, field
 from typing import Iterable, Sequence
@@ -10,6 +11,21 @@ from tqdm.auto import tqdm
 
 NSE_SUFFIX = ".NS"
 BSE_SUFFIX = ".BO"
+
+
+def _silence_yfinance_logs() -> None:
+    """
+    Mute yfinance's noisy ``possibly delisted`` / ``Failed download`` messages.
+
+    yfinance routes these through its own ``yfinance`` logger at ERROR level.
+    Raising the threshold to CRITICAL keeps real exceptions intact while removing
+    the per-symbol spam from bulk fetches. Runs at import so it also applies in
+    the spawned child processes that perform the actual downloads.
+    """
+    logging.getLogger("yfinance").setLevel(logging.CRITICAL)
+
+
+_silence_yfinance_logs()
 
 
 @dataclass
@@ -127,6 +143,7 @@ def _fetch_one_symbol_batch(
 
     Returns ``(frames_by_base, resolved_yahoo_ticker, n_symbols_in_batch)`` for tqdm.
     """
+    _silence_yfinance_logs()
     batch_bases, period, interval, start, end, threads, timeout = packed
     frames: dict[str, pd.DataFrame] = {}
     resolved_yahoo: dict[str, str] = {}
