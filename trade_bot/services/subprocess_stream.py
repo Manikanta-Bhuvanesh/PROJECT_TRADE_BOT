@@ -70,6 +70,7 @@ async def run_python_module_streaming(
     cmd = [sys.executable, "-m", module]
     env = os.environ.copy()
     env.setdefault("PYTHONUNBUFFERED", "1")
+    env.setdefault("TQDM_ASCII", "1")
     if extra_env:
         env.update(extra_env)
     proc = await asyncio.create_subprocess_exec(

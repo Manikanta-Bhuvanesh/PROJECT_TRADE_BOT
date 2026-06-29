@@ -47,7 +47,7 @@ def parse_filters_from_command_args(args: list[str]) -> dict[str, str]:
     Supported keys: ``sector``, ``industry``, ``cap`` (aliases: ``marketcap``, ``marketcapname``),
     ``signal`` (``buy`` / ``sell``) for Telegram-side filtering of ``live_signals.csv`` only,
     and ``fib`` (``true`` / ``false``) for optional Fib columns on that CSV (bot-side only;
-    Telegram bot: **admins** default Fib on unless ``fib=false``; **non-admins** default off unless ``fib=true``).
+    Telegram bot: Fib off by default for everyone; pass ``fib=true`` to enable).
 
     Forms::
 

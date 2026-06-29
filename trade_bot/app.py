@@ -405,7 +405,7 @@ async def on_strategy_callback(update: Update, context: ContextTypes.DEFAULT_TYP
     parts.extend(
         [
             "/live_signals [filters…] — latest-bar screen (optional `signal=buy`/`sell`; "
-            "`fib=true`/`fib=false`; admins get Fib columns by default)\n",
+            "`fib=true` to add Fib columns)\n",
             "/bt1 SYMBOL — one-symbol optimization + metrics + equity chart\n",
             "/deep SYMBOL — backtest using /backtest_all params + trades preview + CSV\n",
             "/fib SYMBOL — latest swing Fib levels (1d + 15m + 5m Yahoo bars)\n",
@@ -446,8 +446,7 @@ async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     lines.extend(
         [
             "/live_signals — screen latest bar → `live_signals.csv` "
-            "(sector/industry/cap; optional `signal=buy`/`sell`; `fib=true`/`false`; "
-            "admins: Fib swing columns on by default unless `fib=false`; others: off unless `fib=true`). "
+            "(sector/industry/cap; optional `signal=buy`/`sell`; `fib=true` to add Fib swing columns). "
             "Fib adds per-timeframe direction + swing high/low price and time (1d, 15m, 5m).",
             "/bt1 SYMBOL — optimize one symbol + metrics + equity + trades CSV",
             "/deep SYMBOL — same outputs using saved /backtest_all params (no re-optimize)",
@@ -697,16 +696,12 @@ async def cmd_live_signals(update: Update, context: ContextTypes.DEFAULT_TYPE) -
         ensure_input_stocks(cfg.project_root)
         parsed_filters = parse_filters_from_command_args(context.args or [])
         stock_filters = filters_for_subprocess(parsed_filters)
-        if "fib" in parsed_filters:
-            fib_on = parsed_filters.get("fib") == "true"
-        else:
-            fib_on = bool(uid is not None and _is_admin(cfg, uid))
+        fib_on = parsed_filters.get("fib") == "true"
         filt_line = _filter_summary_html(parsed_filters)
-        if "fib" not in parsed_filters:
-            if fib_on:
-                filt_line += "<i>Fib columns: on (admin default; use fib=false to skip).</i>\n"
-            else:
-                filt_line += "<i>Fib columns: off (default; use fib=true to enable).</i>\n"
+        if fib_on:
+            filt_line += "<i>Fib columns: on.</i>\n"
+        else:
+            filt_line += "<i>Fib columns: off (use fib=true to enable).</i>\n"
         signal_side = parsed_filters.get("signal")
         progress = await msg.reply_text(
             "<b>live_signals</b>\n"

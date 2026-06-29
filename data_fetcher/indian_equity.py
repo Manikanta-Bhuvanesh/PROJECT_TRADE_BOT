@@ -368,6 +368,7 @@ def fetch_indian_equities(
         unit="sym",
         disable=not show_progress,
         leave=True,
+        ascii=True,
     )
 
     failed_bases = list(bases)
